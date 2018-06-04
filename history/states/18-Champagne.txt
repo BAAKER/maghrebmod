@@ -2,12 +2,15 @@
 state={
 	id=18
 	name="STATE_18"
-	manpower = 1163840
+	manpower = 1370800
 	
 	state_category = city
 
 	history={
 		owner = FRA
+		victory_points = {
+			9490 5 
+		}
 		victory_points = {
 			13011 5 
 		}
@@ -20,6 +23,6 @@ state={
 	}
 
 	provinces={
-		3546 6545 9472 9505 13011 
+		551 3533 3546 3560 5291 6531 6545 9472 9490 9505 11732 13011 
 	}
 }

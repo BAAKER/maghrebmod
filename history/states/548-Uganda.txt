@@ -4,15 +4,15 @@ state={
 
 	state_category = rural
 	resources={
-		rubber=4
+		rubber=3 # was: 4
 	}
 	history={
-		owner = DAF
+		owner = ENG
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = DAF
+		add_core_of = KEN
 	}
 
 	provinces={

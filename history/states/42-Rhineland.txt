@@ -4,8 +4,8 @@ state={
 	name="STATE_42"
 	manpower = 3027739
 	resources={
-		steel=100
-		aluminium=24
+		steel=59 # was: 100
+		aluminium=14 # was: 24
 	}
 	
 	state_category = metropolis
@@ -20,10 +20,22 @@ state={
 		}
 		add_core_of = GER
 	
+		set_demilitarized_zone = yes
+		
+		1936.3.7 = {
+			set_demilitarized_zone = no
+		}
+
+		1939.1.1 ={
+			buildings = {
+				radar_station = 1
+				synthetic_refinery = 3
+			}
+		}
 	}
 
 	provinces={
-		563 3423 3558 6583 11435 11470 11494 11547 11560
+		563 3423 3558 9575 11435 11470 11494 11531 11547 
 	}
 	
 	

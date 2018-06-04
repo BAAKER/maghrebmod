@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = PAK
+		owner = RAJ
 		buildings = {
 			infrastructure = 3
 			air_base = 3
@@ -16,6 +16,6 @@ state={
 	}
 
 	provinces={
-		1910 1978 2041 2084 4558 4979 4998 8022 8106 10173 10905 12717 12763 
+		1978 2084 4558 4998 12717 12763 
 	}
 }
