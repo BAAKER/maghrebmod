@@ -244,6 +244,16 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Anton Drexler"
+	picture = "Drexler.dds"
+	expire = "1965.1.1"
+	ideology = national_syndicalism
+	traits = {
+		dictator
+	}
+}
+
+create_country_leader = {
 	name = "Konrad Adenauer"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "Portrait_Germany_Konrad_Adenauer.dds"
