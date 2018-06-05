@@ -7,7 +7,7 @@ state={
 	state_category = rural
 	
 	resources={
-		chromium=11 # was: 16
+		chromium=16
 	}
 
 	history={
@@ -15,9 +15,11 @@ state={
 		buildings = {
 			infrastructure = 4
 		}
+		add_core_of = GRE
+		add_claim_by = BUL
 	}
 
 	provinces={
-		6990 9791 9930 11774 11905 
+		6990 9791 9930  
 	}
 }
