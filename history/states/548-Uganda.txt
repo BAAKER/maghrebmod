@@ -7,12 +7,11 @@ state={
 		rubber=3 # was: 4
 	}
 	history={
-		owner = ENG
+		owner = DAF
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = KEN
 	}
 
 	provinces={
