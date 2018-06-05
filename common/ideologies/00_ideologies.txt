@@ -393,4 +393,125 @@ ideologies = {
 		ai_traditionalist = yes
 	}
 	
+	neobolsh = {
+		
+		types = {
+		
+		    neobolsh = {
+			}
+			
+			neobolsh = {
+			}
+			
+			neobolsh = {
+			}
+		
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+		}
+		
+		color = { 236 38 156 }
+		
+		
+		
+		rules = {
+			
+		}
+		
+		modifiers = {
+			
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+	
+	marxxx = {
+		
+		types = {
+		
+		    marxism = {
+			}
+			
+			marxism = {
+			}
+			
+			marxism = {
+			}
+		
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+		}
+		
+		color = { 42 79 53 }
+		
+		
+		rules = {
+
+		}
+		
+		modifiers = {
+		
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+	
+	ultrakap = {
+		
+		types = {
+		
+		    raki = {
+			}
+			
+			autists = {
+			}
+			
+			konservi = {
+			}
+		
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+		}
+		
+		color = { 235 0 189 }
+		
+		
+		rules = {
+
+		}
+		
+		modifiers = {
+			
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+	
 }

@@ -231,8 +231,9 @@ set_politics = {
 		}
 		
 		paternalism = {
-		    popularity = 5 
-		}	
+		    popularity = 5
+		}
+		
 	}
 	
 	ruling_party = liberalism
