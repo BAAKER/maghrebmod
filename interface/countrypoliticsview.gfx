@@ -99,6 +99,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/autonomy/autonomy_level_button.dds"
 	}
 	
+<<<<<<< HEAD
 	spriteType = {
 		name = "GFX_autonomy_reichskommissariat_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_reichskommissariat_icon.dds"
@@ -114,6 +115,8 @@ spriteTypes = {
 		textureFile = "gfx/interface/autonomy/autonomy_satellite.dds"
 	}
 	
+=======
+>>>>>>> 9f0782ae95e48de25304232e5dba0543904bbda7
 	#-------------
 
 	spriteType = {
@@ -326,7 +329,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_categories"
 		texturefile = "gfx/interface/idea_categories.dds"
-		noOfFrames = 6
+		noOfFrames = 5
 	}
 
 	spriteType = {
@@ -350,6 +353,7 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\pol_factions_strip.tga"
 		noOfFrames = 4
 	}
+<<<<<<< HEAD
 
 	spriteType = {
 		name = "GFX_ideology_neutrality_group"
@@ -881,6 +885,8 @@ spriteTypes = {
 		name = "GFX_ideology_SWA_monarchism_group"
 		texturefile = "gfx/interface/ideologies/dlamini.dds"
 	}
+=======
+>>>>>>> 9f0782ae95e48de25304232e5dba0543904bbda7
 	
 	spriteType = {
 		name = "GFX_ideology_unknown"
