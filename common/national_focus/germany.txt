@@ -14,7 +14,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_the_political_crisis
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_cock
 		x = 3
 		y = 0
 		cost = 10
