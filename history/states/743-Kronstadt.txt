@@ -1,6 +1,6 @@
 state={
-	id=743
-	name="STATE_743" 
+	id=847
+	name="STATE_847" 
 	manpower = 50000
 	state_category=tiny_island
 	provinces={13205}
