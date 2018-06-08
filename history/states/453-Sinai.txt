@@ -8,7 +8,7 @@ state={
 	
 	
 	history = {
-		owner = BPM
+		owner = ENG
 		buildings = {
 			infrastructure = 2
 			1155 = {
@@ -16,11 +16,11 @@ state={
 			}
 		}
 
-		add_core_of = BPM
+		add_core_of = EGY
 
 	}
 
 	provinces={
-		1112 1155 4161 9947 10002 10099 11922 11979 12073 4073 12049
+		1112 1155 4161 9947 10002 10099 11922 11979 12073 
 	}
 }
