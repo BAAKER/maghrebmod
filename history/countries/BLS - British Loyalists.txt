@@ -1,6 +1,6 @@
 capital = 12806
 
-oob = "GER_1936"
+oob = "BLS_1936"
 
 
 # Starting tech
