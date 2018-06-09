@@ -109,8 +109,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-add_ideas
-
 set_convoys = 20
 set_national_unity = 0.74
 

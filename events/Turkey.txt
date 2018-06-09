@@ -1,0 +1,19 @@
+add_namespace = tr
+
+country_event = {
+	id = tr.1
+	title = tr.1.t
+	desc = tr.1.d
+	picture = GFX_report_event_tr1
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 5
+	}
+	
+	option = {
+		name = tr.1.a
+		add_stability = -0.1
+	}
+}

@@ -25,6 +25,12 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_nasledie
 		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = old_constitution
+				add_idea = new_constitution
+			}
+		}
 		x = 22
 		y = 2
 
