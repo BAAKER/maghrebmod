@@ -19,6 +19,8 @@ ideas = {
 		}
 		old_constitution = {
 		
+			picture = generic_constitutional_guarantees
+		
 			allowed = {
 				always = no
 			}
@@ -27,7 +29,6 @@ ideas = {
 				always = yes
 			}
 			
-			picture = idea_generic_constitutional_guarantee
 			
 			modifier = {
 				stability_factor = 0.2
