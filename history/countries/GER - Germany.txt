@@ -49,12 +49,7 @@ set_research_slots = 4
 set_convoys = 200
 set_national_unity = 0.9
 
-#Trade
-create_import = {
-		resource = tungsten
-		factories = 1
-		exporter = SWE
-}
+
 
 1939.1.1 = {
 	add_named_threat = { threat = 40 name = 1939_bookmark_threat }
@@ -225,11 +220,7 @@ set_politics = {
 
 
 add_ideas = {
-	sour_loser
-	general_staff
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
+
 }
 
 create_country_leader = {

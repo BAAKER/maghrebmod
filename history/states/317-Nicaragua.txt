@@ -2,9 +2,7 @@ state={
 	id=317
 	name="STATE_317"
 	resources={
-
-		chromium=1
-
+		chromium=1 # was: 1
 	}
 
 	state_category = town
@@ -22,6 +20,7 @@ state={
 			}
 
 		}
+		add_core_of = NIC
 		add_core_of = UPA
 		victory_points = {
 			12738 3

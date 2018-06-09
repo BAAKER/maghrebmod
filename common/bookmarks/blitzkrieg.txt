@@ -1,4 +1,5 @@
 bookmarks = {
+
 	bookmark = {
 		name = "BLITZKRIEG_NAME"
 		desc = "BLITZKRIEG_DESC"
