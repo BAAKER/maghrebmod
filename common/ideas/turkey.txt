@@ -26,7 +26,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = idea_generic_constitutional_guarantee
+			picture = democratic_group
 			
 			modifier = {
 				stability_factor = 0.2
