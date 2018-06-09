@@ -18,6 +18,7 @@ ideas = {
 				
 		}
 		old_constitution = {
+		
 			allowed = {
 				always = no
 			}
@@ -26,7 +27,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = democratic_group
+			picture = idea_generic_constitutional_guarantee
 			
 			modifier = {
 				stability_factor = 0.2
