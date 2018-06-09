@@ -70,7 +70,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = TUR_enver
 		}
-		x = 19
+		x = 18
 		y = 7
 
 	}
@@ -190,7 +190,7 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_compromis
 		}
-		x = 19
+		x = 18
 		y = 8
 
 	}
@@ -201,7 +201,7 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_coalition_save
 		}
-		x = 19
+		x = 18
 		y = 9
 
 	}
@@ -212,7 +212,7 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_par_reforma
 		}
-		x = 19
+		x = 18
 		y = 10
 
 	}
@@ -223,7 +223,7 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_samoupravlenie
 		}
-		x = 19
+		x = 18
 		y = 11
 
 	}
@@ -234,7 +234,7 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_new_const
 		}
-		x = 19
+		x = 18
 		y = 12
 
 	}
@@ -277,7 +277,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = TUR_atatyurk_elec
 		}
-		x = 22
+		x = 26
 		y = 13
 
 	}
@@ -288,7 +288,7 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_liberal_elec
 		}
-		x = 22
+		x = 26
 		y = 14
 
 	}
@@ -300,7 +300,7 @@ focus_tree = {
 			focus = TUR_liberalisation
 		}
 		x = 30
-		y = 14
+		y = 15
 
 	}
 	focus = {
@@ -366,7 +366,7 @@ focus_tree = {
 			focus = TUR_burjua
 		}
 		x = 30
-		y = 15
+		y = 16
 
 	}
 	focus = {
@@ -377,7 +377,7 @@ focus_tree = {
 			focus = TUR_nalogi
 		}
 		x = 30
-		y = 16
+		y = 17
 
 	}
 	focus = {
@@ -390,8 +390,8 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = TUR_tender2
 		}
-		x = 28
-		y = 17
+		x = 27
+		y = 18
 
 	}
 	focus = {
@@ -404,8 +404,8 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = TUR_tender
 		}
-		x = 32
-		y = 17
+		x = 33
+		y = 18
 
 	}
 	focus = {
@@ -415,8 +415,8 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_tender
 		}
-		x = 28
-		y = 18
+		x = 27
+		y = 19
 
 	}
 	focus = {
@@ -426,8 +426,8 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_torg
 		}
-		x = 28
-		y = 19
+		x = 27
+		y = 20
 
 	}
 	focus = {
@@ -437,8 +437,8 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_turism
 		}
-		x = 28
-		y = 20
+		x = 27
+		y = 21
 
 	}
 	focus = {
@@ -448,8 +448,8 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_kurorti
 		}
-		x = 28
-		y = 21
+		x = 27
+		y = 22
 
 	}
 	focus = {
@@ -459,8 +459,8 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_specialist
 		}
-		x = 28
-		y = 22
+		x = 27
+		y = 23
 
 	}
 	focus = {
@@ -470,8 +470,8 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_tender2
 		}
-		x = 32
-		y = 18
+		x = 31
+		y = 19
 
 	}
 	focus = {
@@ -481,8 +481,8 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_pustiri
 		}
-		x = 32
-		y = 20
+		x = 31
+		y = 21
 
 	}
 	focus = {
@@ -490,13 +490,13 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 0
 		prerequisite = {
-			focus = TUR_metodi
-		}
-		prerequisite = {
 			focus = TUR_invest2
 		}
-		x = 34
-		y = 21
+		prerequisite = {
+			focus = TUR_metodi
+		}
+		x = 33
+		y = 22
 
 	}
 	focus = {
@@ -506,8 +506,8 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_tender2
 		}
-		x = 36
-		y = 18
+		x = 35
+		y = 19
 
 	}
 	focus = {
@@ -517,8 +517,8 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_selxoz
 		}
-		x = 36
-		y = 19
+		x = 35
+		y = 20
 
 	}
 	focus = {
@@ -528,8 +528,8 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_lgoti
 		}
-		x = 36
-		y = 20
+		x = 35
+		y = 21
 
 	}
 	focus = {
@@ -905,8 +905,8 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_zavodi
 		}
-		x = 32
-		y = 19
+		x = 31
+		y = 20
 
 	}
 }
