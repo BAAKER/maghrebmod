@@ -6,6 +6,7 @@ set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
+	old_constitution
 }
 
 set_technology = {
@@ -107,6 +108,8 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+add_ideas
 
 set_convoys = 20
 set_national_unity = 0.74

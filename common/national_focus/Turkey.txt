@@ -11,15 +11,17 @@ focus_tree = {
 	focus = {
 		id = TUR_nasledie
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		x = 22
 		y = 1
-
+		completion_reward = {
+			add_ideas = nasledie
+		}
 	}
 	focus = {
 		id = TUR_constitution
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_nasledie
 		}
@@ -30,7 +32,7 @@ focus_tree = {
 	focus = {
 		id = TUR_mladoturki
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_constitution
 		}
@@ -41,7 +43,7 @@ focus_tree = {
 	focus = {
 		id = TUR_atatyurk
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_mladoturki
 		}
@@ -52,7 +54,7 @@ focus_tree = {
 	focus = {
 		id = TUR_coalition
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_atatyurk
 		}
@@ -63,7 +65,7 @@ focus_tree = {
 	focus = {
 		id = TUR_compromis
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_coalition
 		}
@@ -77,7 +79,7 @@ focus_tree = {
 	focus = {
 		id = TUR_enver
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_coalition
 		}
@@ -92,7 +94,7 @@ focus_tree = {
 	focus = {
 		id = TUR_atatyurk_minus
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_enver
 		}
@@ -103,7 +105,7 @@ focus_tree = {
 	focus = {
 		id = TUR_par_minus
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_atatyurk_minus
 		}
@@ -114,7 +116,7 @@ focus_tree = {
 	focus = {
 		id = TUR_1920god
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_par_minus
 		}
@@ -125,7 +127,7 @@ focus_tree = {
 	focus = {
 		id = TUR_revolution
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_coalition
 		}
@@ -139,7 +141,7 @@ focus_tree = {
 	focus = {
 		id = TUR_ankara
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_revolution
 		}
@@ -150,7 +152,7 @@ focus_tree = {
 	focus = {
 		id = TUR_fitil
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_ankara
 		}
@@ -161,7 +163,7 @@ focus_tree = {
 	focus = {
 		id = TUR_kemalist
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_fitil
 		}
@@ -172,7 +174,7 @@ focus_tree = {
 	focus = {
 		id = TUR_civil_war
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_1920god
 		}
@@ -186,7 +188,7 @@ focus_tree = {
 	focus = {
 		id = TUR_coalition_save
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_compromis
 		}
@@ -197,7 +199,7 @@ focus_tree = {
 	focus = {
 		id = TUR_par_reforma
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_coalition_save
 		}
@@ -208,7 +210,7 @@ focus_tree = {
 	focus = {
 		id = TUR_samoupravlenie
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_par_reforma
 		}
@@ -219,7 +221,7 @@ focus_tree = {
 	focus = {
 		id = TUR_new_const
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_samoupravlenie
 		}
@@ -230,7 +232,7 @@ focus_tree = {
 	focus = {
 		id = TUR_elections
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_new_const
 		}
@@ -241,7 +243,7 @@ focus_tree = {
 	focus = {
 		id = TUR_tretiy_srok
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_elections
 		}
@@ -255,7 +257,7 @@ focus_tree = {
 	focus = {
 		id = TUR_atatyurk_elec
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_elections
 		}
@@ -270,7 +272,7 @@ focus_tree = {
 	focus = {
 		id = TUR_liberal_elec
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_elections
 		}
@@ -284,7 +286,7 @@ focus_tree = {
 	focus = {
 		id = TUR_liberalisation
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_liberal_elec
 		}
@@ -295,7 +297,7 @@ focus_tree = {
 	focus = {
 		id = TUR_burjua
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_liberalisation
 		}
@@ -306,7 +308,7 @@ focus_tree = {
 	focus = {
 		id = TUR_invest
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_liberalisation
 		}
@@ -317,7 +319,7 @@ focus_tree = {
 	focus = {
 		id = TUR_freemark
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_invest
 		}
@@ -328,7 +330,7 @@ focus_tree = {
 	focus = {
 		id = TUR_konkurent
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_invest
 		}
@@ -339,7 +341,7 @@ focus_tree = {
 	focus = {
 		id = TUR_guarantees
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_invest
 		}
@@ -350,7 +352,7 @@ focus_tree = {
 	focus = {
 		id = TUR_prava
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_guarantees
 		}
@@ -361,7 +363,7 @@ focus_tree = {
 	focus = {
 		id = TUR_nalogi
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_burjua
 		}
@@ -372,7 +374,7 @@ focus_tree = {
 	focus = {
 		id = TUR_tenderi
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_nalogi
 		}
@@ -383,7 +385,7 @@ focus_tree = {
 	focus = {
 		id = TUR_tender
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_tenderi
 		}
@@ -397,7 +399,7 @@ focus_tree = {
 	focus = {
 		id = TUR_tender2
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_tenderi
 		}
@@ -411,7 +413,7 @@ focus_tree = {
 	focus = {
 		id = TUR_torg
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_tender
 		}
@@ -422,7 +424,7 @@ focus_tree = {
 	focus = {
 		id = TUR_turism
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_torg
 		}
@@ -433,7 +435,7 @@ focus_tree = {
 	focus = {
 		id = TUR_kurorti
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_turism
 		}
@@ -444,7 +446,7 @@ focus_tree = {
 	focus = {
 		id = TUR_specialist
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_kurorti
 		}
@@ -455,7 +457,7 @@ focus_tree = {
 	focus = {
 		id = TUR_gori
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_specialist
 		}
@@ -466,7 +468,7 @@ focus_tree = {
 	focus = {
 		id = TUR_zavodi
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_tender2
 		}
@@ -477,7 +479,7 @@ focus_tree = {
 	focus = {
 		id = TUR_invest2
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_pustiri
 		}
@@ -488,7 +490,7 @@ focus_tree = {
 	focus = {
 		id = TUR_ankara2
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_invest2
 		}
@@ -502,7 +504,7 @@ focus_tree = {
 	focus = {
 		id = TUR_selxoz
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_tender2
 		}
@@ -513,7 +515,7 @@ focus_tree = {
 	focus = {
 		id = TUR_lgoti
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_selxoz
 		}
@@ -524,7 +526,7 @@ focus_tree = {
 	focus = {
 		id = TUR_metodi
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_lgoti
 		}
@@ -535,7 +537,7 @@ focus_tree = {
 	focus = {
 		id = TUR_streli
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_atatyurk_elec
 		}
@@ -546,7 +548,7 @@ focus_tree = {
 	focus = {
 		id = TUR_nationalism
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_streli
 		}
@@ -557,7 +559,7 @@ focus_tree = {
 	focus = {
 		id = TUR_zdravooxranenie
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_streli
 		}
@@ -568,7 +570,7 @@ focus_tree = {
 	focus = {
 		id = TUR_klassi
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_streli
 		}
@@ -579,7 +581,7 @@ focus_tree = {
 	focus = {
 		id = TUR_nonfreemark
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_streli
 		}
@@ -590,7 +592,7 @@ focus_tree = {
 	focus = {
 		id = TUR_social
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_zdravooxranenie
 		}
@@ -601,7 +603,7 @@ focus_tree = {
 	focus = {
 		id = TUR_bomzhi
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_social
 		}
@@ -612,7 +614,7 @@ focus_tree = {
 	focus = {
 		id = TUR_rabi
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_social
 		}
@@ -623,7 +625,7 @@ focus_tree = {
 	focus = {
 		id = TUR_hati
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_bomzhi
 		}
@@ -634,7 +636,7 @@ focus_tree = {
 	focus = {
 		id = TUR_rabi2
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_rabi
 		}
@@ -645,7 +647,7 @@ focus_tree = {
 	focus = {
 		id = TUR_bomzhi2
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_hati
 		}
@@ -656,7 +658,7 @@ focus_tree = {
 	focus = {
 		id = TUR_rabden
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_rabi2
 		}
@@ -667,7 +669,7 @@ focus_tree = {
 	focus = {
 		id = TUR_kemalist2
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_rabden
 		}
@@ -681,7 +683,7 @@ focus_tree = {
 	focus = {
 		id = TUR_modern
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_klassi
 		}
@@ -692,7 +694,7 @@ focus_tree = {
 	focus = {
 		id = TUR_familii
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_modern
 		}
@@ -703,7 +705,7 @@ focus_tree = {
 	focus = {
 		id = TUR_obrazovanie
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_familii
 		}
@@ -714,7 +716,7 @@ focus_tree = {
 	focus = {
 		id = TUR_zhd
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_nonfreemark
 		}
@@ -725,7 +727,7 @@ focus_tree = {
 	focus = {
 		id = TUR_pyatiletka
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_zhd
 		}
@@ -736,7 +738,7 @@ focus_tree = {
 	focus = {
 		id = TUR_selyxoz
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_pyatiletka
 		}
@@ -747,7 +749,7 @@ focus_tree = {
 	focus = {
 		id = TUR_industry
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_pyatiletka
 		}
@@ -758,7 +760,7 @@ focus_tree = {
 	focus = {
 		id = TUR_zakon
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_pyatiletka
 		}
@@ -769,7 +771,7 @@ focus_tree = {
 	focus = {
 		id = TUR_zemreforma
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_selyxoz
 		}
@@ -780,7 +782,7 @@ focus_tree = {
 	focus = {
 		id = TUR_konstan
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_industry
 		}
@@ -791,7 +793,7 @@ focus_tree = {
 	focus = {
 		id = TUR_chastniki
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_zakon
 		}
@@ -802,7 +804,7 @@ focus_tree = {
 	focus = {
 		id = TUR_razdacha
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_zemreforma
 		}
@@ -813,7 +815,7 @@ focus_tree = {
 	focus = {
 		id = TUR_razvitiezemli
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_konstan
 		}
@@ -824,7 +826,7 @@ focus_tree = {
 	focus = {
 		id = TUR_monopoly
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_chastniki
 		}
@@ -835,7 +837,7 @@ focus_tree = {
 	focus = {
 		id = TUR_tyurkizacia
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_nationalism
 		}
@@ -846,7 +848,7 @@ focus_tree = {
 	focus = {
 		id = TUR_komissia
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_tyurkizacia
 		}
@@ -857,7 +859,7 @@ focus_tree = {
 	focus = {
 		id = TUR_humanism
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_komissia
 		}
@@ -868,7 +870,7 @@ focus_tree = {
 	focus = {
 		id = TUR_udostoverenie
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_humanism
 		}
@@ -879,7 +881,7 @@ focus_tree = {
 	focus = {
 		id = TUR_assimilation
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_udostoverenie
 		}
@@ -890,7 +892,7 @@ focus_tree = {
 	focus = {
 		id = TUR_turks
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_assimilation
 		}
@@ -901,7 +903,7 @@ focus_tree = {
 	focus = {
 		id = TUR_pustiri
 		icon = GFX_goal_unknown
-		cost = 0
+		cost = 10
 		prerequisite = {
 			focus = TUR_zavodi
 		}
