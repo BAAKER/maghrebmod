@@ -16,6 +16,7 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			add_ideas = nasledie
+			add_political_power = 100
 		}
 	}
 	focus = {
@@ -42,6 +43,12 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_constitution
 		}
+		completion_reward = {
+			country_event = {
+				id = tr.1
+				days = 5
+			}
+		}
 		x = 22
 		y = 3
 
@@ -52,6 +59,9 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 			focus = TUR_mladoturki
+		}
+		completion_reward = {
+			add_political_power = 50
 		}
 		x = 22
 		y = 4
@@ -66,7 +76,11 @@ focus_tree = {
 		}
 		x = 22
 		y = 5
-
+		completion_reward = {
+			add_stability = -0.15
+			add_political_power = -50
+		
+		}
 	}
 	focus = {
 		id = TUR_compromis
@@ -77,6 +91,12 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = TUR_enver
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = paternalism
+				popularity = 0.25
+			}
 		}
 		x = 18
 		y = 7
