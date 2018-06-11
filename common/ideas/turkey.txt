@@ -10,7 +10,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = generic_license_production
+			picture = TUR_nasledie
 			
 			modifier = {
 				stability_factor = 0.2

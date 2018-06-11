@@ -85,11 +85,11 @@ set_technology = {
 set_politics = {	
 
 	parties = {
-		natsynd = { 
+		traditionalism = { 
 			popularity = 6
 		}
 
-		traditionalism = {
+		reformism = {
 			popularity = 20
 		}
 		
@@ -135,11 +135,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Celâl Bayar"
-	desc = "POLITICS_CELAL_BAYAR_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	name = "Mustafa Ataturk"
+	desc = "POLITICS_MUSTAFA_ATATURK_DESC"
+	picture = "gfx/leaders/TUR/ataturk_re.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = progressivism
 	traits = {
 		#
 	}
