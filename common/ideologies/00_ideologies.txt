@@ -514,4 +514,44 @@ ideologies = {
 
 	}
 	
+	autrep = {
+		
+		types = {
+		
+		    raki1 = {
+			}
+			
+			autists1 = {
+			}
+			
+			konservi1 = {
+			}
+		
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+		}
+		
+		color = { 56 23 0 }
+		
+		
+		rules = {
+
+		}
+		
+		modifiers = {
+			
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+	
 }
