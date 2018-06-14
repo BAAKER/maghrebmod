@@ -12,7 +12,7 @@ ideas = {
 				always = yes
 			}
 		
-			picture = GFX_idea_GER_war_fatigue
+			picture = GER_war_fatigue
 		
 			removal_cost = -1
 			
@@ -34,7 +34,7 @@ ideas = {
 				always = yes
 			}
 		
-			picture = GFX_idea_GER_ludendorfs_junta
+			picture = GER_ludendorfs_junta
 		
 			removal_cost = -1
 			
@@ -57,7 +57,7 @@ ideas = {
 				always = yes
 			}
 		
-			picture = GFX_idea_GER_left_terror
+			picture = GER_left_terror
 		
 			removal_cost = -1
 			
