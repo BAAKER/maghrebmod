@@ -3636,4 +3636,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_democratic_europe.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_GER_war_fatigue"
+		texturefile = "gfx/interface/ideas/ustalost.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_ludendorfs_junta"
+		texturefile = "gfx/interface/ideas/junta.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_left_terror"
+		texturefile = "gfx/interface/ideas/levyi_terror.dds"
+	}
+	
 }
