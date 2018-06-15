@@ -354,7 +354,20 @@ focus_tree = {
 					341 347 356 343 343 345 342 339 340
 				}
 				keep_unit_leaders = {
-					750 751 75
+					
+				}
+			}
+			start_civil_war = {
+				ruling_party = islamism
+				ideology = islamism
+				size = 0.2
+				only_own_territory = no
+				capital = 350
+				states = { 
+					352 353 350 354
+				}
+				keep_unit_leaders = {
+					
 				}
 			}
 		}
