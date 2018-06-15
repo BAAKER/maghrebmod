@@ -599,3 +599,7 @@ KUR = {
 	color = rgb { 102 40 0 }
 	color_ui = rgb { 127  51  0  }
 }
+
+BES = {
+	color = rgb { 255 170 0 }
+	color_ui = rgb { 255 170 0 }
