@@ -219,6 +219,52 @@ ideologies = {
 
 	}
 	
+	islamism = {
+	
+		types = {
+			
+			islamic_republicanism = {
+			}
+			
+			social_islamism = {
+			}
+		
+		}
+		
+		dynamic_faction_names = {
+		}
+		
+		color = { 41 16 82 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = -0.8
+		faction_impact_on_world_tension = -0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 0.80
+			join_faction_tension = 0.50
+			lend_lease_tension = 0.40
+			send_volunteers_tension = 0.40
+			guarantee_tension = 0.15
+			take_states_cost_factor = 0.15
+			annex_cost_factor = 0.4
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.20 #plus 50% trade opinion
+		}
+		ai_reformist = yes
+	}
+	
 	reformism = {
 	
 		types = {

@@ -97,10 +97,6 @@ focus_tree = {
 				ideology = paternalism
 				popularity = 0.25
 			}
-			add_popularity = {
-				ideology = reformism
-				popularity = 0.25
-			}
 		}
 		x = 18
 		y = 7
@@ -168,7 +164,9 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_atatyurk_minus
 		}
-		
+		completion_reward = {
+			remove_ideas = parlamentary
+		}
 		x = 22
 		y = 9
 
@@ -182,7 +180,66 @@ focus_tree = {
 		}
 		x = 22
 		y = 10
-
+		completion_reward = {
+			set_politics = {	
+				parties = {
+					traditionalism = { 
+						popularity = 0
+					}
+					reformism = {
+						popularity = 0
+						banned = yes #default is no
+					}
+					communism = {
+						popularity = 0
+						banned = yes #default is no
+					}
+					paternalism = { 
+						popularity = 100
+					}
+					autrep = {
+						popularity = 0
+						banned = yes #default is no
+					}
+					ultrakap = {
+						popularity = 0
+						banned = yes #default is no
+					}
+					natsynd = {
+						popularity = 0
+						banned = yes #default is no
+					}
+					conservatism = {
+						popularity = 0
+						banned = yes #default is no
+					}
+					liberalism = {
+						popularity = 0
+						banned = yes #default is no
+					}
+					demsoc = {
+						popularity = 0
+						banned = yes #default is no
+					}
+					anarchism = {
+						popularity = 0
+						banned = yes #default is no
+					}
+					marxxx = {
+						popularity = 0
+						banned = yes #default is no
+					}
+					neobolsh = {
+						popularity = 0
+						banned = yes #default is no
+					}
+				}
+				ruling_party = paternalism
+				last_election = "1935.2.8"
+				election_frequency = 48
+				elections_allowed = no
+			}
+		}
 	}
 	focus = {
 		id = TUR_revolution
@@ -211,6 +268,12 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_revolution
 		}
+		completion_reward = {
+			add_popularity = {
+				ideology = reformism
+				popularity = 0.1
+			}
+		}
 		x = 26
 		y = 8
 
@@ -221,6 +284,12 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 			focus = TUR_ankara
+		}
+		completion_reward = {
+			country_event = {
+				id = tr.2
+				days = 5
+			}
 		}
 		x = 26
 		y = 9
@@ -235,7 +304,34 @@ focus_tree = {
 		}
 		x = 26
 		y = 10
+		completion_reward = {
+			set_politics = {	
 
+				parties = {
+					traditionalism = { 
+					popularity = 6
+					}
+
+					reformism = {
+					popularity = 30
+					}
+		
+					communism = {
+						popularity = 0
+						banned = yes #default is no
+					}
+		
+					paternalism = { 
+						popularity = 30
+					}
+				}
+	
+				ruling_party = reformism
+				last_election = "1935.2.8"
+				election_frequency = 48
+				elections_allowed = yes
+			}
+		}
 	}
 	focus = {
 		id = TUR_civil_war
@@ -246,6 +342,34 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = TUR_kemalist
+		}
+		completion_reward = {
+			start_civil_war = {
+				ruling_party = reformism
+				ideology = reformism
+				size = 0.4
+				only_own_territory = no
+				capital = 282
+				states = { 
+					341 347 356 343 343 345 342 339 340
+				}
+				keep_unit_leaders = {
+					
+				}
+			}
+			start_civil_war = {
+				ruling_party = islamism
+				ideology = islamism
+				size = 0.2
+				only_own_territory = no
+				capital = 350
+				states = { 
+					352 353 350 354
+				}
+				keep_unit_leaders = {
+					
+				}
+			}
 		}
 		x = 24
 		y = 11

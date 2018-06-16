@@ -17,3 +17,23 @@ country_event = {
 		add_stability = -0.1
 	}
 }
+country_event = {
+	id = tr.2
+	title = tr.2.t
+	desc = tr.2.d
+	picture = GFX_report_event_tr2
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 5
+	}
+	
+	option = {
+		name = tr.2.a
+		add_popularity = {
+			ideology = reformism
+			popularity = 0.1
+		}
+	}
+}
