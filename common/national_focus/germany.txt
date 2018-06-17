@@ -1,9 +1,8 @@
 focus_tree = {
-	id = german_focus
-	
+
+	id = ger
 	country = {
 		factor = 0
-		
 		modifier = {
 			add = 10
 			tag = GER
@@ -11,369 +10,120 @@ focus_tree = {
 	}
 	
 	default = no
+	
+	focus = {
+		id = GER_united_germany
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 16
+		y = 1
+
+	}
 
 	focus = {
-		id = GER_the_political_crisis
-		icon = GFX_focus_GER_cock
-		x = 3
-		y = 0
-		cost = 10
-		ai_will_do = {
-			factor = 12
-		}
-		available = {
-		}
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = GER_imperial_power
+		id = GER_colonial_influence
 		icon = GFX_goal_unknown
-		x = 0
-		y = 1
 		cost = 10
-		prerequisite = { focus = GER_the_political_crisis }
-		mutually_exclusive = { focus = GER_stabilization }
-		mutually_exclusive = { focus = GER_democratization }
-		available = {
+		prerequisite = {
+			focus = GER_united_germany
 		}
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = GER_the_destruction_of_democratic_institutions
-		icon = GFX_goal_unknown
-		x = 0
-		y = 2
-		cost = 10
-		prerequisite = { focus = GER_imperial_power }
-		available = {
-		}
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = GER_absolute_power
-		icon = GFX_goal_unknown
-		x = 0
-		y = 3
-		cost = 10
-		prerequisite = { focus = GER_the_destruction_of_democratic_institutions }
-		available = {
-		}
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = GER_the_center_of_the_world_neorackle
-		icon = GFX_goal_unknown
-		x = 0
+		x = 16
 		y = 4
-		cost = 10
-		prerequisite = { focus = GER_absolute_power }
-		available = {
-		}
-		completion_reward = {	
+		
+		completion_reward = {
+			
 		}
 	}
 	
 	focus = {
-		id = GER_the_state_of_one_person
+		id = GER_german_choise
 		icon = GFX_goal_unknown
-		x = 0
-		y = 5
 		cost = 10
-		prerequisite = { focus = GER_the_center_of_the_world_neorackle }
-		available = {
+		prerequisite = {
+			focus = GER_colonial_influence
 		}
-		completion_reward = {	
-		}
+		x = 16
+		y = 7
+
 	}
 	
 	focus = {
-		id = GER_finish
+		id = GER_imperial_legacy
 		icon = GFX_goal_unknown
-		x = 0
-		y = 6
 		cost = 10
-		prerequisite = { focus = GER_the_state_of_one_person }
-		available = {
+		prerequisite = {
+			focus = GER_german_choise
 		}
-		completion_reward = {	
+		mutually_exclusive = {
+			focus = GER_military_junta
+			focus = GER_stabilize_country
+
 		}
-	}
-	
-	focus = {
-		id = GER_stabilization
-		icon = GFX_goal_unknown
-		x = 3
-		y = 1
-		cost = 10
-		prerequisite = { focus = GER_the_political_crisis }
-		mutually_exclusive = { focus = GER_imperial_power  }
-		mutually_exclusive = { focus = GER_democratization }
-		available = {
-		}
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = GER_moderate_monarchism
-		icon = GFX_goal_unknown
-		x = 2
-		y = 2
-		cost = 10
-		prerequisite = { focus = GER_stabilization }
-		mutually_exclusive = { focus = GER_constitutionalism  }
-		available = {
-		}
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = GER_to_limit_kaiserin
-		icon = GFX_goal_unknown
-		x = 2
-		y = 3
-		cost = 10
-		prerequisite = { focus = GER_moderate_monarchism }
-		available = {
-		}
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = GER_the_powers_of_the_privy_council
-		icon = GFX_goal_unknown
-		x = 2
-		y = 4
-		cost = 10
-		prerequisite = { focus = GER_to_limit_kaiserin }
-		available = {
-		}
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = GER_enlightened_absolutism
-		icon = GFX_goal_unknown
-		x = 2
-		y = 5
-		cost = 10
-		prerequisite = { focus = GER_the_powers_of_the_privy_council }
-		available = {
-		}
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = GER_constitutionalism
-		icon = GFX_goal_unknown
 		x = 4
-		y = 2
-		cost = 10
-		prerequisite = { focus = GER_stabilization }
-		mutually_exclusive = { focus = GER_moderate_monarchism  }
-		available = {
-		}
-		completion_reward = {	
-		}
+		y = 8
+
 	}
 	
 	focus = {
-		id = GER_powers_to_the_parliament
+		id = GER_military_junta
 		icon = GFX_goal_unknown
-		x = 4
-		y = 3
 		cost = 10
-		prerequisite = { focus = GER_constitutionalism }
-		available = {
+		prerequisite = {
+			focus = GER_german_choise
 		}
-		completion_reward = {	
+		mutually_exclusive = {
+			focus = GER_imperial_legacy
+			focus = GER_stabilize_country
 		}
+		x = 16
+		y = 8
+
 	}
 	
 	focus = {
-		id = GER_crowned_freedom
+		id = GER_stabilize_country
 		icon = GFX_goal_unknown
-		x = 4
-		y = 4
 		cost = 10
-		prerequisite = { focus = GER_powers_to_the_parliament }
-		available = {
+		prerequisite = {
+			focus = GER_german_choise
 		}
-		completion_reward = {	
+		mutually_exclusive = {
+			focus = GER_imperial_legacy
+			focus = GER_military_junta
 		}
+		x = 28
+		y = 8
+
 	}
 	
 	focus = {
-		id = GER_the_german_commonwealth
+		id = GER_makensens_junta
 		icon = GFX_goal_unknown
-		x = 4
-		y = 5
 		cost = 10
-		prerequisite = { focus = GER_crowned_freedom }
-		available = {
+		prerequisite = {
+			focus = GER_military_junta
 		}
-		completion_reward = {	
+		mutually_exclusive = {
+			focus = GER_hindenburgs_junta
+			focus = GER_hindenburgs_junta
 		}
+		x = 13
+		y = 10
+
 	}
 	
 	focus = {
-		id = GER_democratization
+		id = GER_hindenburgs_junta
 		icon = GFX_goal_unknown
-		x = 7
-		y = 1
 		cost = 10
-		prerequisite = { focus = GER_the_political_crisis }
-		mutually_exclusive = { focus = GER_stabilization }
-		mutually_exclusive = { focus = GER_imperial_power }
-		available = {
+		prerequisite = {
+			focus = GER_military_junta
 		}
-		completion_reward = {	
+		mutually_exclusive = {
+			focus = GER_makensens_junta
 		}
-	}
-	
-	focus = {
-		id = GER_restructuring
-		icon = GFX_goal_unknown
-		x = 6
-		y = 2
-		cost = 10
-		prerequisite = { focus = GER_democratization }
-		mutually_exclusive = { focus = GER_the_collapse_of_the_empire }
-		available = {
-		}
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = GER_republicanism
-		icon = GFX_goal_unknown
-		x = 6
-		y = 3
-		cost = 10
-		prerequisite = { focus = GER_restructuring }
-		available = {
-		}
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = GER_the_german_federation
-		icon = GFX_goal_unknown
-		x = 6
-		y = 4
-		cost = 10
-		prerequisite = { focus = GER_republicanism }
-		available = {
-		}
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = GER_a_free_society
-		icon = GFX_goal_unknown
-		x = 6
-		y = 5
-		cost = 10
-		prerequisite = { focus = GER_the_german_federation }
-		available = {
-		}
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = GER_the_collapse_of_the_empire
-		icon = GFX_goal_unknown
-		x = 8
-		y = 2
-		cost = 10
-		prerequisite = { focus = GER_democratization }
-		mutually_exclusive = { focus = GER_restructuring }
-		available = {
-		}
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = GER_new_germany
-		icon = GFX_goal_unknown
-		x = 8
-		y = 3
-		cost = 10
-		prerequisite = { focus = GER_democratization }
-		available = {
-		}
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = GER_egalitarianism
-		icon = GFX_goal_unknown
-		x = 8
-		y = 4
-		cost = 10
-		prerequisite = { focus = GER_new_germany }
-		mutually_exclusive = { focus = GER_elitism }
-		available = {
-		}
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = GER_elitism
-		icon = GFX_goal_unknown
-		x = 10
-		y = 4
-		cost = 10
-		prerequisite = { focus = GER_new_germany }
-		mutually_exclusive = { focus = GER_egalitarianism }
-		available = {
-		}
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = GER_social_reform
-		icon = GFX_goal_unknown
-		x = 8
-		y = 5
-		cost = 10
-		prerequisite = { focus = GER_egalitarianism }
-		available = {
-		}
-		completion_reward = {	
-		}
-	}
-	
-	focus = {
-		id = GER_society_strong_hands
-		prerequisite = { focus = GER_elitism }
-		icon = GFX_goal_unknown
-		x = 10
-		y = 5
-		cost = 10
-		available = {
-		}
-		completion_reward = {	
-		}
+		x = 19
+		y = 10
+
 	}
 }

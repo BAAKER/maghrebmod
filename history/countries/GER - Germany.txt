@@ -199,6 +199,10 @@ set_war_support = 0.5
 set_politics = {
 
 	parties = {
+		demsoc = {
+			popularity = 5
+		}
+	
 		natsynd = { 
 			popularity = 30
 		}
