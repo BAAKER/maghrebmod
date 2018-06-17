@@ -1,0 +1,61 @@
+add_namespace = ger
+
+country_event = {
+	id = ger.1
+	title = ger.1.t
+	desc = ger.1.d
+	picture = nope
+	
+	trigger = {
+		tag = GER
+		has_completed_focus = GER_colonial_influence
+	}
+	
+	mean_time_to_happen = { 
+		days = 7
+	}
+	
+	option = {
+		name = ger.1.a
+		remove_ideas = ludendorfs_junta
+		
+		country_event = {
+			id = ger.2
+			days = 14
+		}
+	}
+}
+
+
+country_event = {
+	id = ger.2
+	title = ger.2.t
+	desc = ger.2.d
+	picture = nope
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ger.2.a
+		add_popularity = {
+			ideology = demsoc
+			popularity = 0.02
+		}
+	}
+	
+	option = {
+		name = ger.2.b
+		
+	}
+	
+	option = {
+		name = ger.2.c
+		add_popularity = {
+			ideology = demsoc
+			popularity = -0.05
+		}
+		add_stability = -0.05
+	}
+}
+
+
