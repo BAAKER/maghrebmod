@@ -33,6 +33,26 @@ ideas = {
 			}
 				
 		}
+		
+		pravochnaya_const = {
+		
+			picture = generic_constitutional_guarantees
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			
+			modifier = {
+				stability_factor = 0.1
+			}
+				
+		}
+		
 		old_constitution = {
 		
 			picture = generic_constitutional_guarantees

@@ -29,7 +29,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = old_constitution
-				add_idea = new_constitution
+				add_idea = pravochnaya_const
 			}
 		}
 		x = 22
@@ -382,6 +382,12 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_compromis
 		}
+		completion_reward = {
+			add_popularity = {
+				ideology = paternalism
+				popularity = 0.2
+			}
+		}
 		x = 18
 		y = 8
 
@@ -392,6 +398,9 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 			focus = TUR_coalition_save
+		}
+		completion_reward = {
+			remove_ideas = parlamentary
 		}
 		x = 18
 		y = 9
@@ -406,7 +415,9 @@ focus_tree = {
 		}
 		x = 18
 		y = 10
-
+		completion_reward = {
+			add_stability = 0.1
+		}
 	}
 	focus = {
 		id = TUR_new_const
@@ -417,7 +428,10 @@ focus_tree = {
 		}
 		x = 18
 		y = 11
-
+		swap_ideas = 
+			add_idea = new_constitution
+			remove_idea = pravochnaya_const
+		}
 	}
 	focus = {
 		id = TUR_elections
@@ -428,7 +442,63 @@ focus_tree = {
 		}
 		x = 18
 		y = 12
-
+		completion_reward = {
+			set_politics = {	
+				parties = {
+					traditionalism = { 
+						popularity = 0
+					}
+					reformism = {
+						popularity = 0
+						banned = yes #default is no
+					}
+					communism = {
+						popularity = 0
+						banned = yes #default is no
+					}
+					paternalism = { 
+						popularity = 100
+					}
+					autrep = {
+						popularity = 0
+						banned = yes #default is no
+					}
+					ultrakap = {
+						popularity = 0
+						banned = yes #default is no
+					}
+					natsynd = {
+						popularity = 0
+						banned = yes #default is no
+					}
+					conservatism = {
+						popularity = 0
+						banned = yes #default is no
+					}
+					liberalism = {
+						popularity = 0
+						banned = yes #default is no
+					}
+					demsoc = {
+						popularity = 0
+						banned = yes #default is no
+					}
+					anarchism = {
+						popularity = 0
+						banned = yes #default is no
+					}
+					marxxx = {
+						popularity = 0
+						banned = yes #default is no
+					}
+					neobolsh = {
+						popularity = 0
+						banned = yes #default is no
+					}
+				}
+			}
+			hold_election = TUR
+		}
 	}
 	focus = {
 		id = TUR_tretiy_srok
