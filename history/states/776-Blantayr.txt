@@ -1,13 +1,13 @@
 state={
-	id=767
-	name="STATE_767"
+	id=776
+	name="STATE_776"
 	provinces={
-		414 577 3407 
+		12908 
 	}
 	
 	history = {
-		owner = SOV
-		add_core_of = SOV
+		owner = POR
+		add_core_of = POR
 	}
 	
 	manpower=0

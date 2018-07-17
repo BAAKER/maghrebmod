@@ -1,0 +1,17 @@
+
+state={
+	id=772
+	name="STATE_772"
+
+	history={
+		owner = DAF
+		add_core_of = DAF
+
+	}
+
+	provinces={
+		1951 10919 12762 12785 12843 12874 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
