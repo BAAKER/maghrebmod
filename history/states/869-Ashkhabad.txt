@@ -1,0 +1,23 @@
+state={
+	id=869
+	name="STATE_869"
+	state_category = rural
+	provinces={
+		7491 10510 12333 12359
+	}
+	
+	history = {
+		owner = PER
+		add_core_of = PER
+		victory_points = {
+			12333 1 
+		}
+        buildings = {
+			infrastructure=2
+		}
+
+	}
+	
+	manpower=600000
+	buildings_max_level_factor=1.000
+}

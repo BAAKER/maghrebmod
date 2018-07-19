@@ -1,17 +1,17 @@
 state= {
 	id=801
 	name="STATE_801"
-	manpower = 86000
+	manpower = 124700
 
 	state_category = rural
 
 	history= {
-		owner = TUR
+		owner = KUR
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = TUR
+		add_core_of = KUR
         add_claim_by = ARM
 	}
-	provinces = { 10497 12318 }
+	provinces = { 864 10497 12318 }
 }

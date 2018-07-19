@@ -603,3 +603,19 @@ KUR = {
 BES = {
 	color = rgb { 255 170 0 }
 	color_ui = rgb { 255 170 0 }
+}
+
+CAT = {
+	color = rgb { 204 63 33 }
+	color_ui = rgb { 200 60 30 }
+}
+
+RIF = {
+	color = rgb { 193 77 0 }
+	color_ui = rgb { 190 74 0 }
+}
+
+TRK = {
+	color = rgb { 74  84  40 }
+	color_ui = rgb { 70 80 36 }
+}

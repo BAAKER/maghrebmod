@@ -13,5 +13,5 @@ state= {
 		add_core_of = TUR
 		add_claim_by = GEO 
 	}
-	provinces = { 789 3714 6976 9886 11753 }
+	provinces = { 3714 6976 9886 }
 }

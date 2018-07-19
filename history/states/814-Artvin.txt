@@ -1,0 +1,18 @@
+state= {
+	id=814
+	name="STATE_814"
+	manpower = 
+
+	state_category = rural
+
+	history= {
+		owner = GEO
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 789 1 }
+		add_core_of = GEO
+        add_claim_by = TUR
+	}
+	provinces = { 789 11753 }
+}
