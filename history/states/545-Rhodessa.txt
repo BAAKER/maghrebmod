@@ -1,14 +1,16 @@
-
 state={
 	id=545
+	
+	state_category = rural
+	
 	name="STATE_545"
 	resources={
-		chromium=35.000
-		tungsten=8.000
+		chromium=64.000
+		tungsten=16.000
 	}
 
 	history={
-		owner = ZNC
+		owner = ROD
 		buildings = {
 			infrastructure = 3
 
@@ -16,14 +18,12 @@ state={
 		victory_points = {
 			10929 1 
 		}
-		add_core_of = ZNC
-
+		add_core_of = ROD
 	}
 
 	provinces={
-		697 5199 7872 10538 12504 12677 
+		1874 2151 2216 4851 7842 10929
 	}
 	manpower=4155400
 	buildings_max_level_factor=1.000
-	state_category=rural
 }

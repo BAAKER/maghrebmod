@@ -3,14 +3,14 @@ state={
 	name="STATE_664"
 	manpower = 854300
 	resources={
-		steel=13 # was: 20
-		chromium = 3 # was: 4
+		steel=20
+		chromium = 4
 	}
 	
 	state_category = town
 	
 	history={
-		owner = HUN
+		owner = SLO
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
@@ -18,7 +18,7 @@ state={
 		victory_points = {
 			6573 1 
 		}
-		add_core_of = HUN
+		add_core_of = SLO
 		add_claim_by = HUN
 
 		1939.3.14 = {

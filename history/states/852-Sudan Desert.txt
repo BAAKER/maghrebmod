@@ -1,0 +1,19 @@
+state={
+	id=852
+	name="STATE_852"
+	manpower = 26539
+	
+	state_category = wasteland
+	impassable = yes
+
+	history={
+		owner = BLS
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		10900 8103 7987
+	}
+}

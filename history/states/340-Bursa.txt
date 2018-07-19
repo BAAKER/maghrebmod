@@ -2,9 +2,9 @@
 state={
 	id=340
 	name="STATE_340"
-	manpower = 1026527
+	manpower = 376527
 	resources={
-		chromium=39 # was: 54
+		chromium=22
 	}
 
 	state_category = town
@@ -23,6 +23,6 @@ state={
 	}
 
 	provinces={
-		785 947 3786 3851 6864 6912 9799 9887 11778 11867 
+		947 3786 11867 
 	}
 }
