@@ -1,0 +1,21 @@
+state={
+	id=873
+	name="STATE_873"
+	state_category = rural
+	provinces={
+		523 547 570 3409 3491 6519 6554 9476 9531 11487 11513 11541
+	}
+	 
+	history = {
+	    owner = SOV
+		add_core_of = SOV
+		add_core_of = UKR
+        buildings = {
+			infrastructure=5
+		}
+
+	}
+	
+	manpower=1643591
+	buildings_max_level_factor=1.000
+}
