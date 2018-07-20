@@ -29,16 +29,37 @@ set_politics = {
 
 	parties = {
 		natsynd = { 
-			popularity = 88
+			popularity = 45
 		}
 
 		traditionalism = {
-			popularity = 10
+			popularity = 20
+		}
+		
+		liberalism = {
+			popularity = 5
+		}
+		
+		demsoc = {
+			popularity = 5
+		}
+		
+		reformism = {
+			popularity = 5
+		}
+		
+		anarchism = {
+			popularity = 5
+		}
+		
+		marxxx = {
+			popularity = 5
 		}
 		
 		paternalism = {
-			popularity = 2
+			popularity = 10
 		}
+		
 	}
 	
 	ruling_party = natsynd
@@ -109,28 +130,6 @@ set_national_unity = 0.8
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 		dispersed_industry3 = 1
-	}
-
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 22
-			}
-
-			fascism = {
-				popularity = 76
-			}
-			
-			communism = {
-				popularity = 2
-			}
-		}
-		
-		ruling_party = fascism
-		last_election = "1934.3.26"
-		election_frequency = 60
-		elections_allowed = no
 	}
 
 	set_global_flag = scw_over
