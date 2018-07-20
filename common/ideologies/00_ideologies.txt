@@ -1,6 +1,6 @@
 ideologies = {
 	
-	neobolsh = {
+	neobol = {
 		
 		types = {
 		
@@ -41,7 +41,7 @@ ideologies = {
 
 	}
 	
-	marxxx = {
+	orthomarxism = {
 		
 		types = {
 		
