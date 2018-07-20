@@ -199,21 +199,35 @@ set_war_support = 0.5
 set_politics = {
 
 	parties = {
-		demsoc = {
-			popularity = 5
+	
+		paternalism = {
+			popularity = 35
 		}
 	
-		natsynd = { 
-			popularity = 30
-		}
-
-		monarchism = {
-			popularity = 50
+		demsoc = {
+			popularity = 3
 		}
 		
 		traditionalism = {
-			popularity = 20
+			popularity = 25
 		}
+		
+		reformism = {
+			popularity = 15
+		}
+		
+		conservatism = {
+			popularity = 5
+		}
+
+		marxxx = {
+			popularity = 5
+		}
+		
+		neobolsh = {
+			popularity = 2
+		}
+		
 	}
 	
 	ruling_party = paternalism

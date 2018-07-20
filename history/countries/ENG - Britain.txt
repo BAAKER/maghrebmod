@@ -218,11 +218,11 @@ set_politics = {
 
 	parties = {
 		reformism = { 
-			popularity = 48
+			popularity = 38
 		}
 
 		demsoc = {
-			popularity = 20
+			popularity = 18
 		}
 		
 		communism = {
@@ -230,8 +230,12 @@ set_politics = {
 		}
 		
 		liberalism = {
-		    popularity = 22
+		    popularity = 19
 	    }
+		
+		conservatism = {
+			popularity = 15
+		}
 	}	
 	
 	ruling_party = reformism
