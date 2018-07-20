@@ -7,7 +7,7 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = RAJ
+		owner = PAK
 		buildings = {
 			infrastructure = 3
 			air_base = 4
@@ -16,6 +16,6 @@ state={
 	}
 
 	provinces={
-		1107 4990 5105 7847 7903 7975 8044 8098 10813 
+		1107 4990 5105 7049 7847 7903 7975 8044 8098 10139 10735 10813 
 	}
 }

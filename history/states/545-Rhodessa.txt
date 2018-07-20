@@ -5,12 +5,12 @@ state={
 	
 	name="STATE_545"
 	resources={
-		chromium=35 # was: 64.000
-		tungsten=8 # was: 16.000
+		chromium=64.000
+		tungsten=16.000
 	}
 
 	history={
-		owner = ZNC
+		owner = ROD
 		buildings = {
 			infrastructure = 3
 
@@ -18,11 +18,11 @@ state={
 		victory_points = {
 			10929 1 
 		}
-		add_core_of = ZNC
+		add_core_of = ROD
 	}
 
 	provinces={
-		697 1846 1874 2151 2216 2255 4851 5199 5221 7842 7872 10538 10594 10929 10930 12504 12677 12908 12986 13173 
+		1874 2151 2216 4851 7842 10929
 	}
 	manpower=4155400
 	buildings_max_level_factor=1.000

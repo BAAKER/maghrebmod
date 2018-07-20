@@ -8,7 +8,7 @@ state={
 	
 
 	history={
-		owner = PRU
+		owner = BBR
 		buildings = {
 			infrastructure = 3
 		}
@@ -16,6 +16,6 @@ state={
 	}
 
 	provinces={
-		2212 2226 5166 8160 8191 10940 
+		11010 2147 12939 5232 12965 8254 8185 13083 2198 5216 10960 13083 12919
 	}
 }

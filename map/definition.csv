@@ -13219,3 +13219,14 @@
 13218;173;95;84;land;true;desert;7
 13219;91;173;100;land;true;mountain;7
 13220;110;239;194;land;true;mountain;7
+13221;45;230;83;land;false;urban;1
+13222;255;159;140;land;true;plains;1
+13223;155;94;255;land;true;urban;5
+13224;127;56;106;land;true;mountain;1
+13225;101;124;122;land;true;mountain;1
+13226;135;151;255;land;true;hills;1
+13227;68;55;22;land;false;plains;1
+13228;68;15;62;land;false;forest;1
+13229;92;130;97;land;false;urban;1
+13230;48;66;27;land;false;forest;1
+13231;255;99;200;land;false;plains;1

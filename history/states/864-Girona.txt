@@ -1,0 +1,23 @@
+state={
+	id=864
+	name="STATE_864"
+	state_category = rural
+	provinces={
+		6927 9824 13224
+	}
+	
+	history = {
+		owner = CAT
+		add_core_of = CAT
+        buildings = {
+			infrastructure=6
+		}
+		victory_points = {
+			6812 1
+		}
+
+	}
+	
+	manpower=495574
+	buildings_max_level_factor=1.000
+}

@@ -8,11 +8,11 @@ state={
 	state_category = town
 	
 	resources={
-		aluminium=7 # was: 10
+		aluminium=10
 	}
 
 	history={
-		owner = YUG
+		owner = SER
 		victory_points = {
 			11899 5 
 		}
@@ -21,7 +21,7 @@ state={
 			industrial_complex = 2
 			air_base = 2
 		}
-		add_core_of = YUG
+		add_core_of = SER
 	}
 
 	provinces={

@@ -6,13 +6,15 @@ state={
 	
 	state_category = wasteland
 	resources={
-		rubber=3 # was: 4
+		rubber=4
 	}
 	history={
 		owner = DAF
 		buildings = {
 			infrastructure = 2
 		}
+		
+		add_core_of = DAF
 
 	}
 

@@ -2,7 +2,7 @@
 state={
 	id=266
 	name="STATE_266" # Tehran
-	manpower = 3446250
+	manpower = 1378500
 	
 	state_category = town
 
@@ -21,6 +21,6 @@ state={
 	}
 
 	provinces={
-		4580 7602 10385 10768 10837 13215 13216
+		10837 13215 13216
 	}
 }

@@ -7,14 +7,13 @@ state=
 	state_category = enclave
 	history=
 	{
-		owner = UPA
+		owner = ENG
 		buildings = {
 			infrastructure = 4
 			2077 = {
 				naval_base = 1
 			}
 		}
-	add_core_of = UPA
 	}
 	provinces= { 2077 }
 }
