@@ -1,7 +1,7 @@
 state={
 	id=852
 	name="STATE_852"
-	manpower = 426539
+	manpower = 76539
 	
 	state_category = wasteland
 	impassable = yes
@@ -9,15 +9,14 @@ state={
 	history={
 		owner = SUD
         add_core_of = SUD
+		add_core_of = BLS
+		add_core_of = EGY
 		buildings = {
 			infrastructure = 1
-		}
-		victory_points = {
-			12806 3
 		}
 	}
 
 	provinces={
-		4138 4961 7925 7987 8103 10900 12806 12836 13244 13256 13257 13265 13266 13267 13274 13275 13278
+		7987 8103 10900 13244 13256 13257 13265 13266
 	}
 }

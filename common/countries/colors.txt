@@ -619,3 +619,8 @@ TRK = {
 	color = rgb { 74  84  40 }
 	color_ui = rgb { 70 80 36 }
 }
+
+SUD = {
+	color = rgb { 0 255 0 }
+	color_ui = rgb { 0 250 0 }
+}

@@ -1,0 +1,20 @@
+state = {
+	id=885
+	name="STATE_885"
+	manpower = 293702
+	resources={
+		oil=22
+	}
+	state_category = rural
+	
+	
+	history={
+		owner = COL
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = VEN
+		add_core_of = COL
+	}
+	provinces = { 4892 5000 5056 }
+}
