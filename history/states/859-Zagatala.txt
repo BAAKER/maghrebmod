@@ -9,7 +9,7 @@ state={
 		owner = GEO
 		add_core_of = GEO
 	}
-	
-	manpower=0
+	state_category = rural
+	manpower=52310
 	buildings_max_level_factor=1.000
 }

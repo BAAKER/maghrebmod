@@ -1,86 +1,5 @@
 ideologies = {
 	
-	neobol = {
-		
-		types = {
-		
-		    neobolsh = {
-			}
-			
-			neobolsh = {
-			}
-			
-			neobolsh = {
-			}
-		
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
-		}
-		
-		color = { 236 38 156 }
-		
-		
-		
-		rules = {
-			
-		}
-		
-		modifiers = {
-			
-		}
-		
-		faction_modifiers = {
-			
-		}
-
-	}
-	
-	orthomarxism = {
-		
-		types = {
-		
-		    marxism = {
-			}
-			
-			marxism = {
-			}
-			
-			marxism = {
-			}
-		
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
-		}
-		
-		color = { 42 79 53 }
-		
-		
-		rules = {
-
-		}
-		
-		modifiers = {
-		
-		}
-		
-		faction_modifiers = {
-			
-		}
-
-	}
-	
 	anarchism = {
 		
 		types = {
@@ -211,6 +130,75 @@ ideologies = {
 		
 		modifiers = {
 			puppet_cost_factor = -0.2
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+	
+	neobol = {
+		
+		types = {
+		
+		    neobolsh = {
+			}
+		
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+		}
+		
+		color = { 236 38 156 }
+		
+		
+		
+		rules = {
+			
+		}
+		
+		modifiers = {
+			
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+	
+	orthomarxism = {
+		
+		types = {
+		
+		    marxism = {
+			}
+		
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+		}
+		
+		color = { 42 79 53 }
+		
+		
+		rules = {
+
+		}
+		
+		modifiers = {
+		
 		}
 		
 		faction_modifiers = {

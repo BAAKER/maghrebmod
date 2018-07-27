@@ -135,13 +135,8 @@ ideas = {
 				original_tag = GER
 			}
 			
-			traits = { communist_revolutionary }
+			traits = {  }
 
-			do_effect = {
-				NOT = {
-					has_government = communism
-				}
-			}
 			
 			ai_will_do = {
 				factor = 0
@@ -155,13 +150,8 @@ ideas = {
 				original_tag = GER
 			}
 			
-			traits = { democratic_reformer }
+			traits = {  }
 
-			do_effect = {
-				NOT = {
-					has_government = democratic
-				}
-			}
 			
 			ai_will_do = {
 				factor = 0
@@ -176,16 +166,9 @@ ideas = {
 			}
 
 			available = {
-				has_government = fascism
 			}
 			
-			traits = { fascist_demagogue propaganda_expert}
-
-			do_effect = {
-				NOT = {
-					has_government = fascism
-				}
-			}
+			traits = { propaganda_expert}
 			
 			ai_will_do = {
 				factor = 0
@@ -201,7 +184,6 @@ ideas = {
 			available = {
 				NOT = { has_country_flag = flight_of_hess }
 				OR = {
-					has_government = fascism
 					has_country_flag = GER_reinstated_nazi_leadership
 				}
 			}
@@ -218,7 +200,6 @@ ideas = {
 
 			available = {
 				OR = {
-					has_government = fascism
 					has_country_flag = GER_reinstated_nazi_leadership
 				}
 			}
@@ -239,7 +220,6 @@ ideas = {
 
 			available = {
 				OR = {
-					has_government = fascism
 					has_country_flag = GER_reinstated_nazi_leadership
 				}
 			}
@@ -256,7 +236,6 @@ ideas = {
 
 			available = {
 				OR = {
-					has_government = fascism
 					has_country_flag = GER_reinstated_nazi_leadership
 				}
 			}
@@ -749,7 +728,6 @@ ideas = {
 			}
 
 			available = {
-				has_government = fascism
 			}
 						
 			traits = { army_chief_drill_2 }
@@ -803,7 +781,6 @@ ideas = {
 
 			available = {
 				OR = {
-					has_government = fascism
 					has_country_flag = GER_reinstated_nazi_leadership
 				}
 			}
@@ -1029,23 +1006,6 @@ ideas = {
 
 	hidden_ideas = {
 
-		fascism_drift_ARG = {
-
-			allowed = {
-				always = no
-			}
-	
-			allowed_civil_war = {
-				has_government = fascism
-			}
-			
-			removal_cost = -1
-			
-			modifier = {
-				fascism_drift = 0.2
-			}
-
-		}
 
 	}
 

@@ -1,7 +1,7 @@
 state= {
 	id=814
 	name="STATE_814"
-	manpower = 
+	manpower = 113562
 
 	state_category = rural
 
@@ -11,8 +11,8 @@ state= {
 			infrastructure = 3
 		}
 		victory_points = { 789 1 }
-		add_core_of = GEO
-        add_claim_by = TUR
+	        add_core_of = GEO
+                add_claim_by = TUR
 	}
 	provinces = { 789 11753 }
 }

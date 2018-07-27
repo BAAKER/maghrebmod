@@ -9,7 +9,7 @@ bookmarks = {
 		
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = natsynd
 			ideas = {
 
 			}
@@ -19,7 +19,7 @@ bookmarks = {
 		}
 		"USA"={
 			history = "USA_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = conservatism
 			ideas = {
 
 			}
@@ -40,7 +40,7 @@ bookmarks = {
 
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = paternalism 
 			ideas = {
 				war_fatigue
 				ludendorfs_junta
@@ -52,7 +52,7 @@ bookmarks = {
 		}
 		"ITA"={
 			history = "ITA_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = communism
 			ideas = {
 
 			}	
@@ -62,7 +62,7 @@ bookmarks = {
 		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = paternalism
 			ideas = {
 
 			}	
@@ -72,7 +72,7 @@ bookmarks = {
 		}
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
+			ideology = liberalism
 			ideas = {
 
 			}
