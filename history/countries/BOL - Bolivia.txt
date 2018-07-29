@@ -1,19 +1,16 @@
-﻿capital = 327
+﻿capital = 302
 
-oob = "PHI_1936"
+oob = "BOL_1936"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	infantry_weapons1 = 1
 	tech_support = 1		
 	tech_engineers = 1
 	gw_artillery = 1
 	early_fighter = 1
-	early_bomber = 1
 }
-
-set_convoys = 5
+set_country_flag = monroe_doctrine
 
 1939.1.1 = {
 
@@ -24,19 +21,17 @@ set_convoys = 5
 	complete_national_focus = equipment_effort
 	complete_national_focus = motorization_effort
 	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
+	complete_national_focus = construction_effort_2
+	complete_national_focus = production_effort_2
+	complete_national_focus = infrastructure_effort
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "PHI_1939"
+	oob = "BOL_1939"
 	set_technology = {
-		gwtank = 1
-		basic_light_tank = 1
 		interwar_artillery = 1
-		interwar_antiair = 1
-		tech_recon = 1
+		infantry_weapons1 = 1
 		infantry_weapons2 = 1
 		support_weapons = 1
 
@@ -48,11 +43,13 @@ set_convoys = 5
 		battlefleet_concentration = 1
 		convoy_sailing = 1
 
+
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
 		radio_detection = 1
 		mechanical_computing = 1
+		computing_machine = 1
 
 		#industry
 		basic_machine_tools = 1
@@ -60,6 +57,7 @@ set_convoys = 5
 		advanced_machine_tools = 1
 		synth_oil_experiments = 1
 		oil_processing = 1
+		improved_oil_processing = 1
 		construction1 = 1
 		construction2 = 1
 		dispersed_industry = 1
@@ -70,47 +68,46 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-
-                conservatism = { 
-			popularity = 62
-		}
-		liberalism = { 
-			popularity = 20
+		democratic = { 
+			popularity = 0
 		}
 
-		reformism = {
-			popularity = 9
+		fascism = {
+			popularity = 0
 		}
 		
 		communism = {
-			popularity = 9
-			#banned = no #default is no
+			popularity = 0
+		}
+		
+		paternalism = { 
+			popularity = 100
 		}
 	}
 	
-	ruling_party = conservatism
-	last_election = "1926.9.15"
+	ruling_party = paternalism 
+	last_election = "1934.11.11"
 	election_frequency = 72
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Manuel Luis Quezón"
-	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
-	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
+	name = "José Luis Tejada Sorzano"
+	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
+	picture = "Portrait_Bolivia_Jose_Luis_Tejada_Sorzano.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = despotism # liberalism, personally, but puppet for military
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Pedro P. Baguisa"
-	desc = "POLITICS_PEDRO_BAGUISA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+	name = "Óscar Únzaga de la Vega"
+	desc = "POLITICS_OSCAR_UNZAGA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = falangism
 	traits = {
 		#
 	}
@@ -120,23 +117,37 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
-				popularity = 82
-			}
+		democratic = { 
+			popularity = 0
+		}
 
-			fascism = {
-				popularity = 9
-			}
-			
-			communism = {
-				popularity = 9
-				#banned = no #default is no
-			}
+		fascism = {
+			popularity = 0
 		}
 		
-		ruling_party = democratic
-		last_election = "1935.9.15"
+		communism = {
+			popularity = 0
+		}
+		
+		neutrality = { 
+			popularity = 100
+		}
+	}
+	
+	ruling_party = neutrality
+		last_election = "1934.11.11"
 		election_frequency = 72
 		elections_allowed = yes
+	}
+
+	create_country_leader = {
+		name = "Carlos Quintanilla"
+		desc = "POLITICS_CARLOS_QUINTANILLA_DESC"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		expire = "1965.1.1"
+		ideology = oligarchism
+		traits = {
+			#
+		}
 	}
 }

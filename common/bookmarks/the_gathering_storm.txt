@@ -29,7 +29,7 @@ bookmarks = {
 		}
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = reformism
 			ideas = {
 
 			}
@@ -72,7 +72,7 @@ bookmarks = {
 		}
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
-			ideology = liberalism
+			ideology = conservatism
 			ideas = {
 
 			}

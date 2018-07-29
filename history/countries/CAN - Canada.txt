@@ -125,20 +125,21 @@ set_politics = {
 
 	parties = {
 		conservatism = { 
-			popularity = 98
+			popularity = 40
 		}
 
 		liberalism = {
-			popularity = 1
+			popularity = 22
+		}
+
+                
+		reformism = {
+			popularity = 38
 		}
 		
-		communism = {
-			popularity = 1
-			#banned = no #default is no
-		}
 	}
 	
-	ruling_party = conservatism
+	ruling_party = reformism
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = yes

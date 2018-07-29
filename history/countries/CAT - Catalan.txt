@@ -27,20 +27,24 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		natsynd = { 
-			popularity = 88
+		anarchism = { 
+			popularity = 65
 		}
 
-		traditionalism = {
-			popularity = 10
+		demsoc = {
+			popularity = 15
 		}
 		
-		paternalism = {
-			popularity = 2
+		communism = {
+			popularity = 10
+		}
+
+                orthomarxism = {
+			popularity = 10
 		}
 	}
 	
-	ruling_party = natsynd
+	ruling_party = anarchism
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no

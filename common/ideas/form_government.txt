@@ -179,7 +179,7 @@ ideas = {
 			available = {
 				always = no
 			}
-			
+			default = yes
 			cancel_if_invalid = no
 		}
 		Federalism = {

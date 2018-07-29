@@ -22,13 +22,13 @@ set_technology = {
 set_convoys = 25
 
 set_politics = {
-    ruling_party = communism
+    ruling_party = neobol 
 	last_election = "1918.4.26"
 	election_frequency = 48
 	elections_allowed = no
 	parties = {
 
-		communism = {
+		neobol = {
 			popularity = 100
 		}
 

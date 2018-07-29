@@ -376,16 +376,16 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_marxxx_group"
-		texturefile = "gfx/interface/ideologies/marxxx_group.dds"
+		name = "GFX_ideology_orthomarxism_group"
+		texturefile = "gfx/interface/ideologies/orthomarxism_group.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_natsynd_group"
 		texturefile = "gfx/interface/ideologies/natsynd_group.dds"
 	}
 	spriteType = {
-		name = "GFX_ideology_neobolsh_group"
-		texturefile = "gfx/interface/ideologies/neobolsh_group.dds"
+		name = "GFX_ideology_neobol_group"
+		texturefile = "gfx/interface/ideologies/neobol_group.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_reformism_group"

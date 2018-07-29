@@ -113,23 +113,24 @@ if = {
 set_politics = {
 
 	parties = {
-		liberalism = { 
-			popularity = 100
+		conservatism = { 
+			popularity = 40
 		}
 
-		fascism = {
-			popularity = 0
+		liberalism = {
+			popularity = 22
+		}
+
+                
+		reformism = {
+			popularity = 38
 		}
 		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
 	}
 	
-	ruling_party = liberalism
-	last_election = "1935.11.27"
-	election_frequency = 36
+	ruling_party = reformism
+	last_election = "1935.10.14"
+	election_frequency = 60
 	elections_allowed = yes
 }
 
