@@ -27,7 +27,7 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		natsynd = { 
+		islamism = { 
 			popularity = 88
 		}
 
@@ -40,7 +40,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = natsynd
+	ruling_party = islamism
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no

@@ -4,12 +4,12 @@ state={
 	provinces={
 		697 5199 7872 10538 12504 12677 
 	}
-	
+	state_category = rural
 	history = {
 		owner = ZNC
 		add_core_of = ZNC
 	}
 	
-	manpower=0
+	manpower=564314
 	buildings_max_level_factor=1.000
 }

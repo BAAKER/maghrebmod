@@ -1,0 +1,19 @@
+state = {
+	id=878
+	name="STATE_878"
+	manpower = 10000
+	
+	state_category = rural
+	
+	
+	history=
+	{
+		owner = DEN
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = DEN
+		add_core_of = ICE
+	}
+	provinces = { 12674 13302 }
+}

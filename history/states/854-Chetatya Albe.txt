@@ -4,7 +4,7 @@ state={
 	provinces={
 		6727 
 	}
-	
+	state_category = town
 	history = {
 		owner = BES
 		add_core_of = BES
@@ -17,6 +17,6 @@ state={
 	
 	state_category = city
 	
-	manpower=0
+	manpower=15231
 	buildings_max_level_factor=1.000
 }

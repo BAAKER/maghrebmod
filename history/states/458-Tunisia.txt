@@ -10,6 +10,7 @@ state={
 
 	history={
 		owner = TUN
+		add_core_of = TUN
 		victory_points = {
 			11969 10 
 		}
@@ -23,8 +24,6 @@ state={
 			9994 = {
 				naval_base = 8
 			}
-			
-			add_core_of = TUN
 		}
 	}
 

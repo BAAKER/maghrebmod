@@ -41,12 +41,12 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		conservatism = {
+		demsoc = {
 			popularity = 100
 		}
 	}
 
-	ruling_party = conservatism
+	ruling_party = demsoc
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no

@@ -8,10 +8,10 @@ state={
 		add_core_of = DAF
 
 	}
-
+    state_category = rural
 	provinces={
 		1951 10919 12762 12785 12843 12874 
 	}
-	manpower=0
+	manpower=654879
 	buildings_max_level_factor=1.000
 }

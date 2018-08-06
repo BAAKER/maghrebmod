@@ -9,7 +9,7 @@ state={
 		owner = DAF
 		add_core_of = DAF
 	}
-	
-	manpower=0
+	state_category = rural
+	manpower=210321
 	buildings_max_level_factor=1.000
 }

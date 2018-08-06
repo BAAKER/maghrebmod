@@ -1,0 +1,214 @@
+ideas = {
+
+	form_government = { 
+		law = yes
+		
+		absolute_monarchy = {
+			
+		
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			available = {
+				always = no
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		constitutional_monarchy = {
+			
+		
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			available = {
+				always = no
+			}
+			
+			
+			cancel_if_invalid = no
+		}
+		
+		military_dictatorship = {
+			
+		
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			available = {
+				always = no
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		presidential_dictatorship = {
+			
+		
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			available = {
+				always = no
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		dictatorship_proletariat = {
+			
+		
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			available = {
+				always = no
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		dictatorship_revolutionary_party = {
+			
+		
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			available = {
+				always = no
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		presidential_republic = {
+			
+		
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			available = {
+				always = no
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		mixed_republic = {
+			
+		
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			available = {
+				always = no
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		parliamentary_republic = {
+			
+		
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			available = {
+				always = no
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		communes = {
+			
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			available = {
+				always = no
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+	}
+	
+	forms_of_government = {
+	    Unitarianism = {
+			
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			available = {
+				always = no
+			}
+			default = yes
+			cancel_if_invalid = no
+		}
+		Federalism = {
+			
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			available = {
+				always = no
+			}
+			
+			cancel_if_invalid = no
+		}
+		Confederalism = {
+			
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			available = {
+				always = no
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+}
