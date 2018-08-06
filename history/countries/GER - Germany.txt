@@ -196,6 +196,21 @@ set_war_support = 0.5
 	}
 }
 
+set_autonomy = {
+		target = SLO
+		autonomous_state = colony
+}
+
+set_autonomy = {
+		target = GMO
+		autonomous_state = colony
+}
+	
+set_autonomy = {
+	target = GEI
+	autonomous_state = colony
+}
+
 set_politics = {
 
 	parties = {
