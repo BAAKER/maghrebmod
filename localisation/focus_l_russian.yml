@@ -245,6 +245,32 @@
  TUR_lgoti:0 "Льготы фермерам"
  TUR_metodi:0 "Новые методы ведения хозяйтсва"
  
+ #Лягушатники
+ FRA_militarisation:0 "Милитаризация Лотарингии"
+ FRA_nodegrell:0 "Дегрелль нам не нужен"
+ FRA_turkey:0 "Поддержка Турции"
+ FRA_greece:0 "Поддержка Греции"
+ FRA_italy:0 "Конфронтация с Италией"
+ FRA_contrrevolution:0 "Контрреволюционный пакт"
+ FRA_waritaly:0 "Война с Италией"
+ FRA_allyitaly:0 "Союз с италией"
+ FRA_integration:0 "Интеграция"
+ FRA_romandy:0 "Потребовать Романдию"
+ FRA_alsaice:0 "Вновь поднять эльзасский вопрос"
+ FRA_indochina:0 "Восстановить власть в Индокитае"
+ FRA_tunisia:0 "Решить тунисский вопрос"
+ FRA_asian:0 "Азиатская сфера влияния"
+ FRA_madrid:0 "Мадридское соглашение"
+ FRA_siam:0 "Судьба Сиама"
+ FRA_coloniesforalsaice:0 "Колонии в обмен на Эльзас"
+ FRA_warindia:0 "Вторжение в Индию"
+ FRA_allyindia:0 "Сотрудничество с индусами"
+ FRA_agreementger:0 "Договорённости с Германией"
+ FRA_gindenburg:0 "Обойти линию Гинденбурга"
+ FRA_england:0 "Удар по Англии"
+ FRA_endger:0 "Конец Германии"
+ FRA_exilegers:0 "Изгнать немцев за Рейн"
+ FRA_polska:0 "Удар по Польше"
  
  
  
