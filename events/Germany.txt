@@ -64,12 +64,7 @@ country_event = {
 	desc = ger.3.d
 	picture = 
 	
-	trigger = {
-		FRA = {
-			has_country_flag = provacation
-		}
-	}
-	
+	is_triggered_only = yes
 	
 	option = {
 		name = ger.3.a
