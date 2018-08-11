@@ -1,13 +1,13 @@
 technologies = {
 	
 	@1900 = 0
-	@1911 = 2
-	@1916 = 4
-	@1928 = 6
-	@1934 = 9
-	@1938 = 12
-	@1942 = 17
-	@1946 = 20
+	@1911 = 3
+	@1916 = 6
+	@1928 = 9
+	@1934 = 13
+	@1938 = 17
+	@1942 = 21
+	@1946 = 25
 
 	infantry_weapons = {
 
@@ -25,10 +25,10 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1910
+		start_year = 1900
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = -1 }
+			position = { x = 0 y = @1900 }
 		}
 		
 		categories = {
@@ -102,7 +102,7 @@ technologies = {
 		start_year = 1930
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = 7 }
+			position = { x = 0 y = 11 }
 		}
 		
 		categories = {
@@ -170,7 +170,7 @@ technologies = {
 		start_year = 1945
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = 16 }
+			position = { x = 0 y = 24 }
 		}
 		
 		categories = {
@@ -252,7 +252,7 @@ technologies = {
 		start_year = 1933
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = 8 }
+			position = { x = 3 y = 12 }
 		}
 		
 		categories = {
@@ -330,7 +330,7 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = 15 }
+			position = { x = 3 y = 23 }
 		}
 		
 		categories = {
