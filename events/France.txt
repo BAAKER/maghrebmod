@@ -7,7 +7,10 @@ country_event = {
 	desc = france.1.d
 	picture = 
 	
-	is_triggered_only = yes
+	trigger = {
+		tag = FRA
+		has_completed_focus = FRA_maneuvre
+	}
 	
 	fire_only_once = yes
 	
@@ -16,6 +19,9 @@ country_event = {
 		set_country_flag = provoc
 		country_event = {
 			id = france.2
+		}
+		country_event = {
+			id = ger.3
 		}
 	}
 }
@@ -35,10 +41,5 @@ country_event = {
 	option = {
 		name = france.2.a
 		set_country_flag = provocation
-		GER = {
-			country_event = {
-				id = ger.3
-			}
-		}
 	}
 }

@@ -1,30 +1,6 @@
 add_namespace = ger
 
-country_event = {
-	id = ger.1
-	title = ger.1.t
-	desc = ger.1.d
-	picture = nope
-	
-	trigger = {
-		tag = GER
-		has_completed_focus = GER_colonial_influence
-	}
-	
-	mean_time_to_happen = { 
-		days = 7
-	}
-	
-	option = {
-		name = ger.1.a
-		remove_ideas = ludendorfs_junta
-		
-		country_event = {
-			id = ger.2
-			days = 14
-		}
-	}
-}
+v
 
 
 country_event = {
@@ -62,12 +38,12 @@ country_event = {
 	id = ger.3
 	title = ger.3.t
 	desc = ger.3.d
-	picture =
+	picture = nope
 	
 	is_triggered_only = yes
 	
-	mean_time_to_happen = {
-		days = 1
+	mean_time_to_happen = { 
+		days = 7
 	}
 	
 	option = {
