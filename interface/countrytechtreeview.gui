@@ -78,7 +78,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "infantry_subtitle_flamethrower"
-					position = { x = 520 y = 100 }
+					position = { x = 720 y = 100 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -91,7 +91,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "infantry_subtitle_night_vision"
-					position = { x = 970 y = 100 }
+					position = { x = 1540 y = 100 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -169,7 +169,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "infantry_year2"
-					position = { x = 130 y = 50 }
+					position = { x = 150 y = 50 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -182,7 +182,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_year3"
-					position = { x = 270 y = 50 }
+					position = { x = 360 y = 50 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -195,7 +195,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_year5"
-					position = { x = 410 y = 50 }
+					position = { x = 570 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1916"
@@ -207,7 +207,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_year6"
-					position = { x = 550 y = 50 }
+					position = { x = 790 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1928"
@@ -219,7 +219,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_year7"
-					position = { x = 750 y = 50 }
+					position = { x = 1060 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1934"
@@ -231,7 +231,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_year8"
-					position = { x = 960 y = 50 }
+					position = { x = 1350 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1938"
@@ -243,7 +243,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_year9"
-					position = { x = 1110 y = 50 }
+					position = { x = 1620 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1942"
@@ -255,7 +255,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_year10"
-					position = { x = 1320 y = 50 }
+					position = { x = 1900 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1946"
@@ -389,7 +389,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1918"
+					text = "1916"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -402,64 +402,41 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1936"
+					text = "1928"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
-
-#				instantTextBoxType = {
-#					name = "support_year5"
-#					position = { x = 370 y = 50 }
-#					font = "hoi_36header"
-#					borderSize = { x = 0 y = 0}
-#					text = "1938"
-#					maxWidth = 170
-#					maxHeight = 32
-#					format = left
-#					Orientation = "UPPER_LEFT"
-#				}
 
 				instantTextBoxType = {
 					name = "support_year6"
 					position = { x = 523 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1939"
+					text = "1934"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
-
-#				instantTextBoxType = {
-#					name = "support_year7"
-#					position = { x = 650 y = 50 }
-#					font = "hoi_36header"
-#					borderSize = { x = 0 y = 0}
-#					text = "1940"
-#					maxWidth = 170
-#					maxHeight = 32
-#					format = left
-#					Orientation = "UPPER_LEFT"
-#				}
-#
-#				instantTextBoxType = {
-#					name = "support_year8"
-#					position = { x = 790 y = 50 }
-#					font = "hoi_36header"
-#					borderSize = { x = 0 y = 0}
-#					text = "1941"
-#					maxWidth = 170
-#					maxHeight = 32
-#					format = left
-#					Orientation = "UPPER_LEFT"
-#				}				
+			
 
 				instantTextBoxType = {
 					name = "support_year9"
 					position = { x = 943 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1938"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "support_year12"
+					position = { x = 1363 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1942"
@@ -467,53 +444,7 @@ guiTypes = {
 					maxHeight = 32
 					format = left
 					Orientation = "UPPER_LEFT"
-				}
-
-#				instantTextBoxType = {
-#					name = "support_year10"
-#					position = { x = 1070 y = 50 }
-#					font = "hoi_36header"
-#					borderSize = { x = 0 y = 0}
-#					text = "1943"
-#					maxWidth = 170
-#					maxHeight = 32
-#					format = left
-#					Orientation = "UPPER_LEFT"
-#				}		
-#				
-#				instantTextBoxType = {
-#					name = "support_year11"
-#					position = { x = 1210 y = 50 }
-#					font = "hoi_36header"
-#					borderSize = { x = 0 y = 0}
-#					text = "1944"
-#					maxWidth = 170
-#					maxHeight = 32
-#					format = left
-#					Orientation = "UPPER_LEFT"
-#				}						
-				instantTextBoxType = {
-					name = "support_year12"
-					position = { x = 1363 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1945"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-#				instantTextBoxType = {
-#					name = "support_year13"
-#					position = { x = 1490 y = 50 }
-#					font = "hoi_36header"
-#					borderSize = { x = 0 y = 0}
-#					text = "1946"
-#					maxWidth = 170
-#					maxHeight = 32
-#					format = left
-#					Orientation = "UPPER_LEFT"
-#				}				
+				}			
 					
 			}	
 				
@@ -3552,7 +3483,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "techtree_infantry_folder_item"
 		position = { x=-56 y=-7 }
-		size = { width = 183 height = 84 }
+		size = { width = 210 height = 96 }
 		clipping = no
 
 		background = {
@@ -3602,7 +3533,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "sub_technology_slot_0"
-			position = { x=141 y=1 }
+			position = { x=165 y=4 }
 			size = { width = 35 height = 26 }
 			clipping = no
 			

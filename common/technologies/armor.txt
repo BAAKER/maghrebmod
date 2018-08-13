@@ -317,6 +317,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		path = {
+			leads_to_tech = 1934_tankette
+			research_cost_coeff = 1
+		}
+		
 		research_cost = 2
 		start_year = 1934
 		folder = {
