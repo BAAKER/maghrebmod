@@ -17,12 +17,6 @@ country_event = {
 	option = {
 		name = france.1.a
 		set_country_flag = provoc
-		country_event = {
-			id = france.2
-		}
-		country_event = {
-			id = ger.3
-		}
 	}
 }
 
