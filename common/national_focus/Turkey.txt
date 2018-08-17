@@ -344,19 +344,35 @@ focus_tree = {
 			focus = TUR_kemalist
 		}
 		completion_reward = {
-			start_civil_war = {
-				ruling_party = reformism
-				ideology = reformism
-				size = 0.4
-				only_own_territory = no
-				capital = 282
-				states = { 
-					341 347 356 343 343 345 342 339 340
-				}
-				keep_unit_leaders = {
-					
+			IF = {
+				limit = { has_completed_focus = TUR_1920god }
+				start_civil_war = {
+					ruling_party = reformism
+					ideology = reformism
+					size = 0.4
+					only_own_territory = no
+					capital = 282
+					states = { 
+						341 347 356 343 343 345 342 339 340
+					}
+					keep_unit_leaders = {
+					}
 				}
 			}
+			IF = {
+				limit = {has_completed_focus = TUR_kemalist}
+				start_civil_war = {
+					ruling_party = reformism
+					ideology = reformism
+					size = 0.4
+					only_own_territory = no
+					capital = 282
+					states = { 
+						341 347 356 343 343 345 342 339 340
+					}
+					keep_unit_leaders = {
+					}
+				}
 			start_civil_war = {
 				ruling_party = islamism
 				ideology = islamism
@@ -444,58 +460,30 @@ focus_tree = {
 		y = 12
 		completion_reward = {
 			set_politics = {	
+
 				parties = {
 					traditionalism = { 
-						popularity = 0
+					popularity = 10
 					}
+
 					reformism = {
-						popularity = 0
-						banned = yes #default is no
+					popularity = 30
 					}
+		
 					communism = {
 						popularity = 0
-						banned = yes #default is no
+						popularity
 					}
+		
 					paternalism = { 
-						popularity = 100
-					}
-					autrep = {
-						popularity = 0
-						banned = yes #default is no
-					}
-					ultrakap = {
-						popularity = 0
-						banned = yes #default is no
-					}
-					natsynd = {
-						popularity = 0
-						banned = yes #default is no
-					}
-					conservatism = {
-						popularity = 0
-						banned = yes #default is no
-					}
-					liberalism = {
-						popularity = 0
-						banned = yes #default is no
-					}
-					demsoc = {
-						popularity = 0
-						banned = yes #default is no
-					}
-					anarchism = {
-						popularity = 0
-						banned = yes #default is no
-					}
-					marxxx = {
-						popularity = 0
-						banned = yes #default is no
-					}
-					neobolsh = {
-						popularity = 0
-						banned = yes #default is no
+						popularity = 30
 					}
 				}
+	
+				ruling_party = reformism
+				last_election = "1935.2.8"
+				election_frequency = 48
+				elections_allowed = yes
 			}
 			hold_election = TUR
 		}
