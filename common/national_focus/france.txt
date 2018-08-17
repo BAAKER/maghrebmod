@@ -14,12 +14,6 @@ focus_tree = {
 		cost = 0
 		x = 9
 		y = 0
-		completion_reward = {
-			country_event = {
-				id = france.1
-				days = 5
-			}
-		}
 	}
 	focus = {
 		id = FRA_belgium
@@ -36,24 +30,9 @@ focus_tree = {
 		prerequisite = {
 			focus = FRA_maneuvre
 		}
+		
 		x = 9
 		y = 1
-		available = { always = no }
-		bypass = {
-			has_country_flag = provocation
-		}
-		completion_reward = {
-			country_event = {
-				id = france.2
-				days = 5
-			}
-			GER = {
-				country_event = {
-					id = ger.3
-					days = 5
-				}
-			}
-		}
 	}
 	focus = {
 		id = FRA_conference
