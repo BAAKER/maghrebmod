@@ -373,6 +373,7 @@ focus_tree = {
 					keep_unit_leaders = {
 					}
 				}
+			}
 			start_civil_war = {
 				ruling_party = islamism
 				ideology = islamism
@@ -444,9 +445,11 @@ focus_tree = {
 		}
 		x = 18
 		y = 11
-		swap_ideas = 
-			add_idea = new_constitution
-			remove_idea = pravochnaya_const
+		completion_reward = {
+			swap_ideas = {
+				add_idea = new_constitution
+				remove_idea = pravochnaya_const
+			}
 		}
 	}
 	focus = {
@@ -459,32 +462,6 @@ focus_tree = {
 		x = 18
 		y = 12
 		completion_reward = {
-			set_politics = {	
-
-				parties = {
-					traditionalism = { 
-					popularity = 10
-					}
-
-					reformism = {
-					popularity = 30
-					}
-		
-					communism = {
-						popularity = 0
-						popularity
-					}
-		
-					paternalism = { 
-						popularity = 30
-					}
-				}
-	
-				ruling_party = reformism
-				last_election = "1935.2.8"
-				election_frequency = 48
-				elections_allowed = yes
-			}
 			hold_election = TUR
 		}
 	}
@@ -497,6 +474,9 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = TUR_atatyurk_elec
+		}
+		available = {
+			has_government = paternalism
 		}
 		x = 4
 		y = 13
@@ -513,6 +493,9 @@ focus_tree = {
 			focus = TUR_tretiy_srok
 			focus = TUR_liberal_elec
 		}
+		available = {
+			has_government = reformism
+		}
 		x = 11
 		y = 13
 
@@ -527,6 +510,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = TUR_atatyurk_elec
 		}
+		available = {
+			has_government = liberalism
+		}
 		x = 26
 		y = 13
 
@@ -537,6 +523,9 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 			focus = TUR_liberal_elec
+		}
+		completion_reward = {
+			add_ideas = liberesation
 		}
 		x = 26
 		y = 14
@@ -560,6 +549,12 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_liberalisation
 		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = USA
+				modifier = non_aggression_pact
+			}
+		}
 		x = 22
 		y = 15
 
@@ -570,6 +565,11 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 			focus = TUR_invest
+		}
+		completion_reward = {
+			remove_ideas = {
+				regular_countryshop 
+			}
 		}
 		x = 20
 		y = 16
@@ -582,6 +582,9 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_invest
 		}
+		completion_reward = {
+			add_war_support = 0.2
+		}
 		x = 22
 		y = 16
 
@@ -592,6 +595,9 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 			focus = TUR_invest
+		}
+		completion_reward = {
+			set_political_power = 50
 		}
 		x = 24
 		y = 16
@@ -604,6 +610,12 @@ focus_tree = {
 		prerequisite = {
 			focus = TUR_guarantees
 		}
+		completion_reward = {
+			add_popularity = {
+				ideology = liberalism
+				popularity = 0.25
+			}
+		}
 		x = 24
 		y = 17
 
@@ -614,6 +626,9 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 			focus = TUR_burjua
+		}
+		completion_reward = {
+			add_stability = 0.15
 		}
 		x = 30
 		y = 16

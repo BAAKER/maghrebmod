@@ -12,7 +12,7 @@ ideas = {
 			picture = 
 			
 			modifier = {
-				stability_factor = 0.1
+				stability_factor = 0.01
 			}
 		}
 
@@ -29,7 +29,7 @@ ideas = {
 			picture = TUR_nasledie
 			
 			modifier = {
-				stability_factor = 0.2
+				stability_factor = 0.01
 			}
 				
 		}
@@ -48,7 +48,7 @@ ideas = {
 			
 			
 			modifier = {
-				stability_factor = 0.1
+				stability_factor = 0.01
 			}
 				
 		}
@@ -85,7 +85,50 @@ ideas = {
 			
 			
 			modifier = {
-				stability_factor = 0.2
+				stability_factor = 0.01
+			}
+				
+		}
+		
+		regular_countryshop = {
+		
+			picture = 
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			
+			modifier = {
+				min_export = 0.25
+			}
+				
+		}
+		
+		liberesation = {
+		
+			picture = 
+		
+			allowed = {
+				always = no
+			}
+			
+			avialable = {
+				has_government = liberalism
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			
+			modifier = {
+				stability_factor = 0.01
+				liberalism_drift = 0.02
 			}
 				
 		}

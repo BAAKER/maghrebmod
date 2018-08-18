@@ -8,6 +8,7 @@ add_ideas = {
 	limited_conscription
 	old_constitution
 	parlamentary
+	regular_countryshop
 }
 
 set_technology = {
@@ -87,7 +88,7 @@ set_politics = {
 
 	parties = {
 		traditionalism = { 
-			popularity = 6
+			popularity = 5
 		}
 
 		reformism = {
@@ -100,7 +101,11 @@ set_politics = {
 		}
 		
 		paternalism = { 
-			popularity = 74
+			popularity = 60
+		}
+		
+		liberalism = { 
+			popularity = 15
 		}
 	}
 	
@@ -119,6 +124,17 @@ create_country_leader = {
 	picture = "gfx/leaders/TUR/Portrait_Turkey_Enver_Pasa.dds"
 	expire = "1938.11.10"
 	ideology = statism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ismet Ivenu"
+	desc = "POLITICS_ISMET_IVENU_DESC"
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Enver_Pasa.dds"
+	expire = "1938.11.10"
+	ideology = oligarh_liberalism
 	traits = {
 		#
 	}
