@@ -42,10 +42,6 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	mean_time_to_happen = { 
-		days = 7
-	}
-	
 	option = {
 		name = ger.3.a
 	}
