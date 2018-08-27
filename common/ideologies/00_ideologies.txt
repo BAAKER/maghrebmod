@@ -311,7 +311,9 @@ ideologies = {
 			
 			national_liberalism = {
 			}
-
+			
+			oligarh_liberalism = {
+			}
 		}
 		
 		dynamic_faction_names = {}
