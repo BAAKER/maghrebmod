@@ -1,12 +1,11 @@
 ﻿capital = 2
 
-oob = "ITA_1936"
+oob = "ITA_1928"
 
 set_research_slots = 4
 
 add_ideas = {
-	victor_emmanuel
-	vittoria_mutilata
+	instability_in_south
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
@@ -40,6 +39,11 @@ set_technology = {
 	transport = 1
 	trench_warfare = 1
 	fleet_in_being = 1
+}
+
+country_event = {
+    id = italy.1
+    days = 40
 }
 
 1939.1.1 = {
@@ -141,20 +145,32 @@ set_national_unity = 0.6
 set_politics = {
 
 	parties = {
-		natsynd = { 
-			popularity = 24
+		orthomarxism = { 
+			popularity = 40
 		}
 
-		conservatism = {
-			popularity = 0
+		reformism = {
+			popularity = 20
 		}
 		
-		communism = {
-			popularity = 76
+		demsoc = {
+			popularity = 15
+		}
+		
+		neobol = {
+			popularity = 10
+		}
+		
+		autrep = {
+			popularity = 10
+		}
+		
+		paternalism = {
+			popularity = 5
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = orthomarxism
 	last_election = "1924.3.26"
 	election_frequency = 60
 	elections_allowed = no
@@ -168,7 +184,7 @@ create_country_leader = {
 	desc = "POLITICS_ANTONIO_GRAMSCI_DESC"
 	picture = "Portrait_Italy_Gramsci.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_socialism
+	ideology = marxism
 	traits = {
 		
 	}

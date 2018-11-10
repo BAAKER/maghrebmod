@@ -80,7 +80,7 @@ set_politics =
     {
 
     parties =  { 
-        communism = {
+        neobol = {
             popularity = 60
         }
         paternalism = { 
@@ -99,7 +99,7 @@ set_politics =
         }          
     }
     
-    ruling_party = communism
+    ruling_party = neobol
     elections_allowed = no
 }
 
@@ -108,7 +108,7 @@ create_country_leader = {
 	desc = "POLITICS_ANVELT_YAN_DESC"
 	picture = "estlandec.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_socialism
+	ideology = neobolsh
 	traits = {
 		#
 	}

@@ -1,0 +1,27 @@
+ITA_fighting_with_Sicily = {
+    Control_of_the_island = {
+        allowed = { tag = ITA }
+        available = {
+            controls_state = 115
+        }
+        activation = {
+            has_war_with = SIC
+        }
+        is_good = yes
+        days_mission_timeout = 40
+        timeout_effect = {
+            add_political_power = -50
+			custom_effect_tooltip = ITA.1.a_tt
+        }
+        complete_effect = {                    
+            add_political_power = 100
+			add_stability = 10
+        }
+    }
+
+	Play_for_Sicily = {
+        complete_effect = {
+            change_tag_from = SIC
+        }
+    }
+}

@@ -88,7 +88,7 @@ set_politics =
     {
 
     parties =  { 
-        communism = {
+        neobol = {
             popularity = 70
         }
         paternalism = { 
@@ -107,7 +107,7 @@ set_politics =
         }          
     }
     
-    ruling_party = communism
+    ruling_party = neobol
     elections_allowed = no
 }
 
@@ -116,7 +116,7 @@ create_country_leader = {
 	desc = "POLITICS_MANNER_KULERVO_DESC"
 	picture = "Finnish COmmie.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_socialism
+	ideology = neobolsh
 	traits = {
 		#
 	}

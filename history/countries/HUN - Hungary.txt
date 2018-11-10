@@ -131,7 +131,7 @@ set_politics = {
 		demsoc = {
 			popularity = 15
 		}
-		communism = {
+		neobol = {
 			popularity = 67
 		}
 		paternalism = {
@@ -139,7 +139,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = neobol
 	last_election = "1935.3.31"
 	election_frequency = 48
 	elections_allowed = yes
@@ -150,7 +150,7 @@ create_country_leader = {
 	desc = "POLITICS_NAGY_DESC"
 	picture = "Portrait_Hungary_Imre_Nagy.dds"
 	expire = "1965.1.1"
-	ideology = bolshevism
+	ideology = neobolsh
 	traits = {
 		#
 	}

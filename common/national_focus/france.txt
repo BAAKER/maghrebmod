@@ -33,7 +33,6 @@ focus_tree = {
 		
 		x = 9
 		y = 1
-<<<<<<< HEAD
 		bypass = {
 			has_country_flag = provocation
 		}
@@ -49,8 +48,6 @@ focus_tree = {
 				}
 			}
 		}
-=======
->>>>>>> 6a7510529c84c21361aa8b4afaafcaadba3a98e7
 	}
 	focus = {
 		id = FRA_conference

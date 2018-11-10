@@ -1,8 +1,5 @@
 add_namespace = ger
 
-v
-
-
 country_event = {
 	id = ger.2
 	title = ger.2.t
