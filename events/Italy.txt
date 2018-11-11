@@ -132,27 +132,40 @@ country_event = {
 	
 	immediate = { 
 	    hidden_effect = {
-            115 = { add_core_of = SIC }		
-		    SIC = { transfer_state = 345 }
+		    115 = { add_core_of = SIC }
+			SIC = {
+			    transfer_state = 115
+				load_oob = "SIC_1928"
+			}
 			ITA = { remove_ideas = instability_in_south }
-		} 
-	} 
+		}
+	}
 	
 	option = {
 		name = italy.8.a
 		set_country_flag = padre_di_sicilia
 		add_political_power = -50
 	}
-	
 	option = {
 		name = italy.8.b
-		set_country_flag = war_with_sicily
 		declare_war_on = {
-           target = SIC
-           type = annex_everything
+            target = SIC
+            type = annex_everything
         }
 	}
-
+	option = {
+		name = italy.8.c
+		ITA = {
+		    declare_war_on = {
+                target = SIC
+                type = annex_everything
+            }
+		}
+		SIC = {
+		    change_tag_from = ITA
+		}
+	}
+	
 }
 
 country_event = {
