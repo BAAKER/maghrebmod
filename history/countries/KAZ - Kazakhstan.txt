@@ -1,6 +1,6 @@
-﻿capital = 230 #Yerevan, Armenia
+﻿capital = 586 #Almaty
 
-oob = "AZR_1936"
+oob = "KAZ_1936"
 
 set_research_slots = 3
 
@@ -40,66 +40,38 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		reformism = { 
-			popularity = 45
-		}
-
-		traditionalism = {
-			popularity = 7
+		democratic = { 
+			popularity = 60
 		}
 		
 		communism = {
-			popularity = 5
-		}
-		
-		paternalism = {
-			popularity = 10
-		}
-		
-		conservatism = {
-			popularity = 10
-		}
-		
-		liberalism = {
-			popularity = 23
-		}
+			popularity = 40
+		}		
 	}
-	
-	ruling_party = reformism
-	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Drastamat Kanayan"
+	name = "Nikolay Aleksandrovich Skvortsov"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	picture = ""
 	expire = "1953.3.1"
-	ideology = reformism
+	ideology = stalinism
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Hovhannes Kajaznuni"
+	name = "Ilyas Zhansugurov"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = ""
 	expire = "1953.3.1"
-	ideology = reformism
+	ideology = conservatism
 	traits = {
 		
 	}
 }
 
-create_country_leader = {
-	name = "Grigor Harutyunyan"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = reformism
-	traits = {
-		
-	}
-}
+
 
 

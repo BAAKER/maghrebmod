@@ -107,58 +107,18 @@ create_country_leader = {
 	desc = "POLITICS_AGUSTIN_PEDRO_JUSTO_DESC"
 	picture = "Portrait_Argentina_Agustin_Pedro_Justo.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = national_democracy
 	traits = {
 		#
 	}
 }
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-		democratic = { 
-			popularity = 5
-		}
-
-		fascism = {
-			popularity = 5
-		}
-		
-		communism = {
-			popularity = 12
-		}
-		
-		neutrality = { 
-			popularity = 78
-		}
-	}
-	
-	ruling_party = neutrality
-		last_election = "1937.9.5"
-		election_frequency = 108
-		elections_allowed = yes
-	}
-
-	create_country_leader = {
-		name = "Roberto María Ortiz"
-		desc = "POLITICS_ROBERTO_MARIA_ORTIZ_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			#
-		}
-	}
-}
-
 
 create_country_leader = {
 	name = "Nimo de Anquín"
 	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_democracy
 	traits = {
 		#
 	}
@@ -169,7 +129,7 @@ create_country_leader = {
 	desc = "POLITICS_MARCELO_ALVEAR_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = national_democracy
 	traits = {
 		#
 	}
@@ -180,7 +140,7 @@ create_country_leader = {
 	desc = "POLITICS_FANNY_JABCOVSKY_DESC"
 	picture = "Portrait_Argentina_Fanny_Jabcovsky.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = national_democracy
 	traits = {
 		#
 	}

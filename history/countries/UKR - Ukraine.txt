@@ -1,6 +1,6 @@
-﻿capital = 230 #Yerevan, Armenia
+﻿capital = 202 #Kiev
 
-oob = "AZR_1936"
+oob = "UKR_1936"
 
 set_research_slots = 3
 
@@ -40,66 +40,63 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		reformism = { 
-			popularity = 45
+		democratic = { 
+			popularity = 15
 		}
 
-		traditionalism = {
-			popularity = 7
+		fascism = {
+			popularity = 30
 		}
 		
 		communism = {
-			popularity = 5
+			popularity = 50
 		}
-		
-		paternalism = {
-			popularity = 10
-		}
-		
-		conservatism = {
-			popularity = 10
-		}
-		
-		liberalism = {
-			popularity = 23
-		}
-	}
-	
-	ruling_party = reformism
-	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Drastamat Kanayan"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = reformism
-	traits = {
-		
 	}
 }
 
 create_country_leader = {
-	name = "Hovhannes Kajaznuni"
+	name = "Kost Levytsky"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1953.3.1"
-	ideology = reformism
+	ideology = conservatism
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Grigor Harutyunyan"
+	name = "Nikita Sergeyevich Khrushchev"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	expire = "1953.3.1"
-	ideology = reformism
+	ideology = marxism
 	traits = {
 		
 	}
 }
+
+create_country_leader = {
+	name = "Stepan Bandera"
+	desc = ""
+	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+	expire = "1953.3.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+
+#create_country_leader = {
+#	name = ""
+#	desc = ""
+#	picture = ""
+#	expire = "1953.3.1"
+#	ideology = oligarchism
+#	traits = {
+#		
+#	}
+#}
+
 
 

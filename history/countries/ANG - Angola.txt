@@ -1,6 +1,6 @@
-capital = 495
+﻿capital = 540
 
-oob = "BBR_1936"
+oob = "ANG_1936"
 
 # Starting tech
 set_technology = {
@@ -39,45 +39,37 @@ set_convoys = 5
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
 		synth_oil_experiments = 1
-		oil_plant = 1
+		oil_processing = 1
 		construction1 = 1
 		construction2 = 1
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
 }
-set_politics = 
-{
-    parties = 
-	{
-        anarchism= { 
-            popularity = 80
-        }
+set_politics = {
 
-        traditionalism = {
-            popularity = 20
-        }
-        
-        paternalism = {
-            popularity = 0
-        }
-        
-        liberalism = { 
-            popularity = 0
-        }
-    }    
-    ruling_party = traditionalism
-    elections_allowed = no
+	parties = {
+		traditionalism = { 
+			popularity = 100
+		}
+	}
+	
+	ruling_party = traditionalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 create_country_leader = {
 	
-	name = "Jirovlas Huesos"
-    desc = "POLITICS_JIROVLAS_HUESOS_DESC"
-	picture = ""
+	name = "Jonas Lote"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = traditionalism
-	traits = { 
-		
-			}
+	traits = {
+		#
+	}
+}
+
+
 }
