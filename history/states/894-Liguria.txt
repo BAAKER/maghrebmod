@@ -15,18 +15,6 @@ state = {
 		victory_points = {
 			6788 10 
 		}
-		buildings = {
-			infrastructure = 7
-			industrial_complex = 1
-			arms_factory = 2
-			dockyard = 3
-			6973 = {
-				naval_base = 10
-			}
-			6788 = {
-				naval_base = 8
-			}
-		}
 		add_core_of = ITA
 	}
 	provinces = { 3772 6788 6973 11891 }
