@@ -161,27 +161,5 @@ buildings = {
 		value = 10
 		infrastructure_construction_effect = yes
 	}
-
-        
-	private_enterprise = {
-		show_on_map = 6
-		base_cost = -1
-		general_production = 1
-		icon_frame = 14
-		max_level = 20
-		shares_slots = yes
-		value = 5
-		infrastructure_construction_effect = yes
-	}
-        
-	cooperative_enterprise = {
-		show_on_map = 6
-		base_cost = -1
-		general_production = 1
-		icon_frame = 14
-		max_level = 20
-		shares_slots = yes
-		value = 5
-		infrastructure_construction_effect = yes
-	}
+   
 }

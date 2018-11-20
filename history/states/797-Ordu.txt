@@ -15,5 +15,5 @@ state= {
 		}
 		add_core_of = TUR
 	}
-	provinces = { 960 975 11894 }
+	provinces = { 975 11894 }
 }
