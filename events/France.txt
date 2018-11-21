@@ -8,16 +8,13 @@ country_event = {
 	picture = 
 	
 	is_triggered_only = yes
-<<<<<<< HEAD
-=======
-	
+
 	fire_only_once = yes
 	
 	trigger = {
 		tag = FRA
 		has_completed_focus = FRA_maneuvre
 	}
->>>>>>> 6a7510529c84c21361aa8b4afaafcaadba3a98e7
 	
 	option = {
 		name = france.1.a
@@ -32,16 +29,12 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-<<<<<<< HEAD
-=======
 	fire_only_once = yes
 	
 	trigger = {
 		tag = FRA
 		has_completed_focus = FRA_provocation
 	}
-	
->>>>>>> 6a7510529c84c21361aa8b4afaafcaadba3a98e7
 	option = {
 		name = france.2.a
 		GER = { country_event = { days = 2 id = ger.3 } }

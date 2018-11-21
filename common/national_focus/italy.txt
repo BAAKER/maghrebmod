@@ -14,7 +14,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_start_fight_with_mafia
-		icon = GFX_goal_unknown
+		icon = GFX_ITA_start_fight_with_mafia
 		cost = 3
 		available = {
             has_country_flag = IV_congress_CIRC
@@ -33,7 +33,7 @@ focus_tree = {
 	
 	focus = {
 		id = ITA_power_method
-		icon = GFX_goal_unknown
+		icon = GFX_ITA_power_method
 		cost = 2
 		available = {
             has_country_flag = power_struggle
@@ -66,7 +66,7 @@ focus_tree = {
 	
 	focus = {
 		id = ITA_forced_to_exile
-		icon = GFX_goal_unknown
+		icon = GFX_ITA_force_mafia_to_emigrate
 		cost = 10
 		available = {
             has_country_flag = arrest_of_leaders_of_mafia
@@ -148,7 +148,10 @@ focus_tree = {
 	focus = {
 		id = ITA_il_nostro_ordine
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 5
+		available = {
+            has_country_flag = the_victory_over_the_mafia
+        }
 		prerequisite = {
 			focus = ITA_clashes_in_Palermo
 		}
@@ -156,6 +159,11 @@ focus_tree = {
             focus = ITA_Padre_di_Sicilia
         }
 		completion_reward = {
+		    country_event = {
+                id = italy.10
+                days = 2
+            }
+		    remove_ideas = instability_in_south
 		}
 		x = 3
 		y = 4
@@ -164,7 +172,10 @@ focus_tree = {
 	focus = {
 		id = ITA_Padre_di_Sicilia
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 2
+		available = {
+		    always = no
+		}
 		prerequisite = {
 			focus = ITA_clashes_in_Palermo
 		}
@@ -271,6 +282,9 @@ focus_tree = {
 		id = ITA_to_start_industrialization_of_south
 		icon = GFX_goal_unknown
 		cost = 1
+		available = {
+            controls_state = 115
+        }
 		completion_reward = {
 		}
 		x = 11

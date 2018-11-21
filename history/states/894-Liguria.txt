@@ -1,7 +1,7 @@
 state = {
 	id=894
 	name="STATE_894"
-	manpower = 1770915
+	manpower = 1670915
 	state_category = metropolis
 	resources={
 		steel=18
@@ -17,5 +17,5 @@ state = {
 		}
 		add_core_of = ITA
 	}
-	provinces = { 3772 6788 6973 11891 }
+	provinces = { 3772 6788 6973 }
 }
