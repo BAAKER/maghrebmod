@@ -191,12 +191,6 @@ country_event = {
         }
 		custom_effect_tooltip = officer_uprising_in_north_of_country_tt
 		hidden_effect = {
-		    all_state = {
-			    limit = {
-				    is_core_of = ITA
-				}
-				add_core_of = PIT
-			}
 			PIT = {
 			    transfer_state = 158
 				transfer_state = 159
@@ -208,13 +202,40 @@ country_event = {
                     type = annex_everything
                 }
 			}
-			declare_war_on = {
-                target = PIT
-                type = annex_everything
-            }
+			
+			2 = { add_core_of = PIT }
+			114 = { add_core_of = PIT }
+			115 = { add_core_of = PIT }
+			117 = { add_core_of = PIT }
+			156 = { add_core_of = PIT }
+			157 = { add_core_of = PIT }
+			158 = { add_core_of = PIT }
+			159 = { add_core_of = PIT }
+			160 = { add_core_of = PIT }
+			161 = { add_core_of = PIT }
+			162 = { add_core_of = PIT }
+			163 = { add_core_of = PIT }
+			887 = { add_core_of = PIT }
+			888 = { add_core_of = PIT }
+			889 = { add_core_of = PIT }
+			890 = { add_core_of = PIT }
+			891 = { add_core_of = PIT }
+			892 = { add_core_of = PIT }
+			893 = { add_core_of = PIT }
+			894 = { add_core_of = PIT }
+			895 = { add_core_of = PIT }
+			896 = { add_core_of = PIT }
 			country_event = {
                 id = italy.12
-                days = 0
+                days = 3
+            }
+			country_event = {
+                id = italy.13
+                days = 20
+            }
+			country_event = {
+                id = italy.14
+                days = 30
             }
 		}
 	}
@@ -251,6 +272,10 @@ country_event = {
 		}
 	}
 	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
 	option = {
 		name = italy.11.a
 		add_political_power = -50
@@ -273,6 +298,17 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	immediate = { 
+	    hidden_effect = {
+		    PIT = {
+			    declare_war_on = {
+                    target = ITA
+                    type = annex_everything
+                }
+			}
+		}
+	}
+	
 	option = {
 		name = italy.12.a
 
@@ -282,6 +318,97 @@ country_event = {
 		name = italy.12.b
 		trigger = { is_ai = no }
         PIT = {
+		    change_tag_from = ITA
+		}
+	}
+
+}
+
+country_event = {
+	id = italy.13
+	title = italy.13.t
+	desc = italy.13.d
+	picture = nope
+	
+	is_triggered_only = yes
+	
+	immediate = { 
+	    hidden_effect = {
+			GAR = {
+			    transfer_state = 895
+				load_oob = "GAR_1928"
+			}
+			2 = { add_core_of = GAR }
+			114 = { add_core_of = GAR }
+			115 = { add_core_of = GAR }
+			117 = { add_core_of = GAR }
+			156 = { add_core_of = GAR }
+			157 = { add_core_of = GAR }
+			158 = { add_core_of = GAR }
+			159 = { add_core_of = GAR }
+			160 = { add_core_of = GAR }
+			161 = { add_core_of = GAR }
+			162 = { add_core_of = GAR }
+			163 = { add_core_of = GAR }
+			887 = { add_core_of = GAR }
+			888 = { add_core_of = GAR }
+			889 = { add_core_of = GAR }
+			890 = { add_core_of = GAR }
+			891 = { add_core_of = GAR }
+			892 = { add_core_of = GAR }
+			893 = { add_core_of = GAR }
+			894 = { add_core_of = GAR }
+			895 = { add_core_of = GAR }
+			896 = { add_core_of = GAR }
+			declare_war_on = {
+                target = GAR
+                type = annex_everything
+            }
+		}
+	}
+	
+	option = {
+		name = italy.13.a
+
+	}
+	
+	option = {
+		name = italy.13.b
+		trigger = { is_ai = no }
+        GAR = {
+		    change_tag_from = ITA
+		}
+	}
+
+}
+
+country_event = {
+	id = italy.14
+	title = italy.14.t
+	desc = italy.14.d
+	picture = nope
+	
+	is_triggered_only = yes
+	
+	immediate = { 
+	    hidden_effect = {
+			ZAR = {
+			    transfer_state = 163
+			}
+			163 = { add_core_of = ZAR }
+		
+		}
+	}
+	
+	option = {
+		name = italy.14.a
+
+	}
+	
+	option = {
+		name = italy.14.b
+		trigger = { is_ai = no }
+        ZAR = {
 		    change_tag_from = ITA
 		}
 	}
