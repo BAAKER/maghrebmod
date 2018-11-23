@@ -8,6 +8,21 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+	name = "GFX_ITA_start_fight_with_mafia"
+	texturefile = "gfx/interface/goals/ITA_start_fight_with_mafia.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_ITA_force_mafia_to_emigrate"
+	texturefile = "gfx/interface/goals/ITA_force_mafia_to_emigrate.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_ITA_power_method"
+	texturefile = "gfx/interface/goals/ITA_power_method.dds"			
+	}
+	
+	SpriteType = {
 	name = "GFX_goal_continuous_air_production"
 	texturefile = "gfx/interface/goals/goal_continuous_air_production.dds"			
 	}	

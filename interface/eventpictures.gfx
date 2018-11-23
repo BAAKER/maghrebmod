@@ -1,6 +1,26 @@
 spriteTypes = {
 	
 	spriteType = {
+		name = "GFX_report_event_fourth_rally_of_pci"
+		texturefile = "gfx/event_pictures/report_event_fourth_rally_of_pci.dds"
+	}
+
+    spriteType = {
+		name = "GFX_report_event_mafia_prevail"
+		texturefile = "gfx/event_pictures/report_event_mafia_prevail.dds"
+	}	
+
+    spriteType = {
+		name = "GFX_report_event_clashes_with_mafia"
+		texturefile = "gfx/event_pictures/report_event_clashes_with_mafia.dds"
+	}
+
+    spriteType = {
+		name = "GFX_report_event_mafia_takes_control"
+		texturefile = "gfx/event_pictures/report_event_mafia_takes_control.dds"
+	}	
+	
+	spriteType = {
 		name = "GFX_report_event_canada_ronnie"
 		texturefile = "gfx/event_pictures/report_event_canada_ronnie.dds"
 	}		

@@ -1,0 +1,10 @@
+ITA_Fight_for_Sicily = {
+	
+	allowed = {
+		original_tag = ITA
+	}
+
+	visible = {
+		has_country_flag = ITA_war_with_Sicily
+	}
+}
