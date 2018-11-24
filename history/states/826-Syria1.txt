@@ -11,6 +11,7 @@ state= {
 			infrastructure = 2
 		}
 		add_core_of = KUR
+                add_core_of = SYR
 	}
 	provinces = { 901 1606 1634 6883 }
 }
