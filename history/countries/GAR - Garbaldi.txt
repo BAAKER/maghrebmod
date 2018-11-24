@@ -1,6 +1,6 @@
 ﻿capital = 895
 
-oob = ""
+oob = "Nope"
 
 set_research_slots = 4
 

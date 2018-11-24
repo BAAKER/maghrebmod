@@ -201,6 +201,7 @@ country_event = {
                     target = SIC
                     type = annex_everything
                 }
+				load_oob = "PIT_1928"
 			}
 			
 			2 = { add_core_of = PIT }
@@ -227,7 +228,7 @@ country_event = {
 			896 = { add_core_of = PIT }
 			country_event = {
                 id = italy.12
-                days = 3
+                days = 10
             }
 			country_event = {
                 id = italy.13
@@ -394,6 +395,7 @@ country_event = {
 	    hidden_effect = {
 			ZAR = {
 			    transfer_state = 163
+				load_oob = "ZAR_1928"
 			}
 			163 = { add_core_of = ZAR }
 		}
