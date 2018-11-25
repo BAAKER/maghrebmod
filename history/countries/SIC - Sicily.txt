@@ -1,6 +1,6 @@
 ﻿capital = 115
 
-oob = 
+oob = "Nope"
 
 set_research_slots = 4
 
@@ -39,7 +39,7 @@ set_technology = {
 }
 
 set_convoys = 100
-set_national_unity = 0.5
+set_stability = 0.5
 
 set_politics = {
 

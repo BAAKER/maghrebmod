@@ -1,0 +1,102 @@
+division_template = { 
+	name = "Divisione d'assalto di Garibaldi" 
+	division_names_group = GAR_INF_01 
+
+	regiments = { 
+		infantry = { x = 0 y = 0 } 
+		infantry = { x = 0 y = 1 } 
+		infantry = { x = 0 y = 2 } 
+		infantry = { x = 1 y = 0 } 
+		infantry = { x = 1 y = 1 } 
+		infantry = { x = 1 y = 2 } 
+	} 
+	support = { 
+		artillery = { x = 0 y = 0 } 
+	} 
+} 
+
+division_template = { 
+	name = "Seconda divisione garibaldina" 
+	division_names_group = GAR_INF_02
+
+	regiments = { 
+		infantry = { x = 0 y = 0 } 
+		infantry = { x = 0 y = 1 } 
+	}  
+}
+
+division_template = { 
+	name = "Divisione di volontari Greci" 
+	division_names_group = GAR_INF_03
+
+	regiments = { 
+		mountaineers = { x = 0 y = 0 } 
+		mountaineers = { x = 0 y = 1 } 
+	} 
+} 
+
+division_template = { 
+	name = "Divisione Garibaldi Equestre" 
+	division_names_group = GAR_CAV_01 
+
+	regiments = { 
+		cavalry = { x = 0 y = 0 } 
+		cavalry = { x = 0 y = 1 } 
+	} 
+} Divisione blindata dei Garibaldi
+
+division_template = { 
+	name = "Divisione blindata di Garibaldi" 
+	division_names_group = GAR_MEC_01 
+
+	regiments = { 
+		light_armor = { x = 0 y = 0 } 
+	} 
+}
+
+units = { 
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		} 
+		location =  11837
+		division_template = "Divisione d'assalto di Garibaldi"
+		start_experience_factor = 0.3 
+	} 
+	
+	division = { 
+		name = "Seconda divisione garibaldina"
+		location =  11837
+		division_template = "Seconda divisione garibaldina"
+		start_experience_factor = 0.3 
+	} 
+	
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		} 
+		location =  11837
+		division_template = "Divisione di volontari Greci"
+		start_experience_factor = 0.3 
+	}
+	
+	division = { 
+		name = "Prima divisione equestre di Garibaldi" 
+		location =  11837
+		division_template = "Divisione Garibaldi Equestre"
+		start_experience_factor = 0.3 
+	}
+	
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		} 
+		location =  11837
+		division_template = "Divisione blindata di Garibaldi"
+		start_experience_factor = 0.3 
+	}
+}

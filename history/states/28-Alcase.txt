@@ -17,7 +17,7 @@ state={
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 3
-			549 = {
+			1346 = {
 				bunker = 2
 
 			}
@@ -30,10 +30,6 @@ state={
 
 			}
 			6529 = {
-				bunker = 2
-
-			}
-			9503 = {
 				bunker = 2
 
 			}
@@ -50,6 +46,7 @@ state={
 
 		}
 		add_core_of = GER
+                add_core_of = FRA
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4

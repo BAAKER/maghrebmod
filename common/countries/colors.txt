@@ -634,3 +634,13 @@ PIT = {
 	color = rgb { 133  133  5 }
 	color_ui = rgb { 128 128 0 }
 }
+
+GAR = {
+	color = rgb { 158  255  158 }
+	color_ui = rgb { 153 255 153 }
+}
+
+ZAR = {
+	color = rgb { 199  123  61 }
+	color_ui = rgb { 194 118 56 }
+}
