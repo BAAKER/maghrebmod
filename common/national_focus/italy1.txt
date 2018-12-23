@@ -6,7 +6,7 @@ focus_tree = {
 		
 		modifier = {
 			add = 10
-			tag = ITA
+			tag = PIT
 		}
 	}
 	
@@ -15,13 +15,300 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1100 }
 	
     focus = {
-		id = ITA_mafia_1
+		id = PIT_martial_law
 		icon = GFX_goal_unknown
 		cost = 1
 		completion_reward = {
 		}
-		x = 2
+		x = 5
 		y = 0
 	}
 	
+	focus = {
+		id = PIT_nice_restoration
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = PIT_martial_law
+		}
+		completion_reward = {
+		}
+		x = 2
+		y = 1
+	}
+	
+	focus = {
+		id = PIT_absolute_monarchy
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = PIT_nice_restoration
+		}
+		mutually_exclusive = {
+            focus = PIT_constitutional_monarchy
+        }
+		completion_reward = {
+		}
+		x = 1
+		y = 2
+	}
+	
+	focus = {
+		id = PIT_constitutional_monarchy
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = PIT_nice_restoration
+		}
+		mutually_exclusive = {
+            focus = PIT_absolute_monarchy
+        }
+		completion_reward = {
+		}
+		x = 3
+		y = 2
+	}
+	
+	focus = {
+		id = PIT_white_terror
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = PIT_absolute_monarchy
+		}
+		completion_reward = {
+		}
+		x = 1
+		y = 3
+	}
+	
+	focus = {
+		id = PIT_restore_order
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = PIT_constitutional_monarchy
+		}
+		completion_reward = {
+		}
+		x = 3
+		y = 3
+	}
+	
+	focus = {
+		id = PIT_privatization_of_industry
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+		    focus = PIT_white_terror
+			focus = PIT_restore_order
+		}
+		completion_reward = {
+		}
+		x = 2
+		y = 4
+	}
+	
+	focus = {
+		id = PIT_order_number_8
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+		    focus = PIT_privatization_of_industry
+		}
+		completion_reward = {
+		}
+		x = 0
+		y = 5
+	}
+	
+	focus = {
+		id = PIT_attract_foreign_capital
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+		    focus = PIT_privatization_of_industry
+		}
+		completion_reward = {
+		}
+		x = 2
+		y = 5
+	}
+	
+	focus = {
+		id = PIT_german_designer
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+		    focus = PIT_privatization_of_industry
+			focus = PIT_the_mobilization_of_industry
+		}
+		completion_reward = {
+		}
+		x = 5
+		y = 5
+	}
+	
+	focus = {
+		id = PIT_mobilization_of_the_population
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+		    focus = PIT_attract_foreign_capital
+		}
+		completion_reward = {
+		}
+		x = 2
+		y = 6
+	}
+	
+	focus = {
+		id = PIT_alliance_with_Garibaldi
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = PIT_martial_law
+		}
+		completion_reward = {
+		}
+		x = 5
+		y = 1
+	}
+	
+	focus = {
+		id = PIT_recognize_dannunzio
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = PIT_alliance_with_Garibaldi
+		}
+		completion_reward = {
+		}
+		x = 5
+		y = 2
+	}
+	
+	focus = {
+		id = PIT_recognize_sicily
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = PIT_recognize_dannunzio
+		}
+		completion_reward = {
+		}
+		x = 5
+		y = 3
+	}
+	
+	focus = {
+		id = PIT_non_decision
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = PIT_martial_law
+		}
+		completion_reward = {
+		}
+		x = 8
+		y = 1
+	}
+	
+	focus = {
+		id = PIT_shaky_alliance_of_officers
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = PIT_non_decision
+		}
+		mutually_exclusive = {
+            focus = PIT_predominance_of_republicans
+        }
+		completion_reward = {
+		}
+		x = 7
+		y = 2
+	}
+	
+	focus = {
+		id = PIT_predominance_of_republicans
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = PIT_non_decision
+		}
+		mutually_exclusive = {
+            focus = PIT_shaky_alliance_of_officers
+        }
+		completion_reward = {
+		}
+		x = 9
+		y = 2
+	}
+	
+	focus = {
+		id = PIT_to_interest_the_population
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+		    focus = PIT_shaky_alliance_of_officers
+			focus = PIT_predominance_of_republicans
+		}
+		completion_reward = {
+		}
+		x = 8
+		y = 3
+	}
+	
+	focus = {
+		id = PIT_the_mobilization_of_industry
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+		    focus = PIT_to_interest_the_population
+		}
+		completion_reward = {
+		}
+		x = 8
+		y = 4
+	}
+	
+	focus = {
+		id = PIT_ask_france_for_help
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+		    focus = PIT_the_mobilization_of_industry
+		}
+		completion_reward = {
+		}
+		x = 8
+		y = 5
+	}
+	
+	focus = {
+		id = PIT_help_britain
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+		    focus = PIT_the_mobilization_of_industry
+		}
+		completion_reward = {
+		}
+		x = 10
+		y = 5
+	}
+	
+	focus = {
+		id = PIT_power_tension
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+		    focus = PIT_ask_france_for_help
+		}
+		completion_reward = {
+		}
+		x = 8
+		y = 6
+	}
 }

@@ -338,6 +338,10 @@ country_event = {
 			GAR = {
 			    transfer_state = 895
 				load_oob = "GAR_1928"
+				declare_war_on = {
+                    target = SIC
+                    type = annex_everything
+                }
 			}
 			2 = { add_core_of = GAR }
 			114 = { add_core_of = GAR }
@@ -365,6 +369,12 @@ country_event = {
                 target = GAR
                 type = annex_everything
             }
+			PIT = {
+			    declare_war_on = {
+                    target = GAR
+                    type = annex_everything
+                }
+			}
 		}
 	}
 	

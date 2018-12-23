@@ -39,7 +39,7 @@ units = {
 		} 
 		location =  6788
 		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.4 
+		start_experience_factor = 0.3
 	} 
 	division = { 
 		division_name = {
@@ -48,7 +48,7 @@ units = {
 		} 
 		location =  6788
 		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.4 
+		start_experience_factor = 0.3
 	} 
 	division = { 
 		division_name = {
@@ -57,7 +57,7 @@ units = {
 		} 
 		location = 6788
 		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 	} 
 	division = { 
 		division_name = {
@@ -66,7 +66,7 @@ units = {
 		} 
 		location =  6780 
 		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 	} 
 	division = { 
 		division_name = {
@@ -75,7 +75,7 @@ units = {
 		} 
 		location =  6780 
 		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 	} 
 	division = { 
 		division_name = {
@@ -84,7 +84,7 @@ units = {
 		} 
 		location =  6780 
 		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.4 
+		start_experience_factor = 0.3
 	} 
 	division = { 
 		division_name = {
@@ -93,7 +93,7 @@ units = {
 		} 
 		location =  6780 
 		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 	} 
 	division = { 
 		division_name = {
@@ -102,7 +102,7 @@ units = {
 		} 
 		location =  6973
 		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 	} 
 	division = { 
 		division_name = {
@@ -111,7 +111,7 @@ units = {
 		} 
 		location =  6973
 		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 	} 
 	division = { 
 		division_name = {
@@ -120,7 +120,7 @@ units = {
 		} 
 		location =  6973
 		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 	} 
 	division = { 
 		division_name = {
@@ -129,7 +129,7 @@ units = {
 		} 
 		location =  6973
 		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 	} 
 	division = { 
 		division_name = {
@@ -138,7 +138,7 @@ units = {
 		} 
 		location =  3780 
 		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 	} 
 	division = { 
 		division_name = {
@@ -147,7 +147,7 @@ units = {
 		} 
 		location =  3780 
 		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 	} 
 	division = { 
 		division_name = {
@@ -156,7 +156,7 @@ units = {
 		} 
 		location =  3780 
 		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 	} 
 	division = { 
 		division_name = {
@@ -165,7 +165,7 @@ units = {
 		} 
 		location =  3780 
 		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.3
 	} 
 
 	division = { 

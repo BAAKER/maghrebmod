@@ -20,7 +20,7 @@ units = {
 		} 
 		location =  3943
 		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	} 
 	division = { 
 		division_name = {
@@ -29,7 +29,7 @@ units = {
 		} 
 		location =  3943
 		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	} 
 	division = { 
 		division_name = {
@@ -38,7 +38,7 @@ units = {
 		} 
 		location = 3943
 		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.8
+		start_experience_factor = 0.9
 	} 
 	division = { 
 		division_name = {
@@ -47,7 +47,7 @@ units = {
 		} 
 		location =  3943 
 		division_template = "Divisione di Fanteria"
-		start_experience_factor = 0.8
+		start_experience_factor = 0.9
 	} 
 	
 }
