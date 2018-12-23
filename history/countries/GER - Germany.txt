@@ -65,6 +65,11 @@ set_autonomy = {
 	autonomous_state = colony
 }
 
+set_autonomy = {
+	target = AUS
+	autonomous_state = autonomy_reichsprotectorate
+}
+
 set_politics = {
 
 	parties = {
