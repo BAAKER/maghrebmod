@@ -17,7 +17,7 @@ focus_tree = {
     focus = {
 		id = PIT_martial_law
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 2
 		completion_reward = {
 		}
 		x = 5
