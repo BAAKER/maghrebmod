@@ -1,6 +1,6 @@
 add_namespace = northitaly
 
-country_event = {
+country_event = { # Martial Law
 	id = northitaly.1
 	title = northitaly.1.t
 	desc = northitaly.1.d
@@ -19,3 +19,24 @@ country_event = {
 		name = northitaly.1.a
 	}
 }
+
+country_event = { # Glorious Restoration
+	id = northitaly.2
+	title = northitaly.2.t
+	desc = northitaly.2.d
+	picture = 
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = PIT
+		has_completed_focus = PIT_nice_restoration
+	}
+	
+	option = {
+		name = northitaly.2.a
+	}
+}
+
