@@ -1,5 +1,6 @@
 ﻿l_english:
- usa.1.t:0 "Violence against black burns again in Louisiana"
+#United States of America
+ usa.1.t:0 "Violence against blacks burns again in Louisiana"
  usa.1.d:0 "Since last week lynching courts made several sentences, 12 blacks were killed and dozens were injured. White population fell into rage after the news that black male robbed white woman. The rumor shattered immediately and crowds of raged lynchers and organized mayhems of black population. What will government do?"
  usa.1.a:0 "We can't do anything..."
  usa.1.b:0 "There's nothing bad!"
@@ -8,3 +9,43 @@
  usa.2.a:0 "We can't do anything, again..."
  usa.2.b:0 "I said, there's nothing bad!"
  usa.2.c:0 "We can't intervene, but give compensations to black people."
+ 
+ #Germany
+ ger.1.t:0 "Murder of Erich Lüdendorf"
+ ger.1.d:0 "Erich Lüdendorf at the first time in his Chancellorship decided to visit German colonies, and expolore their state of affair, The First Place he decided to visit was German Morocco, but when local colonial administration was receiving Chancellor, they were attacked by local rebels. General has been heavily injured, one official murdered, and seven soldiers wounded. He didn't receive any appropriate help, and died ten minutes later. "
+ ger.1.a:0 "Rest in Peace, General"
+ ger.2.t:0 "Red Protesters"
+ ger.2.d:0 "The body of Erich Ludendorff was transported from Morocco to Berlin and prepared for burial. When the coffin was solemnly transported around the city, leftist demonstrators with posters, about a dozen people, were seen in the crowd."
+ ger.2.a:0 "Nobody will notice them... Right?"
+ ger.2.b:0 "Arrest them and interrogate"
+ ger.2.c:0 "Arrest them and shoot them!"
+ ger.3.t:0 "Thionville Provocation"
+ ger.3.d:0 "С французской приграничной линии доходят известия о том, что наши войска якобы решили спровоцировать французов и нарушить и без того хрупкий мир между нашими государствами. Так как мы не имеем никаких доказательств о причастности самих французов к развязыванию данного инцидента, то имеет смысл полагать, что мы и вправду виноваты в столь громоздком событии. "
+ ger.3.a:0 "Да кого там ещё несёт?"
+ 
+ #Russia
+ russia.1.t:0 "Подготовка к выборам"
+ russia.1.d:0 ""
+ russia.1.a:0 "Подготовить Корнилова к третьему срока в нарушение правил."
+ russia.1.b:0 "Выдвинуть Деникина на демократические выборы."
+ russia.1.c:0 "Подготовиться к отмене выборов."
+ russia.1.d:0 "Пусть выборы пройдут... пора на пенсию."
+ russia.2.t:0 "Делаем ставки"
+ russia.2.a:0 "Выборы успешно пройдут"
+ russia.2.b:0 "Выборы будут отменены"
+ 
+ #France aka the Forth Republic
+ france.1.t:0 "Military maneuvers in Nancy"
+ france.1.d:0 "Недавно прошедшая Парижская конференция показала, что наше французское общество едино в мнении по-поводу вопроса с Эльзасом и Лотарингией; все поголовно считают, что затянувшаяся немецкая оккупация больше не может продолжаться и нам срочно нужно предпринять меры. Впоследствии просьба по планированию и организации мероприятий по возвращению наших исконных земель была передана в генеральный штаб, где маршал Петен предложил провести военные манёвры близ Наньси под видом учений и впоследствии уличить немцев в попытке провокации и розжига очередной межнациональной войны. Национальное собрание Франции уже проголосовало по этому поводу, но решающее слово за Вами, господин Дегрелль."
+ france.1.a:0 "Affirm"
+ france.2.t:0 "Тьонвильская провокация"
+ france.2.d:0 "Манёвры прошли успешно! Как мы и полагали, немцы не ожидали подобного рода действий и не успели должным образом сориентироваться в пространстве, в связи с чем мы теперь имеем полный карт-бланш на дальнейшие притязания к Эльзасу и Лотарингии."
+ france.2.a:0 "Just as planned!"
+ 
+ #North Italy aka the Italian State
+ northitaly.1.t:0 "Imposing Martial Law in controlled territory"
+ norhtitaly.1.d:0 "С самого начала войны, наше правительство так и не сумела эффективно организовать хозяйство и полицию для введения войны. Тем самым, мы вынуждены ввести военное положения на территории всех подконтрольных территории. Хотя это может быть непопулярным, мы вынуждены ограничить свободы граждан и призвать всех резервистов в армию"
+ northitaly.1.a:0 "Impose Martial Law"
+ northitaly.2.t:0 "Восстановить монархию в обход воли народа?"
+ northitaly.2.d:0 "Мы решили, что страну нужно объединить вокруг сильной руки монарха, к сожалению, такового мы не имеем, поэтому до возвращения законного короля будет установлено регентство его жены - Марии Жозе I, королевы Италии."
+ northitaly.2.a:0 "God bless our Kingdom!"
