@@ -1,0 +1,82 @@
+add_namespace = northitaly
+
+country_event = {
+	id = northitaly.1
+	title = northitaly.1.t
+	desc = northitaly.1.d
+	picture = 
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = PIT
+		has_completed_focus = PIT_martial_law
+	}
+	
+	option = {
+		name = northitaly.1.a
+		add_stability = 0.05
+		add_manpower = 15000
+		add_political_power = -50
+	}
+}
+
+country_event = {
+	id = northitaly.2
+	title = northitaly.2.t
+	desc = northitaly.2.d
+	picture = 
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = PIT
+		has_completed_focus =  PIT_nice_restoration
+	}
+	
+	option = {
+		name = northitaly.2.a
+		add_popularity = {
+			ideology = traditionalism
+			popularity = 0.1
+		}
+		add_political_power = 50
+		add_stability = -0.1
+		set_politics = {
+			ruling_party = traditionalism
+		}
+		set_country_flag = coronation
+	}
+}
+
+country_event = {
+	id = northitaly.3
+	title = northitaly.3.t
+	desc = northitaly.3.d
+	picture = 
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = PIT
+		has_country_flag = coronation
+	}
+	
+	option = {
+		name = northitaly.3.a
+		add_stability = -0.05
+		set_country_flag = queenstays
+	}
+	
+	option = {
+		name = northitaly.3.b
+		add_stability = 0.05
+		complete_national_focus = PIT_non_decision
+	}
+}

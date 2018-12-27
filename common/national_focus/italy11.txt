@@ -1,5 +1,5 @@
 focus_tree = {
-	id = italian_focus_1
+	id = italian_focus_2
 
 	country = {
 		factor = 0
@@ -47,10 +47,6 @@ focus_tree = {
 		mutually_exclusive = {
             focus = PIT_constitutional_monarchy
         }
-		available = {
-			has_country_flag = queenstays
-		}
-		
 		completion_reward = {
 		}
 		x = 1
@@ -67,9 +63,6 @@ focus_tree = {
 		mutually_exclusive = {
             focus = PIT_absolute_monarchy
         }
-		available = {
-			has_country_flag = queenstays
-		}
 		completion_reward = {
 		}
 		x = 3
