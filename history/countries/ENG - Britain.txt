@@ -145,7 +145,7 @@ create_country_leader = {
 	desc = "POLITICS_MACDONALD_DESC"
 	picture = "gfx//leaders//ENG//Portrait_Britain_James_Ramsay.dds"
 	expire = "1938.1.1"
-	ideology = reformism
+	ideology = social_democracy
 	traits = {
 		
 	}
@@ -156,7 +156,7 @@ create_country_leader = {
 	desc = "POLITICS_Austin_CHAMBERLAIN_DESC"
 	picture = "Portrait_Austin_Chamberlain.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = social_conservatism
 	traits = {
 		
 	}
@@ -167,7 +167,7 @@ create_country_leader = {
 	desc = "Politics_Mosley_desc"
 	picture = "Portrait_Oswald_mosley.dds"
 	expire = "1965.1.1"
-	ideology = natsynd
+	ideology = national_syndicalism
 	traits = {
 		
 	}
@@ -178,7 +178,7 @@ create_country_leader = { #HIGH TORY GANG HEAD
 	desc = "Politics_Herbert_Kitchener_desc"
 	picture = "Portrait_Herbert_Kitchener.dds"
 	expire = "1965.1.1"
-	ideology = traditionalism
+	ideology = high_toryism
 	traits = {
 		
 	}
@@ -189,7 +189,7 @@ create_country_leader = {
 	desc = "Politics_Harold_Alexander_desc"
 	picture = "Portrait_Harold_Alexander.dds"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = statism
 	traits = {
 		
 	}
@@ -200,7 +200,7 @@ create_country_leader = {
 	desc = "Politics_Herbert_Read_desc"
 	picture = "Portrait_Herbert_Read.dds"
 	expire = "1965.1.1"
-	ideology = anarchism
+	ideology = anarcho_communism
 	traits = {
 		
 	}
@@ -211,7 +211,7 @@ create_country_leader = {
 	desc = "Politics_David_George_desc"
 	picture = "Portrait_David_george.dds"
 	expire = "1965.1.1"
-	ideology = Liberalism
+	ideology = Social_liberalism
 	traits = {
 		
 	}
@@ -222,7 +222,7 @@ create_country_leader = {
 	desc = "Politics_Arthur_Henderson_desc"
 	picture = "Portrait_Arthur_Henderson.dds"
 	expire = "1965.1.1"
-	ideology = Democratic_Socialism
+	ideology = libertary_socialism
 	traits = {
 		
 	}
@@ -233,7 +233,7 @@ create_country_leader = {
 	desc = "Politics_Harry_Pollite_desc"
 	picture = "Portrait_Harry_Pollite.dds"
 	expire = "1965.1.1"
-	ideology = Neobol
+	ideology = Neobolsh
 	traits = {
 		
 	}
@@ -244,7 +244,7 @@ create_country_leader = {
 	desc = "Politics_George_Wardle_desc"
 	picture = "Portrait_George_Wardle.dds"
 	expire = "1965.1.1"
-	ideology = Orthomarxism
+	ideology = marxism
 	traits = {
 		
 	}

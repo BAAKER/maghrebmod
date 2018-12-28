@@ -88,7 +88,7 @@ create_country_leader = {
 	desc = "POLITICS_DEGRELLE_DESC"
 	picture = "Portrait_France_Leon_Degrelle.dds"
 	expire = "31000.1.1" #Literally God-Emperor of Mankind
-	ideology = natsynd
+	ideology = national_syndicalism
 	traits = {
 
 	}
@@ -99,7 +99,7 @@ create_country_leader = {
 	desc = "POLITICS_FLANDIN_DESC"
 	picture = "Portrait_France_Pierre_Flandin.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = social_conservatism
 	traits = {
 
 	}
@@ -110,7 +110,7 @@ create_country_leader = {
 	desc = "POLITICS_MAURRAS_DESC"
 	picture = "Portrait_Charles_Maurras.dds"
 	expire = "1965.1.1"
-	ideology = traditiobalism
+	ideology = integralism
 	traits = {
 
 	}
@@ -121,7 +121,7 @@ create_country_leader = {
 	desc = "POLITICS_GONAZLVE_DESC"
 	picture = "Portrait_Louis_Gonzalve.dds"
 	expire = "1965.1.1"
-	ideology = paternalism
+	ideology = nationalism
 	traits = {
 
 	}
@@ -132,7 +132,7 @@ create_country_leader = { #True Khokhol
 	desc = "POLITICS_CACHIN_DESC"
 	picture = "Portrait_Marcel_Cachin.dds"
 	expire = "1965.1.1"
-	ideology = Neobol
+	ideology = Neobolsh
 	traits = {
 
 	}
@@ -143,7 +143,7 @@ create_country_leader = { #Liberast
 	desc = "POLITICS_Lebrun_DESC"
 	picture = "Portrait_Albert_Lebrun.dds"
 	expire = "1965.1.1"
-	ideology = Liberalism
+	ideology = social_liberalism
 	traits = {
 
 	}
@@ -154,7 +154,7 @@ create_country_leader = {
 	desc = "POLITICS_Longuet_DESC"
 	picture = "Portrait_Jean_Longuet.dds"
 	expire = "1965.1.1"
-	ideology = Orthomarxism
+	ideology = marxism
 	traits = {
 
 	}
@@ -165,7 +165,7 @@ create_country_leader = {
 	desc = "POLITICS_Sarrautt_DESC"
 	picture = "Portrait_Albert_Sarraut.dds"
 	expire = "1965.1.1"
-	ideology = Reformism
+	ideology = social_democracy
 	traits = {
 
 	}
