@@ -198,7 +198,7 @@ focus_tree = {
 	focus = {
 		id = ITA_we_will_try_to_agree
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 5
 		available = {
             has_country_flag = diplomatic_struggle
         }
@@ -209,6 +209,10 @@ focus_tree = {
             focus = ITA_power_method
         }
 		completion_reward = {
+		    country_event = {
+                id = italy.15
+                days = 3
+            }
 		}
 		x = 7
 		y = 1
@@ -218,6 +222,9 @@ focus_tree = {
 		id = ITA_mafia_destroyed
 		icon = GFX_goal_unknown
 		cost = 1
+		available = {
+            has_country_flag = mafia_leaders_arrested
+        }
 		prerequisite = {
 			focus = ITA_we_will_try_to_agree
 		}

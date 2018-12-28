@@ -40,7 +40,7 @@ focus_tree = {
 	focus = {
 		id = PIT_absolute_monarchy
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 10
 		prerequisite = {
 			focus = PIT_nice_restoration
 		}
@@ -60,7 +60,7 @@ focus_tree = {
 	focus = {
 		id = PIT_constitutional_monarchy
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 10
 		prerequisite = {
 			focus = PIT_nice_restoration
 		}
@@ -79,11 +79,15 @@ focus_tree = {
 	focus = {
 		id = PIT_white_terror
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 5
 		prerequisite = {
 			focus = PIT_absolute_monarchy
 		}
 		completion_reward = {
+			MONTHLY_POPULATION = 0.5
+			add_stability = 0.05
+			add_political_power = 150
+			conscription = 0.01
 		}
 		x = 1
 		y = 3
@@ -92,11 +96,16 @@ focus_tree = {
 	focus = {
 		id = PIT_restore_order
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 10
 		prerequisite = {
 			focus = PIT_constitutional_monarchy
 		}
 		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 100
+			add_manpower = 50000
+			production_speed_buildings_factor = 0.05
+			training_time_army_factor = 0.05
 		}
 		x = 3
 		y = 3
@@ -105,12 +114,21 @@ focus_tree = {
 	focus = {
 		id = PIT_privatization_of_industry
 		icon = GFX_goal_unknown
-		cost = 1
+		cost = 10
 		prerequisite = {
 		    focus = PIT_white_terror
 			focus = PIT_restore_order
 		}
 		completion_reward = {
+			159 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		production_speed_buildings_factor = 0.1
+		consumer_goods_factor = 0.05
 		}
 		x = 2
 		y = 4
