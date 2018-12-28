@@ -88,7 +88,7 @@ create_country_leader = {
 	desc = "POLITICS_DEGRELLE_DESC"
 	picture = "Portrait_France_Leon_Degrelle.dds"
 	expire = "31000.1.1" #Literally God-Emperor of Mankind
-	ideology = rexisme
+	ideology = natsynd
 	traits = {
 
 	}
@@ -99,7 +99,7 @@ create_country_leader = {
 	desc = "POLITICS_FLANDIN_DESC"
 	picture = "Portrait_France_Pierre_Flandin.dds"
 	expire = "1965.1.1"
-	ideology = social_conservatism
+	ideology = conservatism
 	traits = {
 
 	}
@@ -154,7 +154,7 @@ create_country_leader = {
 	desc = "POLITICS_Longuet_DESC"
 	picture = "Portrait_Jean_Longuet.dds"
 	expire = "1965.1.1"
-	ideology = Orthodoxal_marxism
+	ideology = Orthomarxism
 	traits = {
 
 	}
