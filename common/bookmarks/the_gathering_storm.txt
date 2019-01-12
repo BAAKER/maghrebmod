@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1928.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "FRA"
 		default = yes
 		
 		"FRA"={
@@ -91,3 +91,107 @@ bookmarks = {
 		}
 	}
 }
+
+#Minors
+
+"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		# minors
+
+		"GRE"={
+			minor = yes
+			history = "GRE_GATHERING_STORM_DESC"
+			ideology = autrep
+			ideas = {
+			
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"SAF"={
+			minor = yes
+			history = "SAF_GATHERING_STORM_DESC"
+			ideology = conservatism
+			ideas = {
+			
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"CHI"={
+			minor = yes
+			history = "CHI_GATHERING_STORM_DESC"
+			ideology = paternalism
+			ideas = {
+			
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"HUN"={
+			minor = yes
+			history = "HUN_GATHERING_STORM_DESC"
+			ideology = neobol
+			ideas = {
+			
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"MEX"={
+			minor = yes
+			history = "MEX_GATHERING_STORM_DESC"
+			ideology = traditionalism
+			ideas = {
+			
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"SPR"={
+			minor = yes
+			history = "SPR_GATHERING_STORM_DESC"
+			ideology = natsynd
+			ideas = {
+			
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"TUR"={
+			minor = yes
+			history = "TUR_GATHERING_STORM_DESC"
+			ideology = paternalism
+			ideas = {
+			
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"RAJ"={
+			minor = yes
+			history = "RAJ_GATHERING_STORM_DESC"
+			ideology = reformism
+			ideas = {
+			
+			}
+			focuses = {
+				
+			}
+		}

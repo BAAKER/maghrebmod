@@ -425,3 +425,66 @@ country_event = {
 	}
 
 }
+
+country_event = {
+	id = italy.15
+	title = italy.15.t
+	desc = italy.15.d
+	picture = nope
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = italy.15.a
+        random_list = {
+            40 = {
+                country_event = {
+                    id = italy.16
+                    days = 3
+                }
+            }
+            60 = {
+                country_event = {
+                    id = italy.17
+                    days = 3
+                }
+            }
+        }
+	}
+}
+
+country_event = {
+	id = italy.16
+	title = italy.16.t
+	desc = italy.16.d
+	picture = nope
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = italy.16.a
+		remove_ideas = instability_in_south
+		add_political_power = 50
+		set_country_flag = mafia_leaders_arrested
+	}
+
+}
+
+country_event = {
+	id = italy.17
+	title = italy.17.t
+	desc = italy.17.d
+	picture = nope
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = italy.17.a
+	    country_event = {
+            id = italy.8
+            days = 3
+        }
+	}
+
+}

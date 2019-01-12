@@ -111,7 +111,7 @@ ideologies = {
 		dynamic_faction_names = {
 		}
 		
-		color = { 254 168 167 }
+		color = { 194 30 86 }
 		
 	}
 	
@@ -134,7 +134,7 @@ ideologies = {
 		
 		dynamic_faction_names = {}
 		
-		color = { 255 216 115 }
+		color = { 255 255 0 }
 
 	}
 	
@@ -156,7 +156,7 @@ ideologies = {
 		dynamic_faction_names = {
 		}
 		
-		color = { 61 90 254 }
+		color = { 10 10 250 }
 		
 	}
 	
@@ -205,7 +205,7 @@ ideologies = {
 		dynamic_faction_names = {
 		}
 		
-		color = { 64 64 64 }
+		color = { 45 45 45 }
 	
 	}
 	
@@ -224,13 +224,16 @@ ideologies = {
 			
 			africanism = {
 			}
+			
+			high_toryism = {
+			}
 
 		}
 		
 		dynamic_faction_names = {
 		}
 		
-		color = { 0 75 125 }
+		color = { 25 26 56 }
 	
 	}
 	
@@ -279,7 +282,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 254 225 0 }
+		color = { 150 150 10 }
 
 	}
 	

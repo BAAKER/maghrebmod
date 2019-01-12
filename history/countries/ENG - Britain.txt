@@ -94,126 +94,6 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-1939.1.1 = {
-
-	add_political_power = 1198
-	
-	#adding ministers
-	add_ideas = {
-		ENG_ernest_bevin
-		bernard_montgomery
-		rsaf_enfield
-		archibald_wavell
-		charles_portal
-		english_electric		
-
-		#laws
-		partial_economic_mobilisation
-		limited_conscription
-
-		ENG_george_vi
-	}
-
-	
-create_country_leader = {
-	name = "Neville Chamberlain"
-	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-	picture = "Portrait_Britain_Neville_Chamberlain.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		
-	}
-}
-	remove_ideas = george_v #Dead
-
-	complete_national_focus = limited_rearmament_focus
-	complete_national_focus = air_defense_focus
-	complete_national_focus = radar_focus
-	complete_national_focus = shadow_scheme_focus
-	complete_national_focus = uk_empire_focus
-	complete_national_focus = uk_service_focus
-	complete_national_focus = uk_colonial_focus
-	complete_national_focus = uk_mediterranean_focus
-	complete_national_focus = uk_asia_focus
-	complete_national_focus = uk_commonwealth_focus
-
-	give_guarantee = POL
-	
-	set_national_unity = 0.8
-	oob = "ENG_1939"
-	set_technology = {
-		fighter1 = 1
-		fighter2 = 1
-		heavy_fighter1 = 1
-		heavy_fighter2 = 1
-		CAS2 = 1
-		naval_bomber2 = 1
-		tactical_bomber1 = 1
-		tactical_bomber2 = 1
-		strategic_bomber1 = 1
-		cv_CAS1 = 1
-		cv_fighter1 = 1
-		improved_light_tank = 1
-		basic_medium_tank = 1
-		basic_heavy_tank = 1
-		interwar_artillery = 1
-		interwar_antitank = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		support_weapons2 = 1
-		basic_submarine = 1
-		improved_submarine = 1
-		improved_destroyer = 1
-		basic_light_cruiser = 1
-		improved_light_cruiser = 1
-		basic_battleship = 1
-		basic_carrier = 1
-		improved_carrier = 1
-
-		#doctrines
-		#Air
-		air_superiority = 1
-		home_defence = 1
-		naval_strike_tactics = 1
-
-			grand_battle_plan = 1
-
-		prepared_defense = 1
-		battlefleet_concentration = 1
-		subsidiary_carrier_role = 1
-		convoy_sailing = 1
-		convoy_escorts = 1
-		submarine_operations = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		decimetric_radar = 1
-		mechanical_computing = 1
-		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_plant = 1
-		improved_oil_plant = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		dispersed_industry3 = 1
-	}
-
-	set_convoys = 200
-}
-
 set_politics = {
 
 	parties = {
@@ -258,24 +138,10 @@ give_military_access = RAJ
 add_to_faction = RAJ		# Must be after puppet
 add_to_faction = MAL
 
-#give_guarantee = CZE
-
-# Order matters - here Chamberlain becomes starting leader
+give_guarantee = CZE
 
 create_country_leader = {
-	name = "Winston Churchill"
-	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-	picture = "Portrait_Britain_Winston_Churchill.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
-	}
-}
-
-
-create_country_leader = {
-	name = "James Ramsay MacDonald"
+	name = "James Ramsay MacDonald" #KILL THE TRAITOR, MADE BY HIGH TORY GANG
 	desc = "POLITICS_MACDONALD_DESC"
 	picture = "gfx//leaders//ENG//Portrait_Britain_James_Ramsay.dds"
 	expire = "1938.1.1"
@@ -285,34 +151,100 @@ create_country_leader = {
 	}
 }
 
-#create_country_leader = {
-#	name = "Neville Chamberlain"
-#	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-#	picture = "Portrait_Britain_Neville_Chamberlain.dds"
-#	expire = "1965.1.1"
-#	ideology = liberalism
-#	traits = {
-#		
-#	}
-#}
-
 create_country_leader = {
-	name = "Oswald Mosley"
-	desc = "POLITICS_OSWALD_MOSLEY_DESC"
-	picture = "Portrait_Britain_Oswald_Mosley.dds"
+	name = "Austin Chamberlain"
+	desc = "POLITICS_Austin_CHAMBERLAIN_DESC"
+	picture = "Portrait_Austin_Chamberlain.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = social_conservatism
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Rajani Palme Dutt"
-	desc = "POLITICS_PALME_DUTT_DESC"
-	picture = "Portrait_Britain_Palme_Dutt.dds"
+	name = "Oswald Mosley"
+	desc = "Politics_Mosley_desc"
+	picture = "Portrait_Oswald_mosley.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = national_syndicalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = { #HIGH TORY GANG HEAD 
+	name = "Herbert Kitchener, 1st Earl Kitchener"
+	desc = "Politics_Herbert_Kitchener_desc"
+	picture = "Portrait_Herbert_Kitchener.dds"
+	expire = "1965.1.1"
+	ideology = high_toryism
+	traits = {
+		
+	}
+}
+
+create_country_leader = { 
+	name = "Harold Alexander"
+	desc = "Politics_Harold_Alexander_desc"
+	picture = "Portrait_Harold_Alexander.dds"
+	expire = "1965.1.1"
+	ideology = statism
+	traits = {
+		
+	}
+}
+
+create_country_leader = { 
+	name = "Herbert Read"
+	desc = "Politics_Herbert_Read_desc"
+	picture = "Portrait_Herbert_Read.dds"
+	expire = "1965.1.1"
+	ideology = anarcho_communism
+	traits = {
+		
+	}
+}
+
+create_country_leader = { 
+	name = "David L. George"
+	desc = "Politics_David_George_desc"
+	picture = "Portrait_David_george.dds"
+	expire = "1965.1.1"
+	ideology = Social_liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = { 
+	name = "Arthur Hendersom"
+	desc = "Politics_Arthur_Henderson_desc"
+	picture = "Portrait_Arthur_Henderson.dds"
+	expire = "1965.1.1"
+	ideology = libertary_socialism
+	traits = {
+		
+	}
+}
+
+create_country_leader = { 
+	name = "Harry Pollite"
+	desc = "Politics_Harry_Pollite_desc"
+	picture = "Portrait_Harry_Pollite.dds"
+	expire = "1965.1.1"
+	ideology = Neobolsh
+	traits = {
+		
+	}
+}
+
+create_country_leader = { 
+	name = "George Wardle"
+	desc = "Politics_George_Wardle_desc"
+	picture = "Portrait_George_Wardle.dds"
+	expire = "1965.1.1"
+	ideology = marxism
 	traits = {
 		
 	}
