@@ -16,7 +16,7 @@ focus_tree = {
 	
     focus = {
 		id = PIT_martial_law
-		icon = GFX_goal_unknown
+		icon = GFX_PIT_Martial_Law
 		cost = 2
 		completion_reward = {
 		}
@@ -26,7 +26,7 @@ focus_tree = {
 	
 	focus = {
 		id = PIT_nice_restoration
-		icon = GFX_goal_unknown
+		icon = GFX_PIT_nice_restoration
 		cost = 1
 		prerequisite = {
 			focus = PIT_martial_law
@@ -39,7 +39,7 @@ focus_tree = {
 	
 	focus = {
 		id = PIT_absolute_monarchy
-		icon = GFX_goal_unknown
+		icon = GFX_PIT_absolute_monarchy
 		cost = 10
 		prerequisite = {
 			focus = PIT_nice_restoration
@@ -59,7 +59,7 @@ focus_tree = {
 	
 	focus = {
 		id = PIT_constitutional_monarchy
-		icon = GFX_goal_unknown
+		icon = GFX_PIT_constitutional_monarchy
 		cost = 10
 		prerequisite = {
 			focus = PIT_nice_restoration
@@ -78,7 +78,7 @@ focus_tree = {
 	
 	focus = {
 		id = PIT_white_terror
-		icon = GFX_goal_unknown
+		icon = GFX_PIT_white_terror
 		cost = 5
 		prerequisite = {
 			focus = PIT_absolute_monarchy
@@ -95,7 +95,7 @@ focus_tree = {
 	
 	focus = {
 		id = PIT_restore_order
-		icon = GFX_goal_unknown
+		icon = GFX_PIT_restore_order
 		cost = 10
 		prerequisite = {
 			focus = PIT_constitutional_monarchy
@@ -112,8 +112,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = PIT_privatization_of_industry
-		icon = GFX_goal_unknown
+		id = PIT_privatization_of_industry #Пропить страну 
+		icon = GFX_PIT_privatization_of_industry
 		cost = 10
 		prerequisite = {
 		    focus = PIT_white_terror
@@ -136,7 +136,7 @@ focus_tree = {
 	
 	focus = {
 		id = PIT_order_number_8
-		icon = GFX_goal_unknown
+		icon = GFX_PIT_order_number_8
 		cost = 1
 		prerequisite = {
 		    focus = PIT_privatization_of_industry
@@ -149,7 +149,7 @@ focus_tree = {
 	
 	focus = {
 		id = PIT_attract_foreign_capital
-		icon = GFX_goal_unknown
+		icon = GFX_PIT_attract_foreign_capital
 		cost = 1
 		prerequisite = {
 		    focus = PIT_privatization_of_industry
@@ -162,7 +162,7 @@ focus_tree = {
 	
 	focus = {
 		id = PIT_german_designer
-		icon = GFX_goal_unknown
+		icon = GFX_PIT_german_designer
 		cost = 1
 		prerequisite = {
 		    focus = PIT_privatization_of_industry
@@ -176,7 +176,7 @@ focus_tree = {
 	
 	focus = {
 		id = PIT_mobilization_of_the_population
-		icon = GFX_goal_unknown
+		icon = GFX_PIT_mobilization_of_the_population
 		cost = 1
 		prerequisite = {
 		    focus = PIT_attract_foreign_capital
@@ -189,7 +189,7 @@ focus_tree = {
 	
 	focus = {
 		id = PIT_alliance_with_Garibaldi
-		icon = GFX_goal_unknown
+		icon = GFX_PIT_alliance_with_Garibaldi
 		cost = 1
 		prerequisite = {
 			focus = PIT_martial_law
@@ -202,7 +202,7 @@ focus_tree = {
 	
 	focus = {
 		id = PIT_recognize_dannunzio
-		icon = GFX_goal_unknown
+		icon = GFX_PIT_recognize_dannunzio
 		cost = 1
 		prerequisite = {
 			focus = PIT_alliance_with_Garibaldi
@@ -215,7 +215,7 @@ focus_tree = {
 	
 	focus = {
 		id = PIT_recognize_sicily
-		icon = GFX_goal_unknown
+		icon = GFX_PIT_recognize_sicily
 		cost = 1
 		prerequisite = {
 			focus = PIT_recognize_dannunzio
@@ -228,7 +228,7 @@ focus_tree = {
 	
 	focus = {
 		id = PIT_non_decision
-		icon = GFX_goal_unknown
+		icon = GFX_PIT_non_decision
 		cost = 1
 		prerequisite = {
 			focus = PIT_martial_law
@@ -241,7 +241,7 @@ focus_tree = {
 	
 	focus = {
 		id = PIT_shaky_alliance_of_officers
-		icon = GFX_goal_unknown
+		icon = GFX_PIT_shaky_alliance_of_officers
 		cost = 1
 		prerequisite = {
 			focus = PIT_non_decision
@@ -257,7 +257,7 @@ focus_tree = {
 	
 	focus = {
 		id = PIT_predominance_of_republicans
-		icon = GFX_goal_unknown
+		icon = GFX_PIT_predominance_of_republicans
 		cost = 1
 		prerequisite = {
 			focus = PIT_non_decision
