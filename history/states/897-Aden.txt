@@ -1,0 +1,24 @@
+state={
+	id=897
+	name="STATE_897"
+	manpower = 146201
+	state_category = enclave
+	provinces={
+		5074 
+	}
+	history = {
+		owner = FRA
+		add_core_of = YEM
+		victory_points = {
+			5074 1 
+		}
+        buildings = {
+			infrastructure=4
+			5074 = {
+				naval_base = 3
+			}
+		}
+
+	}
+	
+}
