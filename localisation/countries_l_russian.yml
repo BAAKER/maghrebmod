@@ -396,9 +396,9 @@
  IRE_neutrality_ADJ:0 "Ирландск."
  IRE_communism_ADJ:0 "Ирландск."
  
- HUN_neobol:0 "Венгерская Советская Республика"
- HUN_neobol_DEF:0 "Венгерская Советская Республика"
- HUN_neobol_ADJ:0 "Венгерск."
+ HUN_neobol:0 "Дунайская СФР"
+ HUN_neobol_DEF:0 "Дунайская Социалистическая Федеративная Республика"
+ HUN_neobol_ADJ:0 "Дунайск."
  
  AFG_fascism:0 "Новый афганский каганат"
  AFG_fascism_DEF:0 "Новый афганский каганат"
