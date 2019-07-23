@@ -2,12 +2,12 @@
 state={
 	id=187
 	name="STATE_187"
-	manpower = 161300
+	manpower = 322600
 	
 	state_category = small_island
 	
 	resources={
-		chromium=10
+		chromium=7 # was: 10
 	}
 
 	history={
@@ -26,6 +26,6 @@ state={
 	}
 
 	provinces={
-		6550 8435 
+		3401 6550 8435 
 	}
 }

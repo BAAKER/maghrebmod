@@ -1,0 +1,24 @@
+
+state={
+	id=790
+	name="STATE_790"
+	manpower = 345664
+	state_category = rural
+
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+			1385 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = BIR
+	}
+
+	provinces={
+		10217 4275 1296 12292 1385 1315 7295 12125 4408 1403 12238
+	}
+}

@@ -2,12 +2,12 @@
 state={
 	id=161
 	name="STATE_161"
-	manpower = 2021441
+	manpower = 3202401
 	
 	state_category = large_city
 	
 	resources={
-		aluminium=16
+		aluminium=9 # was: 16
 	}
 
 	history={
@@ -27,6 +27,6 @@ state={
 	}
 
 	provinces={
-		782 1616 6606 6793 6985 9924 11734 11889
+		782 3773 3976 6606 6790 6793 6985 9752 9924 
 	}
 }

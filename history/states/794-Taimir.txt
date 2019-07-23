@@ -1,0 +1,25 @@
+
+state={
+	id=794
+	name="STATE_794"
+	manpower = 85579
+	resources={
+		chromium=3 # was: 46.000
+		oil=2
+	}
+	state_category = rural
+
+	history={
+		owner = GER
+
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = TMR
+		add_core_of = MAR
+	}
+
+	provinces={
+		13219
+	}
+}

@@ -7,11 +7,11 @@ state={
 	state_category = town
 	
 	resources={
-		oil=120
+		oil=35 # was: 126
 	}
 
 	history={
-		owner = COL
+		owner = VEN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
@@ -20,7 +20,6 @@ state={
 			}
 		}
 		add_core_of = VEN
-		add_core_of = COL
 		victory_points = {
 			1944 1 
 		}
@@ -28,6 +27,6 @@ state={
 	}
 
 	provinces={
-		1944 1997 2052 5088 12772 
+		1944 1997 2052 4526 5088 10855 12772 
 	}
 }

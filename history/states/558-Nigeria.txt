@@ -6,10 +6,12 @@ state={
 	
 	state_category = rural
 	resources={
-		rubber=3
+		rubber=2 # was: 3
 	}
 	history={
-		owner = DAF
+		owner = GAA
+		add_core_of = GAA
+		add_core_of = NGA
 		buildings = {
 			infrastructure = 3
 			arms_factory = 0
@@ -21,8 +23,6 @@ state={
 		victory_points = {
 			2050 1
 		}
-		
-		add_core_of = DAF
 
 	}
 

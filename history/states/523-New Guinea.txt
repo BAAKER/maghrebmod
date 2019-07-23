@@ -3,6 +3,8 @@ state={
 	name="STATE_523"
 
 	history={
+		add_core_of = PNG
+		add_core_of = GEI
 		owner = GEI
 		buildings = {
 			infrastructure = 2

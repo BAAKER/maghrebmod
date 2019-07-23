@@ -7,9 +7,9 @@ state={
 	state_category = rural
 	
 	resources={
-		steel=32
-		chromium=2
-		tungsten=34
+		steel=18 # was: 32
+		chromium=1 # was: 2
+		tungsten=18 # was: 34
 	}
 
 	history={
@@ -18,6 +18,9 @@ state={
 			infrastructure = 4
 		}
 		add_core_of = USA
+		victory_points = {
+			9616 1
+		}
 	}
 
 	provinces={

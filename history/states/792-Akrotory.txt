@@ -1,0 +1,29 @@
+
+state= {
+	id=792
+	name="STATE_792"
+	manpower = 15433
+	
+	state_category = rural
+	resources={
+		chromium=2 # was: 4
+	}
+
+	history=
+	{
+		owner = ENG
+
+		victory_points = {
+			13218 3
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			13218 = {
+				naval_base = 2
+			}
+		}
+
+	}
+	provinces= { 13218 }
+}

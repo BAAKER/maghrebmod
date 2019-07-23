@@ -7,7 +7,8 @@ state={
 	state_category = rural
 
 	history={
-		owner = DAF
+		owner = GAA
+		add_core_of = GAA
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -16,9 +17,12 @@ state={
 			}
 		}
 		victory_points = {
+			1939 2
+		}
+		victory_points = {
 			5210 1
 		}
-		add_core_of = DAF
+		add_core_of = KEN
 	}
 
 	provinces={

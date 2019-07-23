@@ -7,10 +7,19 @@ state=
 	state_category = town
 	
 	resources={
-		steel=8
+		steel=4 # was: 8
 	}
 	
 	history={
+		victory_points = {
+			3585 3
+		}
+		#victory_points = {
+		#	11432 1
+		#}
+		victory_points = {
+			11401 3
+		}
 		owner = CZE
 		buildings = {
 			infrastructure = 8

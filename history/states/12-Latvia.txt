@@ -2,9 +2,9 @@
 state={
 	id=12
 	name="STATE_12"
-	manpower = 1360500
+	manpower = 1520500
 	resources={
-		steel=2
+		steel=1 # was: 2
 	}
 	
 	state_category = city
@@ -14,19 +14,25 @@ state={
 		victory_points = {
 			9340 5 
 		}
+		victory_points = {
+			310 1 
+		}
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
-			industrial_complex = 3
+			industrial_complex = 4
 			air_base = 3
 			9340 = {
 				naval_base = 3
+			}
+			310 = {
+				bunker = 2
 			}
 		}
 		add_core_of = LAT
 	}
 
 	provinces={
-		3255 3388 7482 9240 9317 9340 9501 10323 10493 11222 11302 13227 13228 13229 13230
+		222 310 319 341 3255 3298 3388 6459 7482 9240 9275 9317 9340 9501 10323 10493 11222 11302 11358 
 	}
 }

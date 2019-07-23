@@ -1,0 +1,28 @@
+
+state = {
+	id=793
+	name="STATE_793"
+	manpower = 254330
+	
+	state_category = rural
+	resources={
+		chromium=2 # was: 4
+	}
+
+	history=
+	{
+		owner = COL
+		add_core_of = PAN
+		add_core_of = COL
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2 
+			air_base = 1
+			7630 = {
+				naval_base = 4
+			}
+		}
+
+	}
+	provinces= { 7630 10482 }
+}

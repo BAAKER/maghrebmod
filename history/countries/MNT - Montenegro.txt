@@ -1,71 +1,58 @@
-﻿capital = 105 # Montenegro
+﻿capital = 105
 
-oob = "MON_1936"
+OOB = "MNT_1936"
 
-set_research_slots = 3
-
-# Starting tech
-# clone of Yugoslavia
 set_technology = {
-	tech_support = 1		
-	tech_engineers = 1
-	tech_mountaineers = 1
-	early_fighter = 1
-	gwtank = 1
-	basic_light_tank = 1
 	infantry_weapons = 1
-	infantry_weapons1 = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	early_submarine = 1
+	tech_support = 1
+	tech_recon = 1
 }
 
 set_politics = {
+	ruling_party = traditionalism
+	last_election = "1926.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
 
-	parties = {
-		fascism = { 
-			popularity = 33
-		}
-		neutrality = { 
-			popularity = 33
-		}		
-		communism = {
-			popularity = 34
-		}
+set_popularities = {
+	traditionalism = 100
+}
+
+set_convoys = 5
+
+#Victor Emmanuel III of Italy after 39
+create_country_leader = {
+	name = "King Zog"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_Albania_King_Zog.dds"
+	expire = "1965.1.1"
+	ideology = traditionalism
+	traits = {
+		#
 	}
 }
 
 create_country_leader = {
-	name = "Sekula Drljević"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology
+	name = "Enver Hoxha"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
 	traits = {
-		
+		staunch_stalinist
 	}
 }
 
-create_country_leader = {
-	name = "Novica Radović"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = oligarchism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Blažo Jovanović"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = leninism
-	traits = {
-		
-	}
+create_field_marshal = {
+	name = "Xhemal Aranitasi"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
 }
 
 

@@ -1,18 +1,21 @@
 
 state={
 	id=433
-	name="STATE_433" # Rajasthan
+	name="STATE_433" # INDasthan
 	manpower = 11786000
 	
 	state_category = town
 	
 	
 	resources={
-		tungsten=42
+		tungsten=32 # was: 42
 	}
 
 	history={
-		owner = RAJ
+		victory_points = {
+			2054 1
+		}
+		owner = IND
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

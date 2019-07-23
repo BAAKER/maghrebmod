@@ -1,0 +1,23 @@
+
+state={
+	id=788
+	name="STATE_788"
+	manpower = 585579
+	state_category = rural
+
+	history={
+		owner = ENG 
+		add_core_of = MAL
+		buildings = {
+			infrastructure = 6
+			air_base = 6
+		}
+		12299 = {
+				naval_base = 5
+		}
+	}
+
+	provinces={
+		12113 12299
+	}
+}

@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = ETH
+		add_core_of = ETH
+		victory_points = {
+			8124 1
+		}
 		buildings = {
 			infrastructure = 3
 			air_base = 2
@@ -15,8 +19,6 @@ state={
 				naval_base = 2
 			}
 		}
-		
-		add_core_of = ETH
 
 	}
 	provinces={

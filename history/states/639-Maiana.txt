@@ -6,7 +6,9 @@ state={
 	state_category = small_island
 
 	history={
-		owner = ENG
+		add_core_of = GEI
+		owner = GEI
+		add_core_of = FIJ
 		buildings = {
 			infrastructure = 3
 			13021 = {

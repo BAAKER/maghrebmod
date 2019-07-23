@@ -3,13 +3,14 @@ state={
 	name="STATE_673"
 	manpower = 4232000
 	resources={
-		rubber=52
+		rubber=30 # was: 52
 	}
 
 	state_category = town
 
 
 	history= {
+		add_core_of = GEI
 		owner = GEI
 		victory_points = {
 			10263 3 

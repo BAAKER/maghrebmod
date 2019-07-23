@@ -533,10 +533,13 @@ D15 = {
 }
 
 #########################
-
-DAF = {
+GAA = {
 	color = rgb { 77 93 83 }
 	color_ui = rgb { 36 47 40 }
+}
+CRP = {
+	color = rgb { 200 204 138 }
+	color_ui = rgb { 200 204 138 }
 }
 ZNC = {
 	color = rgb { 74 104 0 }
@@ -641,6 +644,10 @@ GAR = {
 }
 
 ZAR = {
-	color = rgb { 199  123  61 }
+	color = rgb { 199 123 61 }
 	color_ui = rgb { 194 118 56 }
+}
+LYB = {
+	color = rgb { 70 130 47 }
+	color_ui = rgb { 70 130 47 }
 }

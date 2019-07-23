@@ -2,7 +2,7 @@
 state={
 	id=228
 	name="STATE_228" # Voroshilovgrad
-	manpower = 1192076
+	manpower = 2167411
 	
 	state_category = town
 
@@ -15,10 +15,10 @@ state={
 			infrastructure = 5
 		}
 		add_core_of = SOV
-		add_core_of = UKR 
+		add_core_of = UKR
 	}
 
 	provinces={
-	    6493 6505 9446 9461
+		523 547 570 6505 6519 9446 9461 9476 11487 11513 
 	}
 }

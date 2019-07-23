@@ -7,6 +7,7 @@ state={
 	state_category = pastoral
 
 	history={
+		add_core_of = GEI
 		owner = GEI
 		buildings = {
 			infrastructure = 3

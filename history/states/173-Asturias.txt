@@ -7,13 +7,19 @@ state={
 	state_category = city
 	
 	resources={
-		steel=12
+		steel=8 # was: 12
 	}
 
 	history={
 		owner = SPR
 		victory_points = {
-			9979 1 
+			9979 3
+		}
+		victory_points = {
+			747 1
+		}
+		victory_points = {
+			1176 1
 		}
 		buildings = {
 			infrastructure = 6

@@ -8,12 +8,13 @@ state={
 	state_category = rural
 	
 	resources={
-		steel=20
+		steel=15 # was: 20
 	}
 
 	history={
 		owner = RIF
 		add_core_of = RIF
+		add_core_of = MAR
 		victory_points = {
 			9945 5 
 		}
@@ -27,6 +28,6 @@ state={
 	}
 
 	provinces={
-		1194 4097 4199 7215 9945 10013 10113 12087 12100 
+		4199 7215 9945 10113 12087 12100 
 	}
 }

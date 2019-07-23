@@ -6,14 +6,15 @@ state={
 	
 	state_category = wasteland
 	resources={
-		rubber=5
+		rubber=5 # was: 5
 	}
 	history={
-		owner = DAF
+		owner = GAA
+		add_core_of = GAA
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = DAF
+		add_core_of = COG
 	}
 
 	provinces={

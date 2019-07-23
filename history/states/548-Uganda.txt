@@ -4,15 +4,19 @@ state={
 
 	state_category = rural
 	resources={
-		rubber=4
+		rubber=3 # was: 4
 	}
 	history={
-		owner = DAF
+		owner = GAA
+		add_core_of = GAA
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = DAF
+		add_core_of = UGA
+		victory_points = {
+			12989 1
+		}
 	}
 
 	provinces={

@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = POR
+		add_core_of = IND
 		victory_points = {
 			1273 1 
 		}
