@@ -1,0 +1,24 @@
+
+state={
+	id=796
+	name="STATE_796"
+	manpower = 85579
+	resources={
+		oil=2
+	}
+	state_category = rural
+
+	history={
+		owner = CIS
+
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CHI
+		add_core_of = CIS
+	}
+
+	provinces={
+		7997 10796 2099
+	}
+}

@@ -6,14 +6,16 @@ state={
 	}
 
 	history={
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = CHI
+		owner = GNR
+		add_core_of = GNR
 		add_core_of = CHI
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+			10733 = {
+				bunker = 2
 
+			}
 		}
 		1938.10.25 = {
 			if = {
@@ -32,7 +34,7 @@ state={
 	}
 
 	provinces={
-		531 556 1630 1647 1933 1985 2022 3745 4313 5025 6638 7397 7911 12797 12882 
+		531 556 1630 1647 1933 1985 2006 2022 3742 4313 5025 6638 7397 7911 10733 12797 12882 
 	}
 	manpower=3705400
 	buildings_max_level_factor=1.000

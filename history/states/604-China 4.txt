@@ -3,13 +3,10 @@ state={
 	name="STATE_604"
 
 	history={
-		owner = CHI
+		owner = TIB
+		add_core_of = TIB
 		add_core_of = CHI
-		add_core_of = CHI
-		add_core_of = CHI
-		victory_points = {
-			7940 10 
-		}
+		
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 2
@@ -35,7 +32,7 @@ state={
 	}
 
 	provinces={
-		4914 4964 7940 8018 8037 12899 
+		4914 4964 8037 12899 
 	}
 	manpower=1196100
 	buildings_max_level_factor=1.000

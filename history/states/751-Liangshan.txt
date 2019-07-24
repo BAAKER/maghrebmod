@@ -2,14 +2,14 @@ state={
 	id=751
 	name="STATE_751"
 	provinces={
-		1999 2067 7294 10726 10841 12141 12819 
+		1999 2067 7294 10726 10841 12141 12819 5072 4192 10819 12841
 	}
-	manpower=300000
+	manpower=400000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	history={
-		owner = CHI
-		add_core_of = CHI
+		owner = UNS
+		add_core_of = UNS
 		add_core_of = CHI
 		buildings = {
 			infrastructure = 1
@@ -20,14 +20,6 @@ state={
 		}
 		victory_points = {
 			7294 1
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 1
-				infrastructure = 2
-
-			}
-
 		}
 
 	}

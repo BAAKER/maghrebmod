@@ -1,0 +1,25 @@
+
+state={
+	id=795
+	name="STATE_795"
+	manpower = 85579
+	resources={
+		chromium=3 # was: 46.000
+		oil=2
+	}
+	state_category = rural
+
+	history={
+		owner = GNS
+
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = CHI
+		add_core_of = GNS
+	}
+
+	provinces={
+		1778 12820 12596 5076 7971
+	}
+}
