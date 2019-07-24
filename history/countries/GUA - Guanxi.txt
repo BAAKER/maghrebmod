@@ -1,6 +1,6 @@
-﻿capital = 796
+﻿capital = 599
 
-OOB = "CIS_1936"
+OOB = "GUA_1936"
 
 set_technology = {
 	infantry_weapons = 1
@@ -19,7 +19,7 @@ set_popularities = {
 	traditionalism = 100
 }
 
-set_convoys = 5
+set_convoys = 50
 
 #Victor Emmanuel III of Italy after 39
 create_country_leader = {
