@@ -1,0 +1,27 @@
+
+state={
+	id=798
+	name="STATE_798"
+	manpower = 99579
+	resources={
+		steel=3
+	}
+	state_category = rural
+
+	history={
+		owner = JAP
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 3
+		}
+		add_core_of = CHI
+		add_core_of = JAP
+	}
+
+	provinces={
+		7105 4186 1200 1104 10018 4205
+	}
+}
