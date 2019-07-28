@@ -385,7 +385,7 @@
  BOL_traditionalism:0 "Боливия"
  BRA_traditionalism:0 "Временное правительство Бразилии"
  CAN_traditionalism:0 "Канада"
- CHI_traditionalism:0 "Китай"
+ CHI_traditionalism:0 "Правительство Республики Китай"
  CHL_traditionalism:0 "Чили"
  COL_traditionalism:0 "Колумбия"
  COS_traditionalism:0 "Коста-Рика"
@@ -530,7 +530,7 @@
  GAA_traditionalism:0 "Германская Африканская Администрация"
  INB_traditionalism:0 "Конфедерация Индийских племён"
  UBC_traditionalism:0 "Союз Бразильских Корпараций"
- UPC_traditionalism:0 "Соединённые провинции Центральной Америки"
+ UPC_traditionalism:0 "СП Центральной Америки"
  SUS_traditionalism:0 "Султант Зулу"
  ROD_traditionalism:0 "Родезия"
  BSU_traditionalism:0 "Британский Судан"
@@ -553,6 +553,8 @@
  CHZ_traditionalism:0 "Чжечаньская Республика"
  SHK_traditionalism:0 "Клика Шэньси"
  SHU_traditionalism:0 "Клика Шаньси"
+ ANH_traditionalism:0 "Клика Аньхой"
+ 
  
  
  

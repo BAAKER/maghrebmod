@@ -1,6 +1,6 @@
-﻿capital = 620
+﻿capital = 800
 
-OOB = "CHI_1936"
+OOB = "ANH_1936"
 
 set_technology = {
 	infantry_weapons = 1

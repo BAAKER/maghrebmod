@@ -1,0 +1,27 @@
+
+state={
+	id=800
+	name="STATE_800"
+	manpower = 99579
+	resources={
+		steel=3
+	}
+	state_category = rural
+
+	history={
+		owner = ANH
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+		add_core_of = CHI
+		add_core_of = ANH
+	}
+
+	provinces={
+		1029 12074 1184 4089 12093 1084 10102 10119 1124 9971 4157 1154 4071 7089
+	}
+}
