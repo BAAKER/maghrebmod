@@ -1,0 +1,23 @@
+
+state={
+	id=807
+	name="STATE_807"
+	manpower = 5333334
+	
+	state_category = rural
+
+	history={
+		owner = CCC
+
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = CHI
+		add_core_of = CCC
+	}
+
+	provinces={
+		4041 4896 5030 7201 7279 7665 10006 10304 10822 12414 
+	}
+}
