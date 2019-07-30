@@ -9,7 +9,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = УПН
+		owner = EGY
 
 		buildings = {
 			infrastructure = 1
