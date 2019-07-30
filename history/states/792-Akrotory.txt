@@ -14,16 +14,16 @@ state= {
 		owner = ENG
 
 		victory_points = {
-			13218 3
+			13463 3
 		}
 		buildings = {
 			infrastructure = 4
 			air_base = 1
-			13218 = {
+			13463 = {
 				naval_base = 2
 			}
 		}
 
 	}
-	provinces= { 13218 }
+	provinces= { 13463 }
 }

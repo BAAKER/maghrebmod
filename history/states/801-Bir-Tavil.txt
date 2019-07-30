@@ -1,0 +1,26 @@
+
+state={
+	id=801
+	name="STATE_801"
+	manpower = 99579
+	resources={
+		steel=3
+	}
+	state_category = rural
+
+	history={
+		owner = УПН
+
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = EGY
+		add_core_of = SUD
+		add_core_of = BSU
+	}
+
+	provinces={
+		13332
+	}
+}
