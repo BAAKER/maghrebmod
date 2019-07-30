@@ -1,0 +1,25 @@
+
+state={
+	id=805
+	name="STATE_805"
+	manpower = 10651185
+	resources={
+		steel=3
+	}
+	state_category = rural
+
+	history={
+		owner = CZH
+
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = CHI
+		add_core_of = CZH
+	}
+
+	provinces={
+		1001 1076 1121 1161 4005 4123 7025 7085 7200 9956 9995 10040 11916 11973 12055 13144
+	}
+}

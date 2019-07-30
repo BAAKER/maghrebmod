@@ -7,9 +7,9 @@ state={
 	state_category = town
 
 	history={
-		owner = CHI
+		owner = REB
 		add_core_of = CHI
-		add_core_of = CHI
+		add_core_of = REB
 		buildings = {
 			infrastructure = 4
 		}
@@ -20,6 +20,6 @@ state={
 	}
 
 	provinces={
-		1169 1188 4032 7092 7109 10003 10022 11944 11980 11996 
+		1188 4032 7092 7109 7160 7189 9987 10003 10022 11944 11962 11980 11996 
 	}
 }

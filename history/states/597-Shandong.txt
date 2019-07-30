@@ -8,9 +8,9 @@ state=
 	
 	history=
 	{
-		owner = CHI
+		owner = CZH
 		add_core_of = CHI
-		add_core_of = CHI
+		add_core_of = CZH
 		victory_points = {
 			1069 3 
 		}
@@ -20,11 +20,8 @@ state=
 			air_base = 3
 		}
 
-		1938.10.25 = {
-			controller = JAP
-		}
 	}
 	provinces={
-		1069 4037 4181 7055 7160 7189 9987 10043 10072 11933 11962 12015 12045 12069 
+		1069 4037 4181 7055 10043 10072 12015 12045 12069 
 	}
 }
