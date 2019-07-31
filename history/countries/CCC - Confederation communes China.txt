@@ -1,4 +1,4 @@
-﻿capital = 806
+﻿capital = 804
 
 OOB = "CCC_1936"
 

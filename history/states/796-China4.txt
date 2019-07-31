@@ -1,10 +1,10 @@
 
 state={
-	id=797
-	name="STATE_797"
+	id=796
+	name="STATE_796"
 	manpower = 99579
 	resources={
-		oil=2
+		steel=3
 	}
 	state_category = rural
 
@@ -16,17 +16,12 @@ state={
 			arms_factory = 2
 			industrial_complex = 1
 			air_base = 3
-			964 = {
-				naval_base = 3
-
-			}
 		}
 		add_core_of = CHI
-		add_core_of = MAN
 		add_core_of = JAP
 	}
 
 	provinces={
-		3783 6918 964 9854
+		7105 4186 1200 1104 10018 4205
 	}
 }

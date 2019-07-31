@@ -1,7 +1,7 @@
 
 state={
-	id=802
-	name="STATE_802"
+	id=800
+	name="STATE_800"
 	manpower = 99579
 	resources={
 		oil=9
@@ -22,6 +22,6 @@ state={
 	}
 
 	provinces={
-		13342 13341
+		13338 13339
 	}
 }

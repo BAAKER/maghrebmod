@@ -1,7 +1,7 @@
 
 state={
-	id=794
-	name="STATE_794"
+	id=793
+	name="STATE_793"
 	manpower = 85579
 	resources={
 		chromium=3 # was: 46.000
@@ -10,16 +10,16 @@ state={
 	state_category = rural
 
 	history={
-		owner = GER
+		owner = GNS
 
 		buildings = {
 			infrastructure = 6
 		}
-		add_core_of = TMR
-		add_core_of = MAR
+		add_core_of = CHI
+		add_core_of = GNS
 	}
 
 	provinces={
-		13464
+		1778 12820 12596 5076 7971
 	}
 }
