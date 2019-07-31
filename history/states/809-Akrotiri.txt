@@ -1,0 +1,30 @@
+
+state={
+	id=809
+	name="STATE_809"
+	manpower = 99579
+	resources={
+		steel=1
+	}
+	state_category = city
+
+	history={
+		owner = ENG
+		victory_points = {
+			13457 4 
+		}
+		buildings = {
+			infrastructure = 4
+			13457 = {
+				naval_base = 5
+			}
+
+		}
+		add_core_of = TUR
+		add_core_of = GRE
+	}
+
+	provinces={
+		13457
+	}
+}

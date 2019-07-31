@@ -1,0 +1,27 @@
+
+state={
+	id=806
+	name="STATE_806"
+	manpower = 199579
+	resources={
+		oil=5
+	}
+	state_category = city
+
+	history={
+		owner = ENG
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+
+		}
+		add_core_of = SAU
+		add_core_of = BAH
+		add_core_of = KAT
+	}
+
+	provinces={
+		13409
+	}
+}
