@@ -408,7 +408,7 @@
  PHI_traditionalism:0 "Филипины"
  PRU_traditionalism:0 "Перу"
  SAF_traditionalism:0 "Южная Африка"
- SAU_traditionalism:0 "Королевство Аравия"
+ SAU_traditionalism:0 "Саудовскй Неджд"
  SIA_traditionalism:0 "Сиам"
  SIK_traditionalism:0 "Синьцзянь"
  TIB_traditionalism:0 "Тибет"
@@ -560,6 +560,7 @@
  CCC_traditionalism:0 "Конфедерация коммун Китая"
  GSR_traditionalism:0 "Гуаньсийская ССР"
  MEK_traditionalism:0 "Мекканская умма"
+ JEB_traditionalism:0 "Джеббель-Шаммар"
  
  
  
