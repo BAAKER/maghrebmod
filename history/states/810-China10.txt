@@ -1,0 +1,23 @@
+
+state={
+	id=810
+	name="STATE_810"
+	manpower = 1127749
+	
+	state_category = rural
+
+	history={
+		owner = GSR
+
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = CHI
+		add_core_of = GSR
+	}
+
+	provinces={
+		1172 4656
+	}
+}
