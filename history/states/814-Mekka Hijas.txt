@@ -1,0 +1,35 @@
+
+state={
+	id=814
+	name="STATE_814"
+	manpower = 199579
+	resources={
+		oil=5
+		steel=2
+	}
+	state_category = city
+
+	history={
+		owner = MEK
+		victory_points = {
+			12883 1 
+		}
+		victory_points = {
+			13310 5 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			12883 = {
+				naval_base = 5
+			}
+
+		}
+		add_core_of = SAU
+		add_core_of = MEK
+	}
+
+	provinces={
+		13282 13250 5037 13325 13303 5006 12883 13310 13317 13308 13304 13294 13285 1923 13270 10786 13275 13268 8073 13256 5066 13257 13242
+	}
+}
