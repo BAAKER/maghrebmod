@@ -1,0 +1,27 @@
+ 
+state={
+	id=812
+	name="STATE_812"
+	manpower = 500000
+	
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	history={
+		owner = GER
+		victory_points = {
+			9363 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = GER
+		add_core_of = HOL
+	}
+
+	provinces={
+		9363 9403 9309 11318
+	}
+}
