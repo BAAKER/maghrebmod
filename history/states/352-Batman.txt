@@ -9,9 +9,6 @@ state={
 	history={
 		owner = KUR
 		add_core_of = KUR
-		victory_points = {
-			6935 1 
-		}
 		buildings = {
 			infrastructure = 3
 		}
@@ -19,6 +16,6 @@ state={
 	}
 
 	provinces={
-		864 1463 6935 7530 10497 12318 12476 
+		864 1463 7530 10497 12318 12476 
 	}
 }

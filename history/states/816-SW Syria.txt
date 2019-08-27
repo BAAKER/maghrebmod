@@ -1,0 +1,23 @@
+ 
+state={
+	id=816
+	name="STATE_816"
+	manpower = 100000
+	state_category=rural
+
+	history={
+		owner = SYR
+		victory_points = {
+			3942 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = SYR
+	}
+
+	provinces={
+		3942 2013 7513 12316 12442 10383
+	}
+}
