@@ -24,6 +24,10 @@ set_autonomy = {
 		autonomous_state = autonomy_integrated_puppet
 }
 set_autonomy = {
+		target = AUS
+		autonomous_state = autonomy_protectorate
+}
+set_autonomy = {
 		target = MAR
 		autonomous_state = autonomy_integrated_puppet
 }
@@ -37,7 +41,7 @@ set_autonomy = {
 }
 set_autonomy = {
 		target = NMB
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_protectorate
 }
 	
 	

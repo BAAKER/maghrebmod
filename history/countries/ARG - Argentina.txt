@@ -9,17 +9,20 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = traditionalism
+	ruling_party = paternalism
 	last_election = "1926.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	traditionalism = 100
+	conservatism = 5
+	liberalism = 5
+	reformism = 12
+	paternalism = 78
 }
 
-set_convoys = 5
+set_convoys = 120
 
 #Victor Emmanuel III of Italy after 39
 create_country_leader = {

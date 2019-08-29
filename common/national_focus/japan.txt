@@ -1,0 +1,418 @@
+focus_tree = {
+	id = japan_wtt_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = JAP
+		}
+	}
+	default = no
+	focus = {
+		id = JAP_officer_union
+		text = JAP_officer_union_desc
+		icon = GFX_goal_unknown
+		cost = 1,00
+		x = 11
+		y = 0
+		
+		completion_reward = {
+			country_event = japan.1
+		}
+	}
+	focus = {
+		id = JAP_path_samurai
+		text = JAP_path_samurai_desc
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = JAP_officer_union
+		}
+		x = 9
+		y = 1
+		completion_reward = {
+			country_event = japan.2
+		}
+	}
+	focus = {
+		id = JAP_keyo_accident
+		text = JAP_keyo_accident_desc
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = JAP_path_samurai
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = JAP_hirohito
+		text = JAP_hirohito_desc
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = JAP_keyo_accident
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = JAP_medizi
+		text = JAP_medizi_desc
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = JAP_hirohito
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = JAP_path_tanaki
+		text = JAP_path_tanaki_desc
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = JAP_medizi
+		}
+		mutually_exclusive = {
+			focus = JAP_father_path
+		}
+		
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = JAP_father_path
+		text = JAP_father_path_desc
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = JAP_medizi
+		}
+		mutually_exclusive = {
+			focus = JAP_path_tanaki
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = JAP_vesternization
+		text = JAP_vesternization_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_father_path
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = JAP_trade_expansion
+		text = JAP_trade_expansion_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_vesternization
+		}
+		mutually_exclusive = {
+			focus = JAP_expansion2
+		}
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = JAP_hongkong
+		text = JAP_hongkong_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_trade_expansion
+		}
+		x = 13
+		y = 9
+
+	}
+	focus = {
+		id = JAP_english_trade_colonies
+		text = JAP_english_trade_colonies_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_trade_expansion
+		}
+		x = 15
+		y = 9
+
+	}
+	focus = {
+		id = JAP_expansion2
+		text = JAP_expansion2_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_vesternization
+		}
+		mutually_exclusive = {
+			focus = JAP_trade_expansion
+		}
+		x = 18
+		y = 7
+
+	}
+	focus = {
+		id = JAP_german_ostindia
+		text = JAP_german_ostindia_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_expansion2
+		}
+		x = 17
+		y = 9
+
+	}
+	focus = {
+		id = JAP_zulu
+		text = JAP_zulu_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_expansion2
+		}
+		x = 19
+		y = 9
+
+	}
+	focus = {
+		id = JAP_philipines
+		text = JAP_philipines_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_german_ostindia
+		}
+		prerequisite = {
+			focus = JAP_zulu
+		}
+		x = 18
+		y = 11
+
+	}
+	focus = {
+		id = JAP_expansion
+		text = JAP_expansion_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_path_tanaki
+		}
+		x = 6
+		y = 6
+
+	}
+	focus = {
+		id = JAP_dzibatsu
+		text = JAP_dzibatsu_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_expansion
+		}
+		x = 6
+		y = 7
+
+	}
+	focus = {
+		id = JAP_gegemonia
+		text = JAP_gegemonia_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_dzibatsu
+		}
+		x = 6
+		y = 8
+
+	}
+	focus = {
+		id = JAP_russia_expansion
+		text = JAP_russia_expansion_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_gegemonia
+		}
+		x = 2
+		y = 10
+
+	}
+	focus = {
+		id = JAP_china_expansion
+		text = JAP_china_expansion_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_gegemonia
+		}
+		x = 6
+		y = 10
+
+	}
+	focus = {
+		id = JAP_europe_colonies_expansion
+		text = JAP_europe_colonies_expansion_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_gegemonia
+		}
+		x = 10
+		y = 10
+
+	}
+	focus = {
+		id = JAP_transamuria
+		text = JAP_transamuria_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_russia_expansion
+		}
+		x = 2
+		y = 11
+
+	}
+	focus = {
+		id = JAP_Russian_question
+		text = JAP_Russian_question_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_transamuria
+		}
+		x = 2
+		y = 12
+
+	}
+	focus = {
+		id = JAP_integration_russian
+		text = JAP_integration_russian_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_Russian_question
+		}
+		x = 1
+		y = 13
+
+	}
+	focus = {
+		id = JAP_deportation_russian
+		text = JAP_deportation_russian_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_Russian_question
+		}
+		x = 3
+		y = 13
+
+	}
+	focus = {
+		id = JAP_chinese_powers
+		text = JAP_chinese_powers_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_china_expansion
+		}
+		x = 6
+		y = 11
+
+	}
+	focus = {
+		id = JAP_surinam_accident
+		text = JAP_surinam_accident_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_europe_colonies_expansion
+		}
+		x = 10
+		y = 11
+
+	}
+	focus = {
+		id = JAP_intervention_india
+		text = JAP_intervention_india_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_surinam_accident
+		}
+		prerequisite = {
+			focus = JAP_chinese_powers
+		}
+		mutually_exclusive = {
+			focus = JAP_exchange_india
+		}
+		x = 7
+		y = 12
+
+	}
+	focus = {
+		id = JAP_exchange_india
+		text = JAP_exchange_india_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_surinam_accident
+		}
+		prerequisite = {
+			focus = JAP_chinese_powers
+		}
+		mutually_exclusive = {
+			focus = JAP_intervention_india
+		}
+		x = 9
+		y = 12
+
+	}
+	focus = {
+		id = JAP_high_expansion
+		text = JAP_high_expansion_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_intervention_india
+			focus = JAP_exchange_india
+		}
+		x = 8
+		y = 13
+
+	}
+	focus = {
+		id = JAP_manjuria
+		text = JAP_manjuria_desc
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = JAP_hongkong
+		}
+		prerequisite = {
+			focus = JAP_english_trade_colonies
+		}
+		x = 14
+		y = 11
+
+	}
+}
