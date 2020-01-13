@@ -1,0 +1,23 @@
+ 
+state={
+	id=825
+	name="STATE_825"
+	manpower = 1000000
+	state_category=rural
+
+	history={
+		owner = SUS
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 4
+			10325 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SUS
+	}
+
+	provinces={
+		10212 12186 4338 12243 7415 1404 10325 7231 7358 12228 10240 1306 10199 10143 4282
+	}
+}

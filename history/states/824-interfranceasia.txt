@@ -1,0 +1,19 @@
+ 
+state={
+	id=824
+	name="STATE_824"
+	manpower = 4600000
+	state_category=rural
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ICH
+	}
+
+	provinces={
+		1374 1563 4554 1577 10453 1592 1248 10180 4255
+	}
+}
