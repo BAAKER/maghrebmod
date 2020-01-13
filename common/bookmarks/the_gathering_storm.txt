@@ -122,17 +122,17 @@ bookmarks = {
 				JAP_strike_on_the_southern_resource_area
 			}			
 		}
-		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
+		"RUS"={
+			history = "RUS_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
 				trotskyite_plot
 				home_of_revolution
 			}
 			focuses = {
-				SOV_great_purge
-				SOV_claims_on_baltic
-				SOV_war_with_uk
+				RUS_great_purge
+				RUS_claims_on_baltic
+				RUS_war_with_uk
 			}	
 		}
 
@@ -339,7 +339,7 @@ bookmarks = {
 			focuses = {
 				CHI_join_the_republican_government
 				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
+				CHI_join_the_chinese_RUSiet
 			}
 		}		
 		"YUN"={
@@ -353,7 +353,7 @@ bookmarks = {
 			focuses = {
 				CHI_join_the_republican_government
 				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
+				CHI_join_the_chinese_RUSiet
 			}
 		}		
 		"SHX"={
@@ -367,7 +367,7 @@ bookmarks = {
 			focuses = {
 				CHI_join_the_republican_government
 				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
+				CHI_join_the_chinese_RUSiet
 			}
 		}		
 		"XSM"={
@@ -381,7 +381,7 @@ bookmarks = {
 			focuses = {
 				CHI_join_the_republican_government
 				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
+				CHI_join_the_chinese_RUSiet
 			}
 		}		
 		"SIK"={
@@ -395,7 +395,7 @@ bookmarks = {
 			focuses = {
 				CHI_join_the_republican_government
 				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
+				CHI_join_the_chinese_RUSiet
 			}
 		}
 		
