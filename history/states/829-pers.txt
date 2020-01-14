@@ -1,0 +1,20 @@
+ 
+state={
+	id=829
+	name="STATE_829"
+	manpower = 500000
+	state_category=rural
+
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = PER
+		add_core_of = TRK
+	}
+
+	provinces={
+		12359 10510 12333 7491
+	}
+}

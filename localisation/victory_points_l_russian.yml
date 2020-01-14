@@ -1,6 +1,7 @@
 ﻿l_russian:
  VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! победных очков = §Y$POINTS$§!"
  VICTORY_POINTS_6521:0 "Берлин"
+ VICTORY_POINTS_7477:0 "Туркменбашы"
  VICTORY_POINTS_692:0 "Мюнхен"
  VICTORY_POINTS_6469:0 "Эссен"
  VICTORY_POINTS_9347:0 "Гамбург"
@@ -624,6 +625,7 @@
  VICTORY_POINTS_2220:0 "Бужумбура"
  VICTORY_POINTS_9962:0 "Кигали"
  VICTORY_POINTS_12989:0 "Кампала"
+ VICTORY_POINTS_10960:0 "Рио Бранка"
  VICTORY_POINTS_1939:0 "Найроби"
  VICTORY_POINTS_8124:0 "Джибути"
  VICTORY_POINTS_2077:0 "Белиз"

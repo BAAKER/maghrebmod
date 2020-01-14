@@ -2,7 +2,7 @@
 state={
 	id=789
 	name="STATE_789"
-	manpower = 979900
+	manpower = 179900
 	
 	state_category = pastoral
 	
@@ -14,14 +14,16 @@ state={
 	history={
 		owner = INB
 		buildings = {
-			infrastructure = 0
-
+			infrastructure = 1
+		}
+		victory_points = {
+			10960 1
 		}
 		add_core_of = BRA
 		add_core_of = INB
 	}
 
 	provinces={
-		13083 2198 8254 5216 8185 10960
+		13083 2198 8254 5216 8185 10960 12965 12919 5232 2147 11010 12939
 	}
 }
