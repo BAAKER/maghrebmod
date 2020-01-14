@@ -1,4 +1,4 @@
-﻿capital = 544
+﻿capital = 454
 
 OOB = "PAL_1936"
 

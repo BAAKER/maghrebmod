@@ -1,0 +1,20 @@
+ 
+state={
+	id=831
+	name="STATE_831"
+	manpower = 500000
+	state_category=rural
+
+	history={
+		owner = BUL
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = BUL
+		add_core_of = YUG
+	}
+
+	provinces={
+		11857 11868
+	}
+}
