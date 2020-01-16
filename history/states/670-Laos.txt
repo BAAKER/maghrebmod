@@ -6,8 +6,8 @@ state={
 	state_category = pastoral
 
 	history={
-		add_core_of = ICH
-		owner = ICH
+		add_core_of = INC
+		owner = INC
 		add_core_of = LAO
 		victory_points = {
 			1464 1

@@ -10,8 +10,8 @@ state={
 	state_category = town
 	
 	history={
-		owner = UPC
-		add_core_of = UPC
+		owner = UCA
+		add_core_of = UCA
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1

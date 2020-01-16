@@ -85,6 +85,10 @@ SWI = {
 	color = rgb { 181 43 48 }
 	color_ui = rgb { 181 43 48 }
 }
+SRL = {
+	color = rgb { 112 91 122 }
+	color_ui = rgb { 112 91 122 }
+}
 TUR = {
 	color = rgb { 100 150 115 }
 	color_ui = rgb { 100 150 115 }
@@ -201,6 +205,10 @@ LIB = {
 	color = rgb { 126 137 88 }
 	color_ui = rgb { 126 137 88 }
 }
+LBR = {
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 152 130 191 }
+}
 MEX = {
 	color = rgb { 102 127 90 }
 	color_ui = rgb { 102 127 90 }
@@ -310,7 +318,7 @@ SLO = {
 	color_ui = rgb { 255 255 255 }
 }
 RAJ = {
-	color = rgb { 204 102 0 }
+	color = rgb { 137 59 59 }
 	color_ui = rgb { 255 128 0 }
 }
 
@@ -324,12 +332,12 @@ LBA = {
 	color_ui = rgb { 152 130 191 }
 }
 
-EGY = {
+EGP = {
 	color = rgb { 196 180 102 }
 	color_ui = rgb { 196 180 102 }
 }
 
-PAL = {
+BMP = {
 	color = rgb { 175 86 11 }
 	color_ui = rgb { 175 86 11 }
 }
@@ -426,6 +434,10 @@ COG = {
 	color = rgb { 152 159 209 }
 	color_ui = rgb { 152 159 209 }
 }
+PKS = {
+	color = rgb { 62 81 54 }
+	color_ui = rgb { 62 81 54 }
+}
 MZB = {
 	color = rgb { 112 62 90 }
 	color_ui = rgb { 112 62 90 }
@@ -441,10 +453,6 @@ ZIM = {
 BOT = {
 	color = rgb { 11 132 112 }
 	color_ui = rgb { 11 132 112 }
-}
-PAK = {
-	color = rgb { 62 81 54 }
-	color_ui = rgb { 62 81 54 }
 }
 WGR = {
     color = rgb { 195 236 230 } # The colors are set to be more are less what we are used to
@@ -550,15 +558,11 @@ BIR = {
 	color = rgb { 142 117 133 }
 	color_ui = rgb { 142 117 133 }
 }
-ICH = {
-	color = rgb { 150 145 93 }
-	color_ui = rgb { 150 145 93 }
-}
 SUS = {
 	color = rgb { 57 84 44 }
 	color_ui = rgb { 57 84 44 }
 }
-KUR = {
+KRD = {
 	color = rgb { 137 103 81 }
 	color_ui = rgb { 137 103 81 }
 }
@@ -567,8 +571,12 @@ RIF = {
 	color_ui = rgb { 169 99 57 }
 }
 TRK = {
-	color = rgb { 62 68 40 }
-	color_ui = rgb { 62 68 40 }
+	color = rgb { 102 114 53 }
+	color_ui = rgb { 102 114 53 }
+}
+INC = {
+	color = rgb { 150 145 93 }
+	color_ui = rgb { 150 145 93 }
 }
 SUD = {
 	color = rgb { 104 70 70 }
@@ -582,13 +590,9 @@ INB = {
 	color = rgb { 53 45 49 }
 	color_ui = rgb { 53 45 49 }
 }
-UBC = {
+SBR = {
 	color = rgb { 75 95 96 }
 	color_ui = rgb { 75 95 96 }
-}
-UPC = {
-	color = rgb { 129 157 168 }
-	color_ui = rgb { 129 157 168 }
 }
 ROD = {
 	color = rgb { 216 188 171 }
@@ -605,6 +609,10 @@ BSU = {
 MAR = {
 	color = rgb { 137 122 100 }
 	color_ui = rgb { 137 122 100 }
+}
+UCA = {
+	color = rgb { 129 157 168 }
+	color_ui = rgb { 129 157 168 }
 }
 TMR = {
 	color = rgb { 109 100 89 }

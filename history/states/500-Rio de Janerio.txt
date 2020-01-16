@@ -7,9 +7,9 @@ state={
 	state_category = large_city
 	
 	history={
-		owner = UBC
+		owner = SBR
 		add_core_of = BRA
-		add_core_of = UBC
+		add_core_of = SBR
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2

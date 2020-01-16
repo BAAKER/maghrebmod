@@ -20,7 +20,7 @@ set_popularities = {
 }
 
 set_autonomy = {
-		target = PAL
+		target = BMP
 		autonomous_state = autonomy_colony
 	}
 set_autonomy = {
@@ -32,7 +32,7 @@ set_autonomy = {
 		autonomous_state = autonomy_integrated_puppet
 	}
 set_autonomy = {
-		target = IND
+		target = RAJ
 		autonomous_state = autonomy_colony
 		freedom_level = 0.2
 	}

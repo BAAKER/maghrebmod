@@ -6,7 +6,7 @@ state={
 	state_category=rural
 
 	history={
-		owner = PAL
+		owner = BMP
 		buildings = {
 			infrastructure = 4
 			12049 = {
@@ -20,8 +20,8 @@ state={
 			4073 3
 		}
 		industrial_complex = 1
-		add_core_of = PAL
-		add_core_of = EGY
+		add_core_of = BMP
+		add_core_of = EGP
 	}
 
 	provinces={
