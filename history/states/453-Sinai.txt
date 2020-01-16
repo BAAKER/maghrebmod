@@ -8,13 +8,13 @@ state={
 	
 	
 	history = {
-		owner = BMP
-		add_core_of = BMP
+		owner = PAL
+		add_core_of = PAL
 		buildings = {
 			infrastructure = 2
 		}
 
-		add_core_of = EGP
+		add_core_of = EGY
 
 	}
 

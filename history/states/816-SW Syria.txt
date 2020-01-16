@@ -6,7 +6,7 @@ state={
 	state_category=rural
 
 	history={
-		owner = SRL
+		owner = SYR
 		victory_points = {
 			3942 1
 		}
@@ -14,7 +14,7 @@ state={
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		add_core_of = SRL
+		add_core_of = SYR
 	}
 
 	provinces={

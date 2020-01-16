@@ -9,13 +9,13 @@ state={
 	state_category = rural
 
 	history={
-		owner = EGP
+		owner = EGY
 
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = EGP
+		add_core_of = EGY
 		add_core_of = SUD
 		add_core_of = BSU
 	}

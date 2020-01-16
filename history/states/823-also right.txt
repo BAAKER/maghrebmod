@@ -6,13 +6,13 @@ state={
 	state_category=rural
 
 	history={
-		owner = PKS
+		owner = PAK
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		add_core_of = PKS
-		add_core_of = RAJ
+		add_core_of = PAK
+		add_core_of = IND
 	}
 
 	provinces={

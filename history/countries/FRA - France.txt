@@ -20,7 +20,7 @@ set_popularities = {
 }
 
 set_autonomy = {
-		target = SRL
+		target = SYR
 		autonomous_state = autonomy_colony
 	}
 	

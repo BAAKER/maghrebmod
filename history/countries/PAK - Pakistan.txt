@@ -1,6 +1,6 @@
 ﻿capital = 444
 
-OOB = "PKS_1936"
+OOB = "PAK_1936"
 
 set_technology = {
 	infantry_weapons = 1
