@@ -330,6 +330,11 @@ CRO = {
 	color_ui = rgb { 122 97 89 }
 }
 
+BMP = {
+	color = rgb { 175 86 111 }
+	color_ui = rgb { 175 86 111 }
+}
+
 LBA = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 152 130 191 }
@@ -338,11 +343,6 @@ LBA = {
 EGY = {
 	color = rgb { 196 180 102 }
 	color_ui = rgb { 196 180 102 }
-}
-
-BMP = {
-	color = rgb { 175 86 111 }
-	color_ui = rgb { 175 86 111 }
 }
 
 LEB = {
