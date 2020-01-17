@@ -317,6 +317,10 @@ SLO = {
 	color = rgb { 143 145 168 }
 	color_ui = rgb { 255 255 255 }
 }
+AZE = {
+	color = rgb { 93 105 150 }
+	color_ui = rgb { 93 105 150 }
+}
 RAJ = {
 	color = rgb { 119 48 39 }
 	color_ui = rgb { 255 128 0 }
@@ -374,11 +378,6 @@ ICE = {
 UKR = {
 	color = rgb { 0  80  230 }
 	color_ui = rgb { 0  80  230 }	
-}
-
-AZR = {
-	color = rgb { 93 105 150 }
-	color_ui = rgb { 93 105 150 }
 }
 
 LAO = {
