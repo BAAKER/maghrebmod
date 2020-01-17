@@ -313,7 +313,10 @@ RAJ = {
 	color = rgb { 119 48 39 }
 	color_ui = rgb { 255 128 0 }
 }
-
+SRL = {
+	color = rgb { 112 91 122 }
+	color_ui = rgb { 112 91 122 }
+}
 CRO = {
 	color = rgb { 122 97 89 }
 	color_ui = rgb { 122 97 89 }
@@ -342,11 +345,6 @@ LEB = {
 JOR = {
 	color = rgb { 111  55  78 }
 	color_ui = rgb { 111  55  78 }
-}
-
-SYR = {
-	color = rgb { 112 91 122 }
-	color_ui = rgb { 112 91 122 }
 }
 
 SER = {
