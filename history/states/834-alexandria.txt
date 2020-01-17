@@ -20,7 +20,7 @@ state={
 		}
 		industrial_complex = 1
 		add_core_of = KOP
-		add_core_of = EGY
+		add_core_of = EGP
 	}
 
 	provinces={
