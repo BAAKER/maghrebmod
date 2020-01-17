@@ -463,6 +463,10 @@ ISR = {
 	color = rgb { 152  130  191 }
 	color_ui = rgb { 152  130  191 }
 }
+KRD = {
+	color = rgb { 137 103 81 }
+	color_ui = rgb { 137 103 81 }
+}
 CSA = {
 	color = rgb { 145 163 176  }
 	color_ui = rgb { 186 205 219 }
@@ -558,10 +562,6 @@ ICH = {
 SUS = {
 	color = rgb { 57 84 44 }
 	color_ui = rgb { 57 84 44 }
-}
-KUR = {
-	color = rgb { 137 103 81 }
-	color_ui = rgb { 137 103 81 }
 }
 RIF = {
 	color = rgb { 169 99 57 }
