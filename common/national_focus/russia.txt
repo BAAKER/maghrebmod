@@ -1,0 +1,279 @@
+focus_tree = {
+	id = russia
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	default = no
+	focus = {
+		id = RUS_elec_prep
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 10
+		y = 0
+	}
+	focus = {
+		id = RUS_bet
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = RUS_elec_prep
+		}
+		x = 10
+		y = 1
+		
+		available = {
+            date > 1928.03.01
+        }
+
+	}
+	focus = {
+		id = RUS_elec
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_bet
+		}
+		mutually_exclusive = {
+			focus = RUS_elec_cancel
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = RUS_elec_cancel
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_bet
+		}
+		mutually_exclusive = {
+			focus = RUS_elec
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = RUS_save_kornilov
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_elec_cancel
+		}
+		mutually_exclusive = {
+			focus = RUS_hier
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = RUS_hier
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_elec_cancel
+		}
+		mutually_exclusive = {
+			focus = RUS_save_kornilov
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = RUS_right_react
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_hier
+		}
+		x = 20
+		y = 4
+
+	}
+	focus = {
+		id = RUS_martiallaw
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_save_kornilov
+			focus = RUS_hier
+			focus = RUS_right_react
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = RUS_protest
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_martiallaw
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = RUS_leftists
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_protest
+		}
+		mutually_exclusive = {
+			focus = RUS_rightists
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = RUS_rightists
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_protest
+		}
+		mutually_exclusive = {
+			focus = RUS_leftists
+		}
+		x = 15
+		y = 6
+
+	}
+	focus = {
+		id = RUS_elite
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_rightists
+		}
+		x = 15
+		y = 7
+
+	}
+	focus = {
+		id = RUS_monarchist
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_right_react
+		}
+		mutually_exclusive = {
+			focus = RUS_monarch1
+		}
+		x = 19
+		y = 5
+
+	}
+	focus = {
+		id = RUS_monarch
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_monarchist
+		}
+		x = 19
+		y = 6
+
+	}
+	focus = {
+		id = RUS_parliament
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_monarch
+		}
+		x = 19
+		y = 7
+
+	}
+	focus = {
+		id = RUS_poor
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_leftists
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = RUS_meritocracy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_poor
+		}
+		x = 11
+		y = 8
+
+	}
+	focus = {
+		id = RUS_oligarchy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_elite
+		}
+		x = 15
+		y = 8
+
+	}
+	focus = {
+		id = RUS_monarch1
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_right_react
+		}
+		mutually_exclusive = {
+			focus = RUS_monarchist
+		}
+		x = 22
+		y = 5
+
+	}
+	focus = {
+		id = RUS_absolute
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_monarch1
+		}
+		x = 22
+		y = 6
+
+	}
+	focus = {
+		id = RUS_opposition
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_absolute
+		}
+		x = 22
+		y = 7
+
+	}
+	focus = {
+		id = RUS_question
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = RUS_opposition
+		}
+		x = 22
+		y = 8
+
+	}
+}

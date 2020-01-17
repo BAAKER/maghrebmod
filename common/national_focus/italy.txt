@@ -1,0 +1,332 @@
+focus_tree = {
+	id = italian_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = ITA_start_fight_with_mafia
+		icon = GFX_ITA_start_fight_with_mafia
+		cost = 3
+		available = {
+            has_country_flag = IV_congress_CIRC
+        }
+		completion_reward = {
+		    add_political_power = 10
+		    hidden_effect = { 
+			    country_event = {
+                    id = italy.2
+				}
+            }
+		}
+		x = 5
+		y = 0
+	}
+	
+	focus = {
+		id = ITA_power_method
+		icon = GFX_ITA_power_method
+		cost = 2
+		available = {
+            has_country_flag = power_struggle
+        }
+		prerequisite = {
+			focus = ITA_start_fight_with_mafia
+		}
+		mutually_exclusive = {
+            focus = ITA_we_will_try_to_agree
+        }
+		completion_reward = {
+		    random_list = {
+                70 = {
+                    country_event = {
+                        id = italy.3
+                        days = 3
+                    }
+                }
+                30 = {
+                    country_event = {
+                        id = italy.4
+                        days = 3
+                    }
+                }
+            }
+		}
+		x = 2
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_forced_to_exile
+		icon = GFX_ITA_force_mafia_to_emigrate
+		cost = 10
+		available = {
+            has_country_flag = arrest_of_leaders_of_mafia
+        }
+		prerequisite = {
+			focus = ITA_power_method
+		}
+		mutually_exclusive = {
+            focus = ITA_hot_march
+        }
+		completion_reward = {
+		    country_event = {
+                id = italy.6
+                days = 2
+            }
+		}
+		x = 1
+		y = 2
+	}
+	
+	focus = {
+		id = ITA_stabilization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ITA_forced_to_exile
+		}
+		completion_reward = {
+		    country_event = {
+                id = italy.7
+                days = 2
+            }
+			remove_ideas = instability_in_south
+		}
+		x = 1
+		y = 3
+	}
+	
+	focus = {
+		id = ITA_hot_march
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = ITA_power_method
+		}
+		available = {
+            has_country_flag = clashes_with_the_mafia
+        }
+		mutually_exclusive = {
+            focus = ITA_forced_to_exile
+        }
+		completion_reward = {
+		    country_event = {
+                id = italy.5
+                days = 1
+            }
+		}
+		x = 4
+		y = 2
+	}
+	
+	focus = {
+		id = ITA_clashes_in_Palermo
+		icon = GFX_goal_unknown
+		cost = 2
+		prerequisite = {
+			focus = ITA_hot_march
+		}
+		completion_reward = {
+		    country_event = {
+                id = italy.8
+                days = 2
+            }
+		}
+		x = 4
+		y = 3
+	}
+	
+	focus = {
+		id = ITA_il_nostro_ordine
+		icon = GFX_goal_unknown
+		cost = 5
+		available = {
+            has_country_flag = the_victory_over_the_mafia
+        }
+		prerequisite = {
+			focus = ITA_clashes_in_Palermo
+		}
+		mutually_exclusive = {
+            focus = ITA_Padre_di_Sicilia
+        }
+		completion_reward = {
+		    country_event = {
+                id = italy.10
+                days = 2
+            }
+		    remove_ideas = instability_in_south
+		}
+		x = 3
+		y = 4
+	}
+	
+	focus = {
+		id = ITA_Padre_di_Sicilia
+		icon = GFX_goal_unknown
+		cost = 2
+		available = {
+		    always = no
+		}
+		prerequisite = {
+			focus = ITA_clashes_in_Palermo
+		}
+		bypass = {
+		    has_country_flag = padre_di_sicilia
+		}
+		mutually_exclusive = {
+            focus = ITA_il_nostro_ordine
+        }
+		completion_reward = {
+		    country_event = {
+                id = italy.9
+                days = 1
+            }
+		}
+		x = 5
+		y = 4
+	}
+	
+	focus = {
+		id = ITA_we_will_try_to_agree
+		icon = GFX_goal_unknown
+		cost = 5
+		available = {
+            has_country_flag = diplomatic_struggle
+        }
+		prerequisite = {
+			focus = ITA_start_fight_with_mafia
+		}
+		mutually_exclusive = {
+            focus = ITA_power_method
+        }
+		completion_reward = {
+		    country_event = {
+                id = italy.15
+                days = 3
+            }
+		}
+		x = 7
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_mafia_destroyed
+		icon = GFX_goal_unknown
+		cost = 1
+		available = {
+            has_country_flag = mafia_leaders_arrested
+        }
+		prerequisite = {
+			focus = ITA_we_will_try_to_agree
+		}
+		mutually_exclusive = {
+            focus = ITA_granting_of_autonomy
+        }
+		completion_reward = {
+		}
+		x = 6
+		y = 2
+	}
+	
+	focus = {
+		id = ITA_granting_of_autonomy
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = ITA_we_will_try_to_agree
+		}
+		mutually_exclusive = {
+            focus = ITA_mafia_destroyed
+        }
+		completion_reward = {
+		}
+		x = 8
+		y = 2
+	}
+	
+	focus = {
+		id = ITA_destabilization
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = ITA_granting_of_autonomy
+		}
+		mutually_exclusive = {
+            focus = ITA_stabilization_1
+        }
+		completion_reward = {
+		}
+		x = 7
+		y = 3
+	}
+	
+	focus = {
+		id = ITA_stabilization_1
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = ITA_granting_of_autonomy
+		}
+		mutually_exclusive = {
+            focus = ITA_destabilization
+        }
+		completion_reward = {
+		}
+		x = 9
+		y = 3
+	}
+	
+	focus = {
+		id = ITA_to_start_industrialization_of_south
+		icon = GFX_goal_unknown
+		cost = 1
+		available = {
+            controls_state = 115
+        }
+		completion_reward = {
+		}
+		x = 11
+		y = 0
+	}
+	
+	focus = {
+		id = ITA_collectivization
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = ITA_to_start_industrialization_of_south
+		}
+		mutually_exclusive = {
+            focus = ITA_cooperation
+        }
+		completion_reward = {
+		}
+		x = 10
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_cooperation
+		icon = GFX_goal_unknown
+		cost = 1
+		prerequisite = {
+			focus = ITA_to_start_industrialization_of_south
+		}
+		mutually_exclusive = {
+            focus = ITA_collectivization
+        }
+		completion_reward = {
+		}
+		x = 12
+		y = 1
+	}
+}
