@@ -329,7 +329,10 @@ CRO = {
 	color = rgb { 122 97 89 }
 	color_ui = rgb { 122 97 89 }
 }
-
+GRU = {
+	color = rgb { 175 148 147 }
+	color_ui = rgb { 175 148 147 }
+}
 BMP = {
 	color = rgb { 175 86 111 }
 	color_ui = rgb { 175 86 111 }
@@ -349,7 +352,6 @@ LEB = {
 	color = rgb { 130  150  60 }
 	color_ui = rgb { 130  150  60 }
 }
-
 JOR = {
 	color = rgb { 111  55  78 }
 	color_ui = rgb { 111  55  78 }
@@ -373,11 +375,6 @@ UKR = {
 AZR = {
 	color = rgb { 93 105 150 }
 	color_ui = rgb { 93 105 150 }
-}
-
-GEO = {
-	color = rgb { 175 148 147 }
-	color_ui = rgb { 175 148 147 }
 }
 
 ARM = {

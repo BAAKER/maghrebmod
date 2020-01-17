@@ -10,13 +10,13 @@ state={
 	state_category = rural
 
 	history={
-		owner = GEO
+		owner = GRU
 
 		buildings = {
 			infrastructure = 6
 		}
 		add_core_of = RUS
-		add_core_of = GEO
+		add_core_of = GRU
 	}
 
 	provinces={
