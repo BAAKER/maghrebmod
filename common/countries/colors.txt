@@ -335,7 +335,7 @@ BMP = {
 	color_ui = rgb { 175 86 111 }
 }
 
-LBA = {
+LBR = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 152 130 191 }
 }
