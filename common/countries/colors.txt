@@ -325,6 +325,10 @@ SRL = {
 	color = rgb { 112 91 122 }
 	color_ui = rgb { 112 91 122 }
 }
+AMN = {
+	color = rgb { 149 112 150 }
+	color_ui = rgb { 149 112 150 }
+}
 CRO = {
 	color = rgb { 122 97 89 }
 	color_ui = rgb { 122 97 89 }
@@ -375,11 +379,6 @@ UKR = {
 AZR = {
 	color = rgb { 93 105 150 }
 	color_ui = rgb { 93 105 150 }
-}
-
-ARM = {
-	color = rgb { 149 112 150 }
-	color_ui = rgb { 149 112 150 }
 }
 
 LAO = {
