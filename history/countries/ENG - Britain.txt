@@ -20,7 +20,7 @@ set_popularities = {
 }
 
 set_autonomy = {
-		target = PAL
+		target = BMP
 		autonomous_state = autonomy_colony
 	}
 set_autonomy = {

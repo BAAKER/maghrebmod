@@ -1,6 +1,6 @@
 ﻿capital = 454
 
-OOB = "PAL_1936"
+OOB = "BMP_1936"
 
 set_technology = {
 	infantry_weapons = 1
