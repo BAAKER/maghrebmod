@@ -1,6 +1,6 @@
 ﻿capital = 676
 
-OOB = "KRD_1936"
+OOB = "KIA_1936"
 
 set_technology = {
 	infantry_weapons = 1
@@ -8,6 +8,8 @@ set_technology = {
 	tech_recon = 1
 }
 
+set_cosmetic_tag = KURD
+	
 set_politics = {
 	ruling_party = traditionalism
 	last_election = "1926.3.5"

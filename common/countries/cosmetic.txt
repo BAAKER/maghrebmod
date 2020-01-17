@@ -207,6 +207,11 @@ CAN_north_america_dominion = {
 	color_ui = rgb { 235 0 0 }
 }
 
+KURD = {
+	color = rgb { 150 82 69 }
+	color_ui = rgb { 150 82 69 }
+}
+
 USA_CSA = {
 	color = rgb { 145 163 176  }
 	color_ui = rgb { 186 205 219 }

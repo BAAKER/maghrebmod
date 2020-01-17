@@ -399,7 +399,10 @@ CAM = {
 	color = rgb { 100  71  150 }
 	color_ui = rgb { 100  71  150 }
 }
-
+KIA = {
+	color = rgb { 48 204 160 }
+	color_ui = rgb { 48 204 160 }
+}
 MAL = {
 	color = rgb { 213  169  121 }
 	color_ui = rgb { 213  169  121 }
@@ -462,10 +465,6 @@ KOR = {
 ISR = {
 	color = rgb { 152  130  191 }
 	color_ui = rgb { 152  130  191 }
-}
-KRD = {
-	color = rgb { 137 103 81 }
-	color_ui = rgb { 137 103 81 }
 }
 CSA = {
 	color = rgb { 145 163 176  }

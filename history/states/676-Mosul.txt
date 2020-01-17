@@ -11,8 +11,8 @@ state={
 
 
 	history={
-		owner = KRD
-		add_core_of = KRD
+		owner = KIA
+		add_core_of = KIA
 		buildings = {
 			infrastructure = 3
 		}
