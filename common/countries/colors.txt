@@ -297,6 +297,10 @@ HAI = {
 	color = rgb { 158 115 105 }
 	color_ui = rgb { 158 115 105 }
 }
+KOP = {
+	color = rgb { 158 139 55 }
+	color_ui = rgb { 158 139 55 }
+}
 YEM = {
 	color = rgb { 123 61 69 }
 	color_ui = rgb { 123 61 69 }
