@@ -1,4 +1,4 @@
-﻿capital = 596
+﻿capital = 797
 
 OOB = "CHZ_1936"
 
@@ -7,7 +7,7 @@ set_technology = {
 	tech_support = 1
 	tech_recon = 1
 }
-
+set_cosmetic_tag = CHZECHANREP
 set_politics = {
 	ruling_party = traditionalism
 	last_election = "1926.3.5"

@@ -14,7 +14,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
+set_cosmetic_tag = ANHOI
 set_popularities = {
 	traditionalism = 100
 }

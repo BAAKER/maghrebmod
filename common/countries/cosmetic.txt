@@ -3,7 +3,66 @@ MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
 }
-
+GANSUREP = {
+    color = rgb { 229 223 201 }
+    color_ui = rgb { 229 223 201 }
+}
+KLIKAMA = {
+    color = rgb { 149 187 196 }
+    color_ui = rgb { 149 187 196 }
+}
+UNYUAN = {
+    color = rgb { 56 127 76 }
+    color_ui = rgb { 56 127 76 }
+}
+GANSUSSR = {
+    color = rgb { 112 49 35 }
+    color_ui = rgb { 112 49 35 }
+}
+GANSUKLIKA = {
+    color = rgb { 81 84 145 }
+    color_ui = rgb { 81 84 145 }
+}
+SHENSISSR = {
+    color = rgb { 188 108 54 }
+    color_ui = rgb { 188 108 54 }
+}
+SINHAISSR = {
+    color = rgb { 135 70 55 }
+    color_ui = rgb { 135 70 55 }
+}
+CHZECHANREP = {
+    color = rgb { 165 134 123 }
+    color_ui = rgb { 165 134 123 }
+}
+SHANSIKLIKA = {
+    color = rgb { 188 108 54 }
+    color_ui = rgb { 188 108 54 }
+}
+SHENSIKLIKA = {
+    color = rgb { 206 194 138 }
+    color_ui = rgb { 206 194 138 }
+}
+ANHOI = {
+    color = rgb { 135 93 63 }
+    color_ui = rgb { 135 93 63 }
+}
+CHZILI = {
+    color = rgb { 224 196 58  }
+    color_ui = rgb { 224 196 58   }
+}
+BAODIN = {
+    color = rgb { 76 119 96 }
+    color_ui = rgb { 76 119 96 }
+}
+CONF = {
+    color = rgb { 170 53 21 }
+    color_ui = rgb { 170 53 21 }
+}
+GUANSISSR = {
+    color = rgb { 168 53 27 }
+    color_ui = rgb { 168 53 27 }
+}
 RAJ_UK = {
 	color = rgb { 170  10  10 }
 	color_ui = rgb { 200  10  10 }
@@ -242,6 +301,18 @@ SBRA = {
 PAKI = {
 	color = rgb { 62 81 54 }
 	color_ui = rgb { 62 81 54 }
+}
+JEBBEL = {
+	color = rgb { 153 96 84 }
+	color_ui = rgb { 153 96 84 }
+}
+MEKKA = {
+	color = rgb { 112 127 96 }
+	color_ui = rgb { 112 127 96 }
+}
+LYEMAN = {
+	color = rgb { 153 117 90 }
+	color_ui = rgb { 153 117 90 }
 }
 USA_CSA = {
 	color = rgb { 145 163 176  }

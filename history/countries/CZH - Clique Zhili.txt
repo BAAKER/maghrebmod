@@ -7,14 +7,14 @@ set_technology = {
 	tech_support = 1
 	tech_recon = 1
 }
-
+set_cosmetic_tag = CHZILI
 set_politics = {
 	ruling_party = traditionalism
 	last_election = "1926.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
-
+set_cosmetic_tag = CZHILI
 set_popularities = {
 	traditionalism = 100
 }
