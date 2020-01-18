@@ -9,14 +9,14 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = traditionalism
+	ruling_party = paternalism 
 	last_election = "1926.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	traditionalism = 100
+	paternalism = 100
 }
 
 set_autonomy = {
