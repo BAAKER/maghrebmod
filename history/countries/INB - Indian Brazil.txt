@@ -9,14 +9,14 @@ set_technology = {
 }
 set_cosmetic_tag = SBRA
 set_politics = {
-	ruling_party = traditionalism
+	ruling_party = conservatism
 	last_election = "1926.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	traditionalism = 100
+	conservatism = 100
 }
 
 set_convoys = 5
