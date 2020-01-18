@@ -16,7 +16,8 @@ set_politics = {
 }
 
 set_popularities = {
-	traditionalism = 100
+	traditionalism = 90
+	islamism = 10
 }
 
 set_convoys = 5
