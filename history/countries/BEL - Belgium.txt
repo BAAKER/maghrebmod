@@ -23,11 +23,11 @@ set_convoys = 5
 
 #Victor Emmanuel III of Italy after 39
 create_country_leader = {
-	name = "King Zog"
+	name = "King Leopold III"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "gfx\leaders\BEL\Portrait_Belgium_Leopold_III.dds"
+	picture = "Portrait_Belgium_Leopold_III.dds"
 	expire = "1965.1.1"
-	ideology = traditionalism
+	ideology = liberal_conservatism
 	traits = {
 		#
 	}

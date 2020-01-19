@@ -23,11 +23,11 @@ set_convoys = 5
 
 #Victor Emmanuel III of Italy after 39
 create_country_leader = {
-	name = "King Zog"
+	name = "Jose Gutierrez Guerra"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "gfx\leaders\BOL\Portrait_Bolivia_Jose_Gutierrez_Guerra.dds"
+	picture = "Portrait_Bolivia_Jose_Gutierrez_Guerra.dds"
 	expire = "1965.1.1"
-	ideology = traditionalism
+	ideology = statism
 	traits = {
 		#
 	}

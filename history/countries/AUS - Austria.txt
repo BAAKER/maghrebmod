@@ -23,11 +23,10 @@ set_convoys = 5
 
 #Victor Emmanuel III of Italy after 39
 create_country_leader = {
-	name = "King Zog"
-	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "gfx\leaders\AUS\Karl Renner.dds"
+	name = "Karl Renner"
+	picture = "Karl Renner.dds"
 	expire = "1965.1.1"
-	ideology = traditionalism
+	ideology = liberal_conservatism
 	traits = {
 		#
 	}

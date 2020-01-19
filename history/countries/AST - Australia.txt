@@ -25,9 +25,9 @@ set_convoys = 100
 create_country_leader = {
 	name = "King Zog"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "gfx\leaders\AST\asus.dds"
+	picture = "asus.dds"
 	expire = "1965.1.1"
-	ideology = traditionalism
+	ideology = progressivism
 	traits = {
 		#
 	}

@@ -23,11 +23,11 @@ set_convoys = 5
 
 #Victor Emmanuel III of Italy after 39
 create_country_leader = {
-	name = "King Zog"
+	name = "Ion Pelivan"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "gfx\leaders\BES\Portrait_Ion_Pelivan.dds"
+	picture = "Portrait_Ion_Pelivan.dds"
 	expire = "1965.1.1"
-	ideology = traditionalism
+	ideology = national_liberalism
 	traits = {
 		#
 	}

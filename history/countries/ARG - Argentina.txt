@@ -26,11 +26,11 @@ set_convoys = 120
 
 #Victor Emmanuel III of Italy after 39
 create_country_leader = {
-	name = "King Zog"
+	name = "Alfredo Palacios"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "gfx\leaders\ARG\Portrait_Argentina_Alfredo_Palacios.dds"
+	picture = "Portrait_Argentina_Alfredo_Palacios.dds"
 	expire = "1965.1.1"
-	ideology = traditionalism
+	ideology = nationalism
 	traits = {
 		#
 	}
