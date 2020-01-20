@@ -1,31 +1,4 @@
 ideologies = {
-	
-	anarchism = {
-		
-		types = {
-		
-		    anarcho_communism = {
-			}
-			
-			anarcho_syndicalism = {
-			}
-			
-			classic_anarchism = {
-			}
-		
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
-		}
-		
-		color = { 10 10 10 }
-
-	}
 
 	neobol = {
 		
