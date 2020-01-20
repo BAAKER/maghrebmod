@@ -356,65 +356,63 @@ spriteTypes = {
 <<<<<<< HEAD
 
 	spriteType = {
-		name = "GFX_ideology_anarchism_group"
-		texturefile = "gfx/interface/ideologies/anarchism_group.dds"
+		name = "GFX_ideology_liberalism_group"
+		texturefile = "gfx/interface/ideologies/liberalism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_reformism_group"
+		texturefile = "gfx/interface/ideologies/reformism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_paternalism_group"
+		texturefile = "gfx/interface/ideologies/paternalism_group.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_ideology_autrep_group"
+		texturefile = "gfx/interface/ideologies/autrep_group.dds"
+	}
+
 	spriteType = {
 		name = "GFX_ideology_conservatism_group"
 		texturefile = "gfx/interface/ideologies/conservatism_group.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ideology_demsoc_group"
 		texturefile = "gfx/interface/ideologies/demsoc_group.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_liberalism_group"
-		texturefile = "gfx/interface/ideologies/liberalism_group.dds"
+		name = "GFX_ideology_islamism_group"
+		texturefile = "gfx/interface/ideologies/islamism_group.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_ideology_orthomarxism_group"
-		texturefile = "gfx/interface/ideologies/orthomarxism_group.dds"
-	}
+
 	spriteType = {
 		name = "GFX_ideology_natsynd_group"
 		texturefile = "gfx/interface/ideologies/natsynd_group.dds"
 	}
+
 	spriteType = {
 		name = "GFX_ideology_neobol_group"
 		texturefile = "gfx/interface/ideologies/neobol_group.dds"
 	}
 	spriteType = {
-		name = "GFX_ideology_reformism_group"
-		texturefile = "gfx/interface/ideologies/reformism_group.dds"
+		name = "GFX_ideology_orthomarxism_group"
+		texturefile = "gfx/interface/ideologies/orthomarxism_group.dds"
 	}
-	spriteType = {
-		name = "GFX_ideology_ultrakap_group"
-		texturefile = "gfx/interface/ideologies/ultrakap_group.dds"
-	}
-	spriteType = {
-		name = "GFX_ideology_islamism_group"
-		texturefile = "gfx/interface/ideologies/islamism_group.dds"
-	}	
 
 	spriteType = {
 		name = "GFX_ideology_traditionalism_group"
 		texturefile = "gfx/interface/ideologies/traditionalism_group.dds"
-	}	
-	
-	spriteType = {
-		name = "GFX_ideology_autrep_group"
-		texturefile = "gfx/interface/ideologies/autrep_group.dds"
 	}
-	
+
 	spriteType = {
-		name = "GFX_ideology_paternalism_group"
-		texturefile = "gfx/interface/ideologies/paternalism_group.dds"
+		name = "GFX_ideology_ultrakap_group"
+		texturefile = "gfx/interface/ideologies/ultrakap_group.dds"
 	}
-	
 	spriteType = {
 		name = "GFX_ideology_democratic_group"
 		texturefile = "gfx/interface/ideologies/democratic_group.dds"
