@@ -1,0 +1,30 @@
+ 
+state={
+	id=835
+	name="STATE_835"
+	manpower = 3000000
+	state_category=rural
+
+	history={
+		owner = TRI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			6626 = {
+				naval_base = 5
+
+			}
+		}
+		victory_points = {
+			6626 1 
+		}
+		add_core_of = TRI
+		add_core_of = AUS
+		add_core_of = ITA
+	}
+
+	provinces={
+		13462 6626
+	}
+}
