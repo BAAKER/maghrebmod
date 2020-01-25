@@ -14,7 +14,10 @@ focus_tree = {
 		cost = 10
 		x = 21
 		y = 0
-
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 100
+		}
 	}
 	focus = {
 		id = social_revolution
@@ -29,7 +32,9 @@ focus_tree = {
 		}
 		x = 11
 		y = 1
-
+		completion_reward = {
+			
+		}
 	}
 	focus = {
 		id = new_partys_type
@@ -40,7 +45,9 @@ focus_tree = {
 		}
 		x = 8
 		y = 2
-
+		completion_reward = {
+			neobol_drift = 0.05
+		}
 	}
 	focus = {
 		id = burjua_war
@@ -51,7 +58,9 @@ focus_tree = {
 		}
 		x = 8
 		y = 3
-
+		completion_reward = {
+		
+		}
 	}
 	focus = {
 		id = central_collective
@@ -62,7 +71,9 @@ focus_tree = {
 		}
 		x = 8
 		y = 4
-
+		completion_reward = {
+			
+		}
 	}
 	focus = {
 		id = industrial_plan
@@ -73,7 +84,9 @@ focus_tree = {
 		}
 		x = 8
 		y = 5
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = war_internationalism
@@ -84,7 +97,9 @@ focus_tree = {
 		}
 		x = 8
 		y = 6
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = true_marx
@@ -95,7 +110,9 @@ focus_tree = {
 		}
 		x = 11
 		y = 2
-
+		completion_reward = {
+			orthomarxism_drift = 0.05
+		}
 	}
 	focus = {
 		id = intelegents
@@ -106,7 +123,9 @@ focus_tree = {
 		}
 		x = 11
 		y = 3
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = decentral_colect
@@ -117,7 +136,9 @@ focus_tree = {
 		}
 		x = 11
 		y = 4
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = stop_capitalism
@@ -128,7 +149,9 @@ focus_tree = {
 		}
 		x = 11
 		y = 5
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = pacific_inernationalism
@@ -139,7 +162,9 @@ focus_tree = {
 		}
 		x = 11
 		y = 6
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = profunion_first
@@ -150,7 +175,9 @@ focus_tree = {
 		}
 		x = 14
 		y = 2
-
+		completion_reward = {
+			demsoc_drift = 0.05
+		}
 	}
 	focus = {
 		id = united_social_gov
@@ -161,7 +188,9 @@ focus_tree = {
 		}
 		x = 14
 		y = 3
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = cooperation
@@ -172,7 +201,9 @@ focus_tree = {
 		}
 		x = 14
 		y = 4
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = control_on_factory
@@ -183,7 +214,9 @@ focus_tree = {
 		}
 		x = 14
 		y = 5
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = workers_democracy
@@ -194,7 +227,9 @@ focus_tree = {
 		}
 		x = 14
 		y = 6
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = democratic_reform
@@ -209,7 +244,9 @@ focus_tree = {
 		}
 		x = 21
 		y = 1
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = new_model_gov_regul
@@ -220,7 +257,9 @@ focus_tree = {
 		}
 		x = 21
 		y = 2
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = paternalism_move
@@ -231,7 +270,9 @@ focus_tree = {
 		}
 		x = 21
 		y = 3
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = inst_free_election
@@ -242,7 +283,9 @@ focus_tree = {
 		}
 		x = 21
 		y = 4
-
+		completion_reward = {
+			
+		}
 	}
 	focus = {
 		id = social_reforms
@@ -257,7 +300,9 @@ focus_tree = {
 		}
 		x = 18
 		y = 5
-
+		completion_reward = {
+			reformism_drift = 0.05
+		}
 	}
 	focus = {
 		id = economic_reform
@@ -272,7 +317,9 @@ focus_tree = {
 		}
 		x = 21
 		y = 5
-
+		completion_reward = {
+			liberalism_drift = 0.05
+		}
 	}
 	focus = {
 		id = free_poeple_trade
@@ -283,7 +330,9 @@ focus_tree = {
 		}
 		x = 21
 		y = 6
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = main_stability
@@ -298,7 +347,9 @@ focus_tree = {
 		}
 		x = 24
 		y = 5
-
+		completion_reward = {
+			conservatism_drift = 0.05
+		}
 	}
 	focus = {
 		id = traditions_and_private
@@ -309,7 +360,9 @@ focus_tree = {
 		}
 		x = 24
 		y = 6
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = right_path
@@ -324,7 +377,9 @@ focus_tree = {
 		}
 		x = 31
 		y = 1
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = army_at_control
@@ -339,7 +394,9 @@ focus_tree = {
 		}
 		x = 28
 		y = 2
-
+		completion_reward = {
+			autrep_drift = 0.05
+		}
 	}
 	focus = {
 		id = militarization
@@ -350,7 +407,10 @@ focus_tree = {
 		}
 		x = 28
 		y = 3
-
+		completion_reward = {
+			army_experience = 20
+			set_rule = { can_send_volunteers = yes }
+		}
 	}
 	focus = {
 		id = indepent_rep
@@ -361,7 +421,9 @@ focus_tree = {
 		}
 		x = 28
 		y = 4
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = legimitance_didctaor
@@ -372,7 +434,9 @@ focus_tree = {
 		}
 		x = 28
 		y = 5
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = expansion
@@ -383,7 +447,9 @@ focus_tree = {
 		}
 		x = 28
 		y = 6
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = contr_revolution
@@ -398,7 +464,9 @@ focus_tree = {
 		}
 		x = 31
 		y = 2
-
+		completion_reward = {
+			paternalism_drift = 0.05
+		}
 	}
 	focus = {
 		id = army_movement
@@ -409,7 +477,9 @@ focus_tree = {
 		}
 		x = 31
 		y = 3
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = autocracy
@@ -420,7 +490,9 @@ focus_tree = {
 		}
 		x = 31
 		y = 4
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = traditions_national_capitalism
@@ -431,7 +503,9 @@ focus_tree = {
 		}
 		x = 31
 		y = 5
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = protectionism
@@ -442,7 +516,9 @@ focus_tree = {
 		}
 		x = 31
 		y = 6
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = unity_elite
@@ -457,7 +533,9 @@ focus_tree = {
 		}
 		x = 34
 		y = 2
-
+		completion_reward = {
+			traditionalism_drift = 0.05
+		}
 	}
 	focus = {
 		id = socialist_country
@@ -468,7 +546,9 @@ focus_tree = {
 		}
 		x = 7
 		y = 7
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = shovinist_war
@@ -490,7 +570,9 @@ focus_tree = {
 		}
 		x = 18
 		y = 6
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = burjua_aristocracy
@@ -501,7 +583,9 @@ focus_tree = {
 		}
 		x = 34
 		y = 3
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = elitarism
@@ -512,7 +596,9 @@ focus_tree = {
 		}
 		x = 34
 		y = 4
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = sobstveniki
@@ -523,7 +609,9 @@ focus_tree = {
 		}
 		x = 34
 		y = 5
+		completion_reward = {
 
+		}
 	}
 	focus = {
 		id = local_gov
@@ -534,6 +622,8 @@ focus_tree = {
 		}
 		x = 34
 		y = 6
+		completion_reward = {
 
+		}
 	}
 }
