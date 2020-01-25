@@ -3,6 +3,10 @@ MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
 }
+RIGA = {
+    color = rgb { 114 106 94 }
+    color_ui = rgb { 114 106 94 }
+}
 TRIEST = {
     color = rgb { 141 100 82 }
     color_ui = rgb { 141 100 82 }

@@ -1,0 +1,545 @@
+focus_tree = {
+	id = generic
+	country = {
+		factor = 1
+	}
+	default = yes
+	focus = {
+		id = political_moves
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 21
+		y = 0
+
+	}
+	focus = {
+		id = social_rev
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = political_moves
+		}
+		mutually_exclusive = {
+			focus = democratic_reforms
+			focus = right_path
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = new_type_party
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = social_rev
+		}
+		mutually_exclusive = {
+			focus = true_marx
+			focus = main_role_profunion
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = burjua_war
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = new_type_party
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = centre_collective
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = burjua_war
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = industry_plan
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = centre_collective
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = war_internation
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = industry_plan
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = true_marx
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = social_rev
+		}
+		mutually_exclusive = {
+			focus = new_type_party
+			focus = main_role_profunion
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = intelegance_union
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = true_marx
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = uncentral_collective
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = intelegance_union
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = stop_capitalism
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = uncentral_collective
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = pacific_internation
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = stop_capitalism
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = main_role_profunion
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = social_rev
+		}
+		mutually_exclusive = {
+			focus = true_marx
+			focus = new_type_party
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = united_social_gov
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = main_role_profunion
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = cooperation
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = united_social_gov
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = workable_control
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = cooperation
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = moving_democracy
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = workable_control
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = democratic_reforms
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = political_moves
+		}
+		mutually_exclusive = {
+			focus = social_rev
+			focus = right_path
+		}
+		x = 21
+		y = 1
+
+	}
+	focus = {
+		id = new_gov_model
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = democratic_reforms
+		}
+		x = 21
+		y = 2
+
+	}
+	focus = {
+		id = parlamentarism
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = new_gov_model
+		}
+		x = 21
+		y = 3
+
+	}
+	focus = {
+		id = free_election_inst
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = parlamentarism
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = social_reform
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = free_election_inst
+		}
+		mutually_exclusive = {
+			focus = stability_main
+			focus = economic_reform
+		}
+		x = 18
+		y = 5
+
+	}
+	focus = {
+		id = economic_reform
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = free_election_inst
+		}
+		mutually_exclusive = {
+			focus = stability_main
+			focus = social_reform
+		}
+		x = 21
+		y = 5
+
+	}
+	focus = {
+		id = free_man_trade
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = economic_reform
+		}
+		x = 21
+		y = 6
+
+	}
+	focus = {
+		id = stability_main
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = free_election_inst
+		}
+		mutually_exclusive = {
+			focus = economic_reform
+			focus = social_reform
+		}
+		x = 24
+		y = 5
+
+	}
+	focus = {
+		id = traditions_owns
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = stability_main
+		}
+		x = 24
+		y = 6
+
+	}
+	focus = {
+		id = right_path
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = political_moves
+		}
+		mutually_exclusive = {
+			focus = democratic_reforms
+			focus = social_rev
+		}
+		x = 31
+		y = 1
+
+	}
+	focus = {
+		id = war_take_control
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = right_path
+		}
+		mutually_exclusive = {
+			focus = contrrevolution
+		}
+		x = 28
+		y = 2
+
+	}
+	focus = {
+		id = military
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = war_take_control
+		}
+		x = 28
+		y = 3
+
+	}
+	focus = {
+		id = independance_rep
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = military
+		}
+		x = 28
+		y = 4
+
+	}
+	focus = {
+		id = legimice_dictator
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = independance_rep
+		}
+		x = 28
+		y = 5
+
+	}
+	focus = {
+		id = expansionism
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = legimice_dictator
+		}
+		x = 28
+		y = 6
+
+	}
+	focus = {
+		id = contrrevolution
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = right_path
+		}
+		mutually_exclusive = {
+			focus = war_take_control
+			focus = unity_elite
+		}
+		x = 31
+		y = 2
+
+	}
+	focus = {
+		id = army_swai
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = contrrevolution
+		}
+		x = 31
+		y = 3
+
+	}
+	focus = {
+		id = autoritarism
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = army_swai
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = tradition_national_capitalism
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = autoritarism
+		}
+		x = 31
+		y = 5
+
+	}
+	focus = {
+		id = protectionism
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = tradition_national_capitalism
+		}
+		x = 31
+		y = 6
+
+	}
+	focus = {
+		id = soc_country
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = war_internation
+		}
+		x = 7
+		y = 7
+
+	}
+	focus = {
+		id = shovinism_war
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = war_internation
+		}
+		x = 9
+		y = 7
+
+	}
+	focus = {
+		id = more_rights
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = social_reform
+		}
+		x = 18
+		y = 6
+
+	}
+	focus = {
+		id = unity_elite
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = right_path
+		}
+		mutually_exclusive = {
+			focus = contrrevolution
+		}
+		x = 34
+		y = 2
+
+	}
+	focus = {
+		id = union_burjua_aristocracy
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = unity_elite
+		}
+		x = 34
+		y = 3
+
+	}
+	focus = {
+		id = powerful_elitarism
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = union_burjua_aristocracy
+		}
+		x = 34
+		y = 4
+
+	}
+	focus = {
+		id = all_to_owners
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = powerful_elitarism
+		}
+		x = 34
+		y = 5
+
+	}
+	focus = {
+		id = local_govs
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = all_to_owners
+		}
+		x = 34
+		y = 6
+
+	}
+}
