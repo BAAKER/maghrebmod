@@ -9,14 +9,14 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = reformism
+	ruling_party = conservatism
 	last_election = "1926.3.5"
-	election_frequency = 4
-	elections_allowed = yes
+	election_frequency = 48
+	elections_allowed = no
 }
 
 set_popularities = {
-	reformism = 100
+	conservatism = 100
 }
 
 set_convoys = 5
@@ -27,7 +27,7 @@ create_country_leader = {
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_Belgium_Leopold_III.dds"
 	expire = "1965.1.1"
-	ideology = progressivism
+	ideology = liberal_conservatism
 	traits = {
 		#
 	}

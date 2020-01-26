@@ -43,10 +43,6 @@ set_autonomy = {
 		target = NMB
 		autonomous_state = autonomy_protectorate
 }
-set_autonomy = {
-		target = RIG
-		autonomous_state = autonomy_protectorate
-}
 	
 	
 set_convoys = 500

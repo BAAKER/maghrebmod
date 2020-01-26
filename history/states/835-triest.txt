@@ -2,8 +2,8 @@
 state={
 	id=835
 	name="STATE_835"
-	manpower = 900000
-	state_category=city
+	manpower = 3000000
+	state_category=rural
 
 	history={
 		owner = TRI

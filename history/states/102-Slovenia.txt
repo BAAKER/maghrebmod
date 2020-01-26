@@ -8,7 +8,7 @@ state=
 	
 	history =
 	{
-		owner = SLV
+		owner = AUS
 		buildings = {
 			infrastructure = 6
 		}

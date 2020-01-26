@@ -81,10 +81,6 @@ YUG = {
 	color = rgb { 78 79 107 }
 	color_ui = rgb { 78 79 107 }
 }
-SLV = {
-	color = rgb { 119 132 142 }
-	color_ui = rgb { 119 132 142 }
-}
 SWI = {
 	color = rgb { 181 43 48 }
 	color_ui = rgb { 181 43 48 }
