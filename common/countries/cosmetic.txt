@@ -3,10 +3,6 @@ MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
 }
-TRIEST = {
-    color = rgb { 141 100 82 }
-    color_ui = rgb { 141 100 82 }
-}
 GANSUREP = {
     color = rgb { 229 223 201 }
     color_ui = rgb { 229 223 201 }
